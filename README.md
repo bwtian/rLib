@@ -1,4 +1,4 @@
 rLib
 ====
 
-R library for Ubuntu Linux
+R library for Windows I used
