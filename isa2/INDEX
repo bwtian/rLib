@@ -1,0 +1,24 @@
+generate.seeds          Generate seed vectors for the Iterative
+                        Signature Algorithm
+isa                     Iterative Signature Algorithm
+isa.biclust             Convert ISA modules to a Biclust class, as
+                        defined by the biclust package
+isa.in.silico           Generate in-silico input data for biclustering
+                        algorithms
+isa.iterate             The Iterative Signature Algorithm
+isa.normalize           Normalize input data for use with ISA
+isa.option              Options for the isa package
+isa.sweep               Create a hierarchical structure of ISA
+                        biclusters
+isa.unique              Filter out biclusters that are very similar to
+                        each other
+isa2-package            The isa package
+plotModules             Image plots of biclusters
+ppa                     The Ping-Pong Algorithm
+ppa.in.silico           Generate in-silico input data for testing the
+                        PPA algorithm
+ppa.iterate             The Ping-Pong Algorithm
+ppa.normalize           Normalize input data for use with the PPA
+ppa.unique              Filter co-modules that are very similar to each
+                        other
+robustness              Robustness of ISA biclusters and PPA co-modules

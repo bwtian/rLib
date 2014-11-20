@@ -1,0 +1,18 @@
+wrspathrow 0.2
+==============
+
+* Add gUnaryUnion call to pathrow_num to avoid failure when x is a 
+  SpatialPolygonsDataFrame with > 1 polygon.
+
+* Fix bugreports link in README.md.
+
+* Various doc fixes.
+
+* Add NEWS file.
+
+* Upgrade to roxygen2 > 4.0.0
+
+wrspathrow 0.1
+==============
+
+* Initial release to CRAN.

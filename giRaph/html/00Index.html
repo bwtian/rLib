@@ -1,0 +1,535 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>R: The giRaph package for graph representation in R</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="R.css">
+</head><body>
+<h1> The giRaph package for graph representation in R
+<img class="toplogo" src="../../../doc/html/logo.jpg" alt="[R logo]">
+</h1>
+<hr>
+<div align="center">
+<a href="../../../doc/html/packages.html"><img src="../../../doc/html/left.jpg" alt="[Up]" width="30" height="30" border="0"></a>
+<a href="../../../doc/html/index.html"><img src="../../../doc/html/up.jpg" alt="[Top]" width="30" height="30" border="0"></a>
+</div><h2>Documentation for package &lsquo;giRaph&rsquo; version 0.1.2</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../demo">Code demos</a>.  Use <a href="../../utils/help/demo">demo()</a> to run them.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p align="center">
+<a href="#A">A</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#G">G</a>
+<a href="#I">I</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#U">U</a>
+<a href="#V">V</a>
+<a href="#misc">misc</a>
+</p>
+
+
+<h2><a name="A">-- A --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="adjacencyList.html">adjacencyList</a></td>
+<td>Adjacency list representation of a graph</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">adjacencyList-class</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">adjacencyList-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">adjacencyList-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="adjacencyList.html">adjacencyList&lt;-</a></td>
+<td>Adjacency list representation of a graph</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">adjacencyList&lt;--method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">adjacencyList&lt;--method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix.html">adjacencyMatrix</a></td>
+<td>Adjacency matrix representation of a graph</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">adjacencyMatrix-class</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">adjacencyMatrix-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix.html">adjacencyMatrix&lt;-</a></td>
+<td>Adjacency matrix representation of a graph</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">adjacencyMatrix&lt;--method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">anyGraph-class</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="areTheSame.html">areTheSame</a></td>
+<td>Are they the same mathematical entity?</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">areTheSame-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">areTheSame-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">areTheSame-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="directedEdge-class.html">areTheSame-method</a></td>
+<td>Class "directedEdge"</td></tr>
+<tr><td width="25%"><a href="edge-class.html">areTheSame-method</a></td>
+<td>Virtual Class "edge"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">areTheSame-method</a></td>
+<td>Class "edgeList"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">areTheSame-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">areTheSame-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">areTheSame-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">areTheSame-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">areTheSame-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="undirectedEdge-class.html">areTheSame-method</a></td>
+<td>Class "undirectedEdge"</td></tr>
+<tr><td width="25%"><a href="vertexSet-class.html">areTheSame-method</a></td>
+<td>Class "vertexSet"</td></tr>
+</table>
+
+<h2><a name="C">-- C --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="card.html">card</a></td>
+<td>Get the cardinality of an object</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">card-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">card-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">card-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="card.html">card-method</a></td>
+<td>Get the cardinality of an object</td></tr>
+<tr><td width="25%"><a href="directedEdge-class.html">card-method</a></td>
+<td>Class "directedEdge"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">card-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">card-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">card-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">card-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">card-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">coerce-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">coerce-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">coerce-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="directedEdge-class.html">coerce-method</a></td>
+<td>Class "directedEdge"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">coerce-method</a></td>
+<td>Class "edgeList"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">coerce-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">coerce-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">coerce-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">coerce-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">coerce-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="undirectedEdge-class.html">coerce-method</a></td>
+<td>Class "undirectedEdge"</td></tr>
+<tr><td width="25%"><a href="vertexSet-class.html">coerce-method</a></td>
+<td>Class "vertexSet"</td></tr>
+</table>
+
+<h2><a name="D">-- D --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="wrappers.html">d</a></td>
+<td>Short-hands for vertex set and edge construction</td></tr>
+<tr><td width="25%"><a href="directedEdge-class.html">directedEdge-class</a></td>
+<td>Class "directedEdge"</td></tr>
+<tr><td width="25%"><a href="display.html">display</a></td>
+<td>Make a display of the graph using the graphics window</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">display-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">display-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">display-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">display-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="dynamic.Graph.html">dynamic.Graph</a></td>
+<td>DynamicGraph display of simple graph</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">dynamic.Graph-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">dynamic.Graph-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">dynamic.Graph-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">dynamic.Graph-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+</table>
+
+<h2><a name="E">-- E --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="edge-class.html">edge-class</a></td>
+<td>Virtual Class "edge"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">edgeList-class</a></td>
+<td>Class "edgeList"</td></tr>
+</table>
+
+<h2><a name="G">-- G --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="generalGraph-class.html">generalGraph-class</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="giRaph.html">giRaph</a></td>
+<td>The package 'giRaph': summary information</td></tr>
+</table>
+
+<h2><a name="I">-- I --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="incidenceList.html">incidenceList</a></td>
+<td>Incidence list representation of a graph</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">incidenceList-class</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">incidenceList-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">incidenceList-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">incidenceList-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">incidenceList-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList.html">incidenceList&lt;-</a></td>
+<td>Incidence list representation of a graph</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">incidenceList&lt;--method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">incidenceList&lt;--method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">incidenceList&lt;--method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">incidenceList&lt;--method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix.html">incidenceMatrix</a></td>
+<td>Incidence matrix representation of a graph</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">incidenceMatrix-class</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">incidenceMatrix-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">incidenceMatrix-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">incidenceMatrix-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix.html">incidenceMatrix&lt;-</a></td>
+<td>Incidence matrix representation of a graph</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">incidenceMatrix&lt;--method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">incidenceMatrix&lt;--method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">incidenceMatrix&lt;--method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">initialize-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">initialize-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">initialize-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="directedEdge-class.html">initialize-method</a></td>
+<td>Class "directedEdge"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">initialize-method</a></td>
+<td>Class "edgeList"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">initialize-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">initialize-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">initialize-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">initialize-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">initialize-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="undirectedEdge-class.html">initialize-method</a></td>
+<td>Class "undirectedEdge"</td></tr>
+<tr><td width="25%"><a href="vertexSet-class.html">initialize-method</a></td>
+<td>Class "vertexSet"</td></tr>
+<tr><td width="25%"><a href="isEmpty.html">isEmpty</a></td>
+<td>Is the object empty?</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">isEmpty-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">isEmpty-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">isEmpty-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">isEmpty-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">isEmpty-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">isEmpty-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="isEmpty.html">isEmpty-method</a></td>
+<td>Is the object empty?</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">isEmpty-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">isEmpty-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="isPresent.html">isPresent</a></td>
+<td>Is the first object present in the second one?</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">isPresent-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">isPresent-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">isPresent-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">isPresent-method</a></td>
+<td>Class "edgeList"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">isPresent-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">isPresent-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">isPresent-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">isPresent-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">isPresent-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+</table>
+
+<h2><a name="M">-- M --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="maxId.html">maxId</a></td>
+<td>Get the maximum numeric identifier of an object</td></tr>
+<tr><td width="25%"><a href="directedEdge-class.html">maxId-method</a></td>
+<td>Class "directedEdge"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">maxId-method</a></td>
+<td>Class "edgeList"</td></tr>
+<tr><td width="25%"><a href="undirectedEdge-class.html">maxId-method</a></td>
+<td>Class "undirectedEdge"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">multiGraph-class</a></td>
+<td>Class "multiGraph"</td></tr>
+</table>
+
+<h2><a name="N">-- N --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="adjacencyList-class.html">names-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">names-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">names-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">names-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">names-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">names-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">names-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">names-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="vertexSet-class.html">names-method</a></td>
+<td>Class "vertexSet"</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">names&lt;--method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">names&lt;--method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">names&lt;--method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">names&lt;--method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">names&lt;--method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">names&lt;--method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">names&lt;--method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">names&lt;--method</a></td>
+<td>Class "simpleGraph"</td></tr>
+</table>
+
+<h2><a name="R">-- R --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="wrappers.html">r</a></td>
+<td>Short-hands for vertex set and edge construction</td></tr>
+<tr><td width="25%"><a href="recode.html">recode</a></td>
+<td>Function to recode an object from a given source code to a given target code</td></tr>
+<tr><td width="25%"><a href="directedEdge-class.html">recode-method</a></td>
+<td>Class "directedEdge"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">recode-method</a></td>
+<td>Class "edgeList"</td></tr>
+<tr><td width="25%"><a href="undirectedEdge-class.html">recode-method</a></td>
+<td>Class "undirectedEdge"</td></tr>
+</table>
+
+<h2><a name="S">-- S --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="adjacencyList-class.html">show-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">show-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">show-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="directedEdge-class.html">show-method</a></td>
+<td>Class "directedEdge"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">show-method</a></td>
+<td>Class "edgeList"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">show-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">show-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">show-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">show-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">show-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="undirectedEdge-class.html">show-method</a></td>
+<td>Class "undirectedEdge"</td></tr>
+<tr><td width="25%"><a href="vertexSet-class.html">show-method</a></td>
+<td>Class "vertexSet"</td></tr>
+<tr><td width="25%"><a href="showRel.html">showRel</a></td>
+<td>Function to show an object relative to a given code</td></tr>
+<tr><td width="25%"><a href="directedEdge-class.html">showRel-method</a></td>
+<td>Class "directedEdge"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">showRel-method</a></td>
+<td>Class "edgeList"</td></tr>
+<tr><td width="25%"><a href="undirectedEdge-class.html">showRel-method</a></td>
+<td>Class "undirectedEdge"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">simpleGraph-class</a></td>
+<td>Class "simpleGraph"</td></tr>
+</table>
+
+<h2><a name="U">-- U --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="wrappers.html">u</a></td>
+<td>Short-hands for vertex set and edge construction</td></tr>
+<tr><td width="25%"><a href="undirectedEdge-class.html">undirectedEdge-class</a></td>
+<td>Class "undirectedEdge"</td></tr>
+</table>
+
+<h2><a name="V">-- V --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="wrappers.html">v</a></td>
+<td>Short-hands for vertex set and edge construction</td></tr>
+<tr><td width="25%"><a href="vertexSet-class.html">vertexSet-class</a></td>
+<td>Class "vertexSet"</td></tr>
+</table>
+
+<h2><a name="misc">-- misc --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="adjacencyList-class.html">*-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">*-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">*-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">*-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">*-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">*-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">*-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">*-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="vertexSet-class.html">*-method</a></td>
+<td>Class "vertexSet"</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">+-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">+-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">+-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">+-method</a></td>
+<td>Class "edgeList"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">+-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">+-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">+-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">+-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">+-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="vertexSet-class.html">+-method</a></td>
+<td>Class "vertexSet"</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">--method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">--method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">--method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">--method</a></td>
+<td>Class "edgeList"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">--method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">--method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">--method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">--method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">--method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="vertexSet-class.html">--method</a></td>
+<td>Class "vertexSet"</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">[-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">[-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">[-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="directedEdge-class.html">[-method</a></td>
+<td>Class "directedEdge"</td></tr>
+<tr><td width="25%"><a href="edgeList-class.html">[-method</a></td>
+<td>Class "edgeList"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">[-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">[-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">[-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">[-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">[-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+<tr><td width="25%"><a href="undirectedEdge-class.html">[-method</a></td>
+<td>Class "undirectedEdge"</td></tr>
+<tr><td width="25%"><a href="vertexSet-class.html">[-method</a></td>
+<td>Class "vertexSet"</td></tr>
+<tr><td width="25%"><a href="adjacencyList-class.html">[[-method</a></td>
+<td>Class "adjacencyList"</td></tr>
+<tr><td width="25%"><a href="adjacencyMatrix-class.html">[[-method</a></td>
+<td>Class "adjacencyMatrix"</td></tr>
+<tr><td width="25%"><a href="anyGraph-class.html">[[-method</a></td>
+<td>Class "anyGraph"</td></tr>
+<tr><td width="25%"><a href="directedEdge-class.html">[[-method</a></td>
+<td>Class "directedEdge"</td></tr>
+<tr><td width="25%"><a href="generalGraph-class.html">[[-method</a></td>
+<td>Class "generalGraph"</td></tr>
+<tr><td width="25%"><a href="incidenceList-class.html">[[-method</a></td>
+<td>Class "incidenceList"</td></tr>
+<tr><td width="25%"><a href="incidenceMatrix-class.html">[[-method</a></td>
+<td>Class "incidenceMatrix"</td></tr>
+<tr><td width="25%"><a href="multiGraph-class.html">[[-method</a></td>
+<td>Class "multiGraph"</td></tr>
+<tr><td width="25%"><a href="simpleGraph-class.html">[[-method</a></td>
+<td>Class "simpleGraph"</td></tr>
+</table>
+</body></html>

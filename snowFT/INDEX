@@ -1,0 +1,5 @@
+clusterSetupRNG.FT      Random Number Generation
+makeClusterFT           Starting snowFT Cluster
+performParallel         Cluster-Level Functions with Fault Tolerance
+                        Features
+snowFT-package          Fault Tolerant Simple Network of Workstations

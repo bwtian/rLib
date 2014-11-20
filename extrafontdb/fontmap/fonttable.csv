@@ -1,0 +1,179 @@
+"package","afmfile","fontfile","FullName","FamilyName","FontName","Bold","Italic","Symbol","afmsymfile"
+NA,"Padauk-bold.afm.gz","/usr/share/fonts/truetype/padauk/Padauk-bold.ttf","Padauk Bold","Padauk","----------------------------------------------",TRUE,FALSE,FALSE,NA
+NA,"Padauk-bookbold.afm.gz","/usr/share/fonts/truetype/padauk/Padauk-bookbold.ttf","Padauk Book Bold","Padauk Book","----------------------------------------------------------------",TRUE,FALSE,FALSE,NA
+NA,"Padauk-book.afm.gz","/usr/share/fonts/truetype/padauk/Padauk-book.ttf","Padauk Book","Padauk Book","----------------------------------------Regular",FALSE,FALSE,FALSE,NA
+NA,"Padauk.afm.gz","/usr/share/fonts/truetype/padauk/Padauk.ttf","Padauk","Padauk","----------------------Regular",FALSE,FALSE,FALSE,NA
+NA,"AbyssinicaSIL-R.afm.gz","/usr/share/fonts/truetype/abyssinica/AbyssinicaSIL-R.ttf","Abyssinica SIL","Abyssinica SIL","AbyssinicaSIL",FALSE,FALSE,FALSE,NA
+NA,"cmex10.afm.gz","/usr/share/fonts/truetype/lyx/cmex10.ttf","cmex10","cmex10","Cmex10",FALSE,FALSE,FALSE,NA
+NA,"cmmi10.afm.gz","/usr/share/fonts/truetype/lyx/cmmi10.ttf","cmmi10","cmmi10","Cmmi10",FALSE,FALSE,FALSE,NA
+NA,"cmr10.afm.gz","/usr/share/fonts/truetype/lyx/cmr10.ttf","cmr10","cmr10","Cmr10",FALSE,FALSE,FALSE,NA
+NA,"cmsy10.afm.gz","/usr/share/fonts/truetype/lyx/cmsy10.ttf","cmsy10","cmsy10","Cmsy10",FALSE,FALSE,FALSE,NA
+NA,"Comfortaa-Regular.afm.gz","/usr/share/fonts/truetype/comfortaa/Comfortaa-Regular.ttf","Comfortaa","Comfortaa","Comfortaa",FALSE,FALSE,FALSE,NA
+NA,"Comfortaa-Bold.afm.gz","/usr/share/fonts/truetype/comfortaa/Comfortaa-Bold.ttf","Comfortaa Bold","Comfortaa","Comfortaa-Bold",TRUE,FALSE,FALSE,NA
+NA,"Comfortaa-Light.afm.gz","/usr/share/fonts/truetype/comfortaa/Comfortaa-Light.ttf","Comfortaa Light","Comfortaa","Comfortaa-Light",FALSE,FALSE,FALSE,NA
+NA,"DejaVuSans.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf","DejaVu Sans","DejaVu Sans","DejaVuSans",FALSE,FALSE,FALSE,NA
+NA,"DejaVuSans-Bold.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf","DejaVu Sans Bold","DejaVu Sans","DejaVuSans-Bold",TRUE,FALSE,FALSE,NA
+NA,"DejaVuSans-BoldOblique.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf","DejaVu Sans Bold Oblique","DejaVu Sans","DejaVuSans-BoldOblique",TRUE,TRUE,FALSE,NA
+NA,"DejaVuSans-ExtraLight.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSans-ExtraLight.ttf","DejaVu Sans ExtraLight","DejaVu Sans Light","DejaVuSans-ExtraLight",FALSE,FALSE,FALSE,NA
+NA,"DejaVuSans-Oblique.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSans-Oblique.ttf","DejaVu Sans Oblique","DejaVu Sans","DejaVuSans-Oblique",FALSE,TRUE,FALSE,NA
+NA,"DejaVuSansCondensed.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf","DejaVu Sans Condensed","DejaVu Sans Condensed","DejaVuSansCondensed",FALSE,FALSE,FALSE,NA
+NA,"DejaVuSansCondensed-Bold.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf","DejaVu Sans Condensed Bold","DejaVu Sans Condensed","DejaVuSansCondensed-Bold",TRUE,FALSE,FALSE,NA
+NA,"DejaVuSansCondensed-BoldOblique.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-BoldOblique.ttf","DejaVu Sans Condensed Bold Oblique","DejaVu Sans Condensed","DejaVuSansCondensed-BoldOblique",TRUE,TRUE,FALSE,NA
+NA,"DejaVuSansCondensed-Oblique.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf","DejaVu Sans Condensed Oblique","DejaVu Sans Condensed","DejaVuSansCondensed-Oblique",FALSE,TRUE,FALSE,NA
+NA,"DejaVuSansMono.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf","DejaVu Sans Mono","DejaVu Sans Mono","DejaVuSansMono",FALSE,FALSE,FALSE,NA
+NA,"DejaVuSansMono-Bold.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf","DejaVu Sans Mono Bold","DejaVu Sans Mono","DejaVuSansMono-Bold",TRUE,FALSE,FALSE,NA
+NA,"DejaVuSansMono-BoldOblique.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf","DejaVu Sans Mono Bold Oblique","DejaVu Sans Mono","DejaVuSansMono-BoldOblique",TRUE,TRUE,FALSE,NA
+NA,"DejaVuSansMono-Oblique.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf","DejaVu Sans Mono Oblique","DejaVu Sans Mono","DejaVuSansMono-Oblique",FALSE,TRUE,FALSE,NA
+NA,"DejaVuSerif.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf","DejaVu Serif","DejaVu Serif","DejaVuSerif",FALSE,FALSE,FALSE,NA
+NA,"DejaVuSerif-Bold.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf","DejaVu Serif Bold","DejaVu Serif","DejaVuSerif-Bold",TRUE,FALSE,FALSE,NA
+NA,"DejaVuSerif-BoldItalic.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf","DejaVu Serif Bold Italic","DejaVu Serif","DejaVuSerif-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"DejaVuSerif-Italic.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf","DejaVu Serif Italic","DejaVu Serif","DejaVuSerif-Italic",FALSE,TRUE,FALSE,NA
+NA,"DejaVuSerifCondensed.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed.ttf","DejaVu Serif Condensed","DejaVu Serif Condensed","DejaVuSerifCondensed",FALSE,FALSE,FALSE,NA
+NA,"DejaVuSerifCondensed-Bold.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Bold.ttf","DejaVu Serif Condensed Bold","DejaVu Serif Condensed","DejaVuSerifCondensed-Bold",TRUE,FALSE,FALSE,NA
+NA,"DejaVuSerifCondensed-BoldItalic.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-BoldItalic.ttf","DejaVu Serif Condensed Bold Italic","DejaVu Serif Condensed","DejaVuSerifCondensed-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"DejaVuSerifCondensed-Italic.afm.gz","/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Italic.ttf","DejaVu Serif Condensed Italic","DejaVu Serif Condensed","DejaVuSerifCondensed-Italic",FALSE,TRUE,FALSE,NA
+NA,"DroidNaskh-Regular.afm.gz","/usr/share/fonts/truetype/droid/DroidNaskh-Regular.ttf","Droid Arabic Naskh","Droid Arabic Naskh","DroidArabicNaskh",FALSE,FALSE,FALSE,NA
+NA,"DroidNaskh-Bold.afm.gz","/usr/share/fonts/truetype/droid/DroidNaskh-Bold.ttf","Droid Arabic Naskh Bold","Droid Arabic Naskh","DroidArabicNaskh-Bold",TRUE,FALSE,FALSE,NA
+NA,"DroidSans.afm.gz","/usr/share/fonts/truetype/droid/DroidSans.ttf","Droid Sans","Droid Sans","DroidSans",FALSE,FALSE,FALSE,NA
+NA,"DroidSans-Bold.afm.gz","/usr/share/fonts/truetype/droid/DroidSans-Bold.ttf","Droid Sans Bold","Droid Sans","DroidSans-Bold",TRUE,FALSE,FALSE,NA
+NA,"DroidSansArmenian.afm.gz","/usr/share/fonts/truetype/droid/DroidSansArmenian.ttf","Droid Sans Armenian","Droid Sans Armenian","DroidSansArmenian",FALSE,FALSE,FALSE,NA
+NA,"DroidSansEthiopic-Regular.afm.gz","/usr/share/fonts/truetype/droid/DroidSansEthiopic-Regular.ttf","Droid Sans Ethiopic","Droid Sans Ethiopic","DroidSansEthiopic",FALSE,FALSE,FALSE,NA
+NA,"DroidSansEthiopic-Bold.afm.gz","/usr/share/fonts/truetype/droid/DroidSansEthiopic-Bold.ttf","Droid Sans Ethiopic Bold","Droid Sans Ethiopic","DroidSansEthiopic-Bold",TRUE,FALSE,FALSE,NA
+NA,"DroidSansFallbackFull.afm.gz","/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf","Droid Sans Fallback","Droid Sans Fallback","DroidSansFallback",FALSE,FALSE,FALSE,NA
+NA,"DroidSansGeorgian.afm.gz","/usr/share/fonts/truetype/droid/DroidSansGeorgian.ttf","Droid Sans Georgian","Droid Sans Georgian","DroidSansGeorgian",FALSE,FALSE,FALSE,NA
+NA,"DroidSansHebrew-Regular.afm.gz","/usr/share/fonts/truetype/droid/DroidSansHebrew-Regular.ttf","Droid Sans Hebrew","Droid Sans Hebrew","DroidSansHebrew",FALSE,FALSE,FALSE,NA
+NA,"DroidSansHebrew-Bold.afm.gz","/usr/share/fonts/truetype/droid/DroidSansHebrew-Bold.ttf","Droid Sans Hebrew Bold","Droid Sans Hebrew","DroidSansHebrew-Bold",TRUE,FALSE,FALSE,NA
+NA,"DroidSansMono.afm.gz","/usr/share/fonts/truetype/droid/DroidSansMono.ttf","Droid Sans Mono","Droid Sans Mono","DroidSansMono",FALSE,FALSE,FALSE,NA
+NA,"DroidSansThai.afm.gz","/usr/share/fonts/truetype/droid/DroidSansThai.ttf","Droid Sans Thai","Droid Sans Thai","DroidSansThai",FALSE,FALSE,FALSE,NA
+NA,"DroidSerif-Regular.afm.gz","/usr/share/fonts/truetype/droid/DroidSerif-Regular.ttf","Droid Serif","Droid Serif","DroidSerif",FALSE,FALSE,FALSE,NA
+NA,"DroidSerif-Bold.afm.gz","/usr/share/fonts/truetype/droid/DroidSerif-Bold.ttf","Droid Serif Bold","Droid Serif","DroidSerif-Bold",TRUE,FALSE,FALSE,NA
+NA,"DroidSerif-BoldItalic.afm.gz","/usr/share/fonts/truetype/droid/DroidSerif-BoldItalic.ttf","Droid Serif Bold Italic","Droid Serif","DroidSerif-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"DroidSerif-Italic.afm.gz","/usr/share/fonts/truetype/droid/DroidSerif-Italic.ttf","Droid Serif Italic","Droid Serif","DroidSerif-Italic",FALSE,TRUE,FALSE,NA
+NA,"esint10.afm.gz","/usr/share/fonts/truetype/lyx/esint10.ttf","esint10","esint10","esint10",FALSE,FALSE,FALSE,NA
+NA,"eufm10.afm.gz","/usr/share/fonts/truetype/lyx/eufm10.ttf","eufm10","eufm10","Eufm10",FALSE,FALSE,FALSE,NA
+NA,"fontawesome-webfont.afm.gz","/usr/share/fonts/truetype/font-awesome/fontawesome-webfont.ttf","FontAwesome Regular","FontAwesome","FontAwesome",FALSE,FALSE,FALSE,NA
+NA,"FreeMono.afm.gz","/usr/share/fonts/truetype/freefont/FreeMono.ttf","FreeMono","FreeMono","FreeMono",FALSE,FALSE,FALSE,NA
+NA,"FreeMonoBold.afm.gz","/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf","FreeMono Bold","FreeMono","FreeMonoBold",TRUE,FALSE,FALSE,NA
+NA,"FreeMonoBoldOblique.afm.gz","/usr/share/fonts/truetype/freefont/FreeMonoBoldOblique.ttf","FreeMono Bold Oblique","FreeMono","FreeMonoBoldOblique",TRUE,TRUE,FALSE,NA
+NA,"FreeMonoOblique.afm.gz","/usr/share/fonts/truetype/freefont/FreeMonoOblique.ttf","FreeMono Oblique","FreeMono","FreeMonoOblique",FALSE,TRUE,FALSE,NA
+NA,"FreeSans.afm.gz","/usr/share/fonts/truetype/freefont/FreeSans.ttf","FreeSans","FreeSans","FreeSans",FALSE,FALSE,FALSE,NA
+NA,"FreeSansBold.afm.gz","/usr/share/fonts/truetype/freefont/FreeSansBold.ttf","FreeSans Bold","FreeSans","FreeSansBold",TRUE,FALSE,FALSE,NA
+NA,"FreeSansBoldOblique.afm.gz","/usr/share/fonts/truetype/freefont/FreeSansBoldOblique.ttf","FreeSans Bold Oblique","FreeSans","FreeSansBoldOblique",TRUE,TRUE,FALSE,NA
+NA,"FreeSansOblique.afm.gz","/usr/share/fonts/truetype/freefont/FreeSansOblique.ttf","FreeSans Oblique","FreeSans","FreeSansOblique",FALSE,TRUE,FALSE,NA
+NA,"FreeSerif.afm.gz","/usr/share/fonts/truetype/freefont/FreeSerif.ttf","FreeSerif","FreeSerif","FreeSerif",FALSE,FALSE,FALSE,NA
+NA,"FreeSerifBold.afm.gz","/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf","FreeSerif Bold","FreeSerif","FreeSerifBold",TRUE,FALSE,FALSE,NA
+NA,"FreeSerifBoldItalic.afm.gz","/usr/share/fonts/truetype/freefont/FreeSerifBoldItalic.ttf","FreeSerif Bold Italic","FreeSerif","FreeSerifBoldItalic",TRUE,TRUE,FALSE,NA
+NA,"FreeSerifItalic.afm.gz","/usr/share/fonts/truetype/freefont/FreeSerifItalic.ttf","FreeSerif Italic","FreeSerif","FreeSerifItalic",FALSE,TRUE,FALSE,NA
+NA,"FZCCHK.afm.gz","/usr/share/fonts/wps-office/FZCCHK.TTF","FZChaoCuHei-M10","FZChaoCuHei-M10","FZCCHK--GBK1-0",FALSE,FALSE,FALSE,NA
+NA,"FZFSK.afm.gz","/usr/share/fonts/wps-office/FZFSK.TTF","FZFangSong-Z02","FZFangSong-Z02","FZFSK--GBK1-0",FALSE,FALSE,FALSE,NA
+NA,"FZHTK.afm.gz","/usr/share/fonts/wps-office/FZHTK.TTF","FZHei-B01","FZHei-B01","FZHTK--GBK1-0",FALSE,FALSE,FALSE,NA
+NA,"FZKTK.afm.gz","/usr/share/fonts/wps-office/FZKTK.TTF","FZKai-Z03","FZKai-Z03","FZKTK--GBK1-0",FALSE,FALSE,FALSE,NA
+NA,"FZLSK.afm.gz","/usr/share/fonts/wps-office/FZLSK.TTF","FZLiShu-S01","FZLiShu-S01","FZLSK--GBK1-0",FALSE,FALSE,FALSE,NA
+NA,"FZSongS_20100603.afm.gz","/usr/share/fonts/wps-office/FZSongS_20100603.TTF","FZSongS-Extended","FZSongS-Extended","FZSONGS--GB1-5",FALSE,FALSE,FALSE,NA
+NA,"FZSongS(SIP)_2010603.afm.gz","/usr/share/fonts/wps-office/FZSongS(SIP)_2010603.TTF","FZSongS-Extended[SIP]","FZSongS-Extended[SIP]","FZSONGS-SIP--GB1-5",FALSE,FALSE,FALSE,NA
+NA,"FZSSK.afm.gz","/usr/share/fonts/wps-office/FZSSK.TTF","FZShuSong-Z01","FZShuSong-Z01","FZSSK--GBK1-0",FALSE,FALSE,FALSE,NA
+NA,"FZWBK.afm.gz","/usr/share/fonts/wps-office/FZWBK.TTF","FZWeiBei-S03","FZWeiBei-S03","FZWBK--GBK1-0",FALSE,FALSE,FALSE,NA
+NA,"FZXBSK.afm.gz","/usr/share/fonts/wps-office/FZXBSK.TTF","FZXiaoBiaoSong-B05","FZXiaoBiaoSong-B05","FZXBSK--GBK1-0",FALSE,FALSE,FALSE,NA
+NA,"FZXH1K.afm.gz","/usr/share/fonts/wps-office/FZXH1K.TTF","FZXiHeiI-Z08","FZXiHeiI-Z08","FZXH1K--GBK1-0",FALSE,FALSE,FALSE,NA
+NA,"FZXKK.afm.gz","/usr/share/fonts/wps-office/FZXKK.TTF","FZXingKai-S04","FZXingKai-S04","FZXKK--GBK1-0",FALSE,FALSE,FALSE,NA
+NA,"FZYTK.afm.gz","/usr/share/fonts/wps-office/FZYTK.TTF","FZYaoTi-M06","FZYaoTi-M06","FZYTK--GBK1-0",FALSE,FALSE,FALSE,NA
+NA,"gargi.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/gargi.ttf","gargi","gargi","gargi",FALSE,FALSE,FALSE,NA
+NA,"Garuda.afm.gz","/usr/share/fonts/truetype/tlwg/Garuda.ttf","Garuda","Garuda","Garuda",FALSE,FALSE,FALSE,NA
+NA,"Garuda-Bold.afm.gz","/usr/share/fonts/truetype/tlwg/Garuda-Bold.ttf","Garuda Bold","Garuda","Garuda-Bold",TRUE,FALSE,FALSE,NA
+NA,"Garuda-BoldOblique.afm.gz","/usr/share/fonts/truetype/tlwg/Garuda-BoldOblique.ttf","Garuda Bold Oblique","Garuda","Garuda-BoldOblique",TRUE,TRUE,FALSE,NA
+NA,"Garuda-Oblique.afm.gz","/usr/share/fonts/truetype/tlwg/Garuda-Oblique.ttf","Garuda Oblique","Garuda","Garuda-Oblique",FALSE,TRUE,FALSE,NA
+NA,"GenR102.afm.gz","/usr/share/fonts/truetype/gentium/GenR102.ttf","Gentium","Gentium","Gentium",FALSE,FALSE,FALSE,NA
+NA,"GenI102.afm.gz","/usr/share/fonts/truetype/gentium/GenI102.ttf","Gentium Italic","Gentium","Gentium-Italic",FALSE,TRUE,FALSE,NA
+NA,"GenAR102.afm.gz","/usr/share/fonts/truetype/gentium/GenAR102.ttf","GentiumAlt","GentiumAlt","GentiumAlt",FALSE,FALSE,FALSE,NA
+NA,"GenAI102.afm.gz","/usr/share/fonts/truetype/gentium/GenAI102.ttf","GentiumAlt Italic","GentiumAlt","GentiumAlt-Italic",FALSE,TRUE,FALSE,NA
+NA,"GenBasR.afm.gz","/usr/share/fonts/truetype/gentium-basic/GenBasR.ttf","Gentium Basic","Gentium Basic","GentiumBasic",FALSE,FALSE,FALSE,NA
+NA,"GenBasB.afm.gz","/usr/share/fonts/truetype/gentium-basic/GenBasB.ttf","Gentium Basic Bold","Gentium Basic","GentiumBasic-Bold",TRUE,FALSE,FALSE,NA
+NA,"GenBasBI.afm.gz","/usr/share/fonts/truetype/gentium-basic/GenBasBI.ttf","Gentium Basic Bold Italic","Gentium Basic","GentiumBasic-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"GenBasI.afm.gz","/usr/share/fonts/truetype/gentium-basic/GenBasI.ttf","Gentium Basic Italic","Gentium Basic","GentiumBasic-Italic",FALSE,TRUE,FALSE,NA
+NA,"GenBkBasR.afm.gz","/usr/share/fonts/truetype/gentium-basic/GenBkBasR.ttf","Gentium Book Basic","Gentium Book Basic","GentiumBookBasic",FALSE,FALSE,FALSE,NA
+NA,"GenBkBasB.afm.gz","/usr/share/fonts/truetype/gentium-basic/GenBkBasB.ttf","Gentium Book Basic Bold","Gentium Book Basic","GentiumBookBasic-Bold",TRUE,FALSE,FALSE,NA
+NA,"GenBkBasBI.afm.gz","/usr/share/fonts/truetype/gentium-basic/GenBkBasBI.ttf","Gentium Book Basic Bold Italic","Gentium Book Basic","GentiumBookBasic-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"GenBkBasI.afm.gz","/usr/share/fonts/truetype/gentium-basic/GenBkBasI.ttf","Gentium Book Basic Italic","Gentium Book Basic","GentiumBookBasic-Italic",FALSE,TRUE,FALSE,NA
+NA,"Junicode.afm.gz","/usr/share/fonts/truetype/junicode/Junicode.ttf","Junicode","Junicode","Junicode",FALSE,FALSE,FALSE,NA
+NA,"Junicode-Bold.afm.gz","/usr/share/fonts/truetype/junicode/Junicode-Bold.ttf","Junicode Bold","Junicode","Junicode-Bold",TRUE,FALSE,FALSE,NA
+NA,"Junicode-BoldItalic.afm.gz","/usr/share/fonts/truetype/junicode/Junicode-BoldItalic.ttf","Junicode Bold Italic","Junicode","Junicode-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"Junicode-Italic.afm.gz","/usr/share/fonts/truetype/junicode/Junicode-Italic.ttf","Junicode Italic","Junicode","Junicode-Italic",FALSE,TRUE,FALSE,NA
+NA,"Kedage-b.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/Kedage-b.ttf","Kedage Bold","Kedage","KedageBold",TRUE,FALSE,FALSE,NA
+NA,"Kedage-n.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/Kedage-n.ttf","Kedage Normal","Kedage","KedageNormal",FALSE,FALSE,FALSE,NA
+NA,"KhmerOS.afm.gz","/usr/share/fonts/truetype/ttf-khmeros-core/KhmerOS.ttf","Khmer OS","Khmer OS","KhmerOS",FALSE,FALSE,FALSE,NA
+NA,"KhmerOSsys.afm.gz","/usr/share/fonts/truetype/ttf-khmeros-core/KhmerOSsys.ttf","Khmer OS System","Khmer OS System","KhmerOSsys",FALSE,FALSE,FALSE,NA
+NA,"Lato-Bla.afm.gz","/usr/share/fonts/truetype/lato/Lato-Bla.ttf","Lato Black","Lato Black","Lato-Black",FALSE,FALSE,FALSE,NA
+NA,"Lato-BlaIta.afm.gz","/usr/share/fonts/truetype/lato/Lato-BlaIta.ttf","Lato Black Italic","Lato Black","Lato-BlackItalic",FALSE,TRUE,FALSE,NA
+NA,"Lato-Bol.afm.gz","/usr/share/fonts/truetype/lato/Lato-Bol.ttf","Lato Bold","Lato","Lato-Bold",TRUE,FALSE,FALSE,NA
+NA,"Lato-BolIta.afm.gz","/usr/share/fonts/truetype/lato/Lato-BolIta.ttf","Lato Bold Italic","Lato","Lato-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"Lato-Hai.afm.gz","/usr/share/fonts/truetype/lato/Lato-Hai.ttf","Lato-Hairline","Lato Hairline","Lato-Hairline",FALSE,FALSE,FALSE,NA
+NA,"Lato-HaiIta.afm.gz","/usr/share/fonts/truetype/lato/Lato-HaiIta.ttf","Lato-HairlineItalic","Lato Hairline","Lato-HairlineItalic",FALSE,TRUE,FALSE,NA
+NA,"Lato-RegIta.afm.gz","/usr/share/fonts/truetype/lato/Lato-RegIta.ttf","Lato Italic","Lato","Lato-Italic",FALSE,TRUE,FALSE,NA
+NA,"Lato-Lig.afm.gz","/usr/share/fonts/truetype/lato/Lato-Lig.ttf","Lato-Light","Lato Light","Lato-Light",FALSE,FALSE,FALSE,NA
+NA,"Lato-LigIta.afm.gz","/usr/share/fonts/truetype/lato/Lato-LigIta.ttf","Lato-LightItalic","Lato Light","Lato-LightItalic",FALSE,TRUE,FALSE,NA
+NA,"Lato-Reg.afm.gz","/usr/share/fonts/truetype/lato/Lato-Reg.ttf","Lato Regular","Lato","Lato-Regular",FALSE,FALSE,FALSE,NA
+NA,"LiberationMono-Regular.afm.gz","/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf","Liberation Mono","Liberation Mono","LiberationMono",FALSE,FALSE,FALSE,NA
+NA,"LiberationMono-Bold.afm.gz","/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf","Liberation Mono Bold","Liberation Mono","LiberationMono-Bold",TRUE,FALSE,FALSE,NA
+NA,"LiberationMono-BoldItalic.afm.gz","/usr/share/fonts/truetype/liberation/LiberationMono-BoldItalic.ttf","Liberation Mono Bold Italic","Liberation Mono","LiberationMono-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"LiberationMono-Italic.afm.gz","/usr/share/fonts/truetype/liberation/LiberationMono-Italic.ttf","Liberation Mono Italic","Liberation Mono","LiberationMono-Italic",FALSE,TRUE,FALSE,NA
+NA,"LiberationSans-Regular.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf","Liberation Sans","Liberation Sans","LiberationSans",FALSE,FALSE,FALSE,NA
+NA,"LiberationSans-Bold.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf","Liberation Sans Bold","Liberation Sans","LiberationSans-Bold",TRUE,FALSE,FALSE,NA
+NA,"LiberationSans-BoldItalic.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf","Liberation Sans Bold Italic","Liberation Sans","LiberationSans-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"LiberationSans-Italic.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf","Liberation Sans Italic","Liberation Sans","LiberationSans-Italic",FALSE,TRUE,FALSE,NA
+NA,"LiberationSansNarrow-Regular.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf","Liberation Sans Narrow","Liberation Sans Narrow","LiberationSansNarrow",FALSE,FALSE,FALSE,NA
+NA,"LiberationSansNarrow-Bold.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf","Liberation Sans Narrow Bold","Liberation Sans Narrow","LiberationSansNarrow-Bold",TRUE,FALSE,FALSE,NA
+NA,"LiberationSansNarrow-BoldItalic.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSansNarrow-BoldItalic.ttf","Liberation Sans Narrow Bold Italic","Liberation Sans Narrow","LiberationSansNarrow-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"LiberationSansNarrow-Italic.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Italic.ttf","Liberation Sans Narrow Italic","Liberation Sans Narrow","LiberationSansNarrow-Italic",FALSE,TRUE,FALSE,NA
+NA,"LiberationSerif-Regular.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf","Liberation Serif","Liberation Serif","LiberationSerif",FALSE,FALSE,FALSE,NA
+NA,"LiberationSerif-Bold.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf","Liberation Serif Bold","Liberation Serif","LiberationSerif-Bold",TRUE,FALSE,FALSE,NA
+NA,"LiberationSerif-BoldItalic.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf","Liberation Serif Bold Italic","Liberation Serif","LiberationSerif-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"LiberationSerif-Italic.afm.gz","/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf","Liberation Serif Italic","Liberation Serif","LiberationSerif-Italic",FALSE,TRUE,FALSE,NA
+NA,"lklug.afm.gz","/usr/share/fonts/truetype/sinhala/lklug.ttf","LKLUG","LKLUG","LKLUG",FALSE,FALSE,FALSE,NA
+NA,"lohit_bn.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/lohit_bn.ttf","Lohit Bengali","Lohit Bengali","Lohit-Bengali",FALSE,FALSE,FALSE,NA
+NA,"lohit_hi.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/lohit_hi.ttf","Lohit Devanagari","Lohit Devanagari","Lohit-Devanagari",FALSE,FALSE,FALSE,NA
+NA,"lohit_gu.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/lohit_gu.ttf","Lohit Gujarati","Lohit Gujarati","Lohit-Gujarati",FALSE,FALSE,FALSE,NA
+NA,"lohit_pa.afm.gz","/usr/share/fonts/truetype/ttf-punjabi-fonts/lohit_pa.ttf","Lohit Punjabi","Lohit Punjabi","Lohit-Punjabi",FALSE,FALSE,FALSE,NA
+NA,"lohit_ta.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/lohit_ta.ttf","Lohit Tamil","Lohit Tamil","Lohit-Tamil",FALSE,FALSE,FALSE,NA
+NA,"Malige-b.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/Malige-b.ttf","Mallige Bold","Mallige","MalligeBold",TRUE,FALSE,FALSE,NA
+NA,"Malige-n.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/Malige-n.ttf","Mallige Normal","Mallige","MalligeNormal",FALSE,FALSE,FALSE,NA
+NA,"Meera_04.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/Meera_04.ttf","Meera","Meera","Meera",FALSE,FALSE,FALSE,NA
+NA,"msam10.afm.gz","/usr/share/fonts/truetype/lyx/msam10.ttf","msam10","msam10","Msam10",FALSE,FALSE,FALSE,NA
+NA,"msbm10.afm.gz","/usr/share/fonts/truetype/lyx/msbm10.ttf","msbm10","msbm10","Msbm10",FALSE,FALSE,FALSE,NA
+NA,"mtextra.afm.gz","/usr/share/fonts/wps-office/mtextra.ttf","MT Extra","MT Extra","MT-Extra",FALSE,FALSE,FALSE,NA
+NA,"MuktiNarrow.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/MuktiNarrow.ttf","Mukti Narrow","Mukti Narrow","muktinarrow",FALSE,FALSE,FALSE,NA
+NA,"MuktiNarrowBold.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/MuktiNarrowBold.ttf","Mukti Narrow Bold","Mukti Narrow","muktinarrowbold",TRUE,FALSE,FALSE,NA
+NA,"NanumBarunGothic.afm.gz","/usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf","NanumBarunGothic","NanumBarunGothic","NanumBarunGothic",FALSE,FALSE,FALSE,NA
+NA,"NanumBarunGothicBold.afm.gz","/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf","NanumBarunGothic Bold","NanumBarunGothic","NanumBarunGothicBold",TRUE,FALSE,FALSE,NA
+NA,"NanumGothic.afm.gz","/usr/share/fonts/truetype/nanum/NanumGothic.ttf","NanumGothic","NanumGothic","NanumGothic",FALSE,FALSE,FALSE,NA
+NA,"NanumGothicBold.afm.gz","/usr/share/fonts/truetype/nanum/NanumGothicBold.ttf","NanumGothicBold","NanumGothic","NanumGothicBold",TRUE,FALSE,FALSE,NA
+NA,"NanumMyeongjo.afm.gz","/usr/share/fonts/truetype/nanum/NanumMyeongjo.ttf","NanumMyeongjo","NanumMyeongjo","NanumMyeongjo",FALSE,FALSE,FALSE,NA
+NA,"NanumMyeongjoBold.afm.gz","/usr/share/fonts/truetype/nanum/NanumMyeongjoBold.ttf","NanumMyeongjoBold","NanumMyeongjo","NanumMyeongjoBold",TRUE,FALSE,FALSE,NA
+NA,"opens___.afm.gz","/usr/share/fonts/truetype/openoffice/opens___.ttf","OpenSymbol","OpenSymbol","OpenSymbol",FALSE,FALSE,TRUE,NA
+NA,"Pothana2000.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/Pothana2000.ttf","Pothana2000","Pothana2000","Pothana2000",FALSE,FALSE,FALSE,NA
+NA,"Rachana_04.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/Rachana_04.ttf","Rachana","Rachana","Rachana",FALSE,FALSE,FALSE,NA
+NA,"Rekha.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/Rekha.ttf","Rekha","Rekha","Rekha",FALSE,FALSE,FALSE,NA
+NA,"rsfs10.afm.gz","/usr/share/fonts/truetype/lyx/rsfs10.ttf","rsfs10","rsfs10","rsfs10",FALSE,FALSE,FALSE,NA
+NA,"Saab.afm.gz","/usr/share/fonts/truetype/ttf-punjabi-fonts/Saab.ttf","Saab","Saab","Saab",FALSE,FALSE,FALSE,NA
+NA,"TakaoExGothic.afm.gz","/usr/share/fonts/truetype/takao-gothic/TakaoExGothic.ttf","TakaoExGothic","TakaoExGothic","TakaoExGothic",FALSE,FALSE,FALSE,NA
+NA,"TakaoExMincho.afm.gz","/usr/share/fonts/truetype/takao-mincho/TakaoExMincho.ttf","TakaoExMincho","TakaoExMincho","TakaoExMincho",FALSE,FALSE,FALSE,NA
+NA,"TakaoGothic.afm.gz","/usr/share/fonts/truetype/takao-gothic/TakaoGothic.ttf","TakaoGothic","TakaoGothic","TakaoGothic",FALSE,FALSE,FALSE,NA
+NA,"TakaoMincho.afm.gz","/usr/share/fonts/truetype/takao-mincho/TakaoMincho.ttf","TakaoMincho","TakaoMincho","TakaoMincho",FALSE,FALSE,FALSE,NA
+NA,"TakaoPGothic.afm.gz","/usr/share/fonts/truetype/takao-gothic/TakaoPGothic.ttf","TakaoPGothic","TakaoPGothic","TakaoPGothic",FALSE,FALSE,FALSE,NA
+NA,"TakaoPMincho.afm.gz","/usr/share/fonts/truetype/takao-mincho/TakaoPMincho.ttf","TakaoPMincho","TakaoPMincho","TakaoPMincho",FALSE,FALSE,FALSE,NA
+NA,"TibetanMachineUni.afm.gz","/usr/share/fonts/truetype/tibetan-machine/TibetanMachineUni.ttf","Tibetan_Machine_Uni","Tibetan Machine Uni","Tibetan-Machine-Uni",FALSE,FALSE,FALSE,NA
+NA,"Ubuntu-R.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf","Ubuntu","Ubuntu","Ubuntu",FALSE,FALSE,FALSE,NA
+NA,"Ubuntu-B.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf","Ubuntu Bold","Ubuntu","Ubuntu-Bold",TRUE,FALSE,FALSE,NA
+NA,"Ubuntu-BI.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-BI.ttf","Ubuntu Bold Italic","Ubuntu","Ubuntu-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"Ubuntu-RI.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-RI.ttf","Ubuntu Italic","Ubuntu","Ubuntu-Italic",FALSE,TRUE,FALSE,NA
+NA,"Ubuntu-L.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-L.ttf","Ubuntu Light","Ubuntu Light","Ubuntu-Light",FALSE,FALSE,FALSE,NA
+NA,"Ubuntu-LI.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-LI.ttf","Ubuntu Light Italic","Ubuntu Light","Ubuntu-LightItalic",FALSE,TRUE,FALSE,NA
+NA,"Ubuntu-M.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-M.ttf","Ubuntu Medium","Ubuntu Medium","Ubuntu-Medium",TRUE,FALSE,FALSE,NA
+NA,"Ubuntu-MI.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-MI.ttf","Ubuntu Medium Italic","Ubuntu Medium","Ubuntu-MediumItalic",TRUE,TRUE,FALSE,NA
+NA,"Ubuntu-C.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-C.ttf","Ubuntu Condensed","Ubuntu Condensed","UbuntuCondensed-Regular",FALSE,FALSE,FALSE,NA
+NA,"UbuntuMono-B.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf","Ubuntu Mono Bold","Ubuntu Mono","UbuntuMono-Bold",TRUE,FALSE,FALSE,NA
+NA,"UbuntuMono-BI.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-BI.ttf","Ubuntu Mono Bold Italic","Ubuntu Mono","UbuntuMono-BoldItalic",TRUE,TRUE,FALSE,NA
+NA,"UbuntuMono-RI.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-RI.ttf","Ubuntu Mono Italic","Ubuntu Mono","UbuntuMono-Italic",FALSE,TRUE,FALSE,NA
+NA,"UbuntuMono-R.afm.gz","/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf","Ubuntu Mono","Ubuntu Mono","UbuntuMono-Regular",FALSE,FALSE,FALSE,NA
+NA,"utkal.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/utkal.ttf","utkal medium","utkal","utkal",FALSE,FALSE,FALSE,NA
+NA,"Vemana.afm.gz","/usr/share/fonts/truetype/ttf-indic-fonts-core/Vemana.ttf","Vemana2000","Vemana2000","Vemana2000",FALSE,FALSE,FALSE,NA
+NA,"wasy10.afm.gz","/usr/share/fonts/truetype/lyx/wasy10.ttf","wasy10","wasy10","wasy10",FALSE,FALSE,FALSE,NA

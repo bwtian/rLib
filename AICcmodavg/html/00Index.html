@@ -1,0 +1,812 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>R: Model selection and multimodel inference based on (Q)AIC(c)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="R.css">
+</head><body>
+<h1> Model selection and multimodel inference based on (Q)AIC(c)
+<img class="toplogo" src="../../../doc/html/logo.jpg" alt="[R logo]">
+</h1>
+<hr>
+<div align="center">
+<a href="../../../doc/html/packages.html"><img src="../../../doc/html/left.jpg" alt="[Up]" width="30" height="30" border="0"></a>
+<a href="../../../doc/html/index.html"><img src="../../../doc/html/up.jpg" alt="[Top]" width="30" height="30" border="0"></a>
+</div><h2>Documentation for package &lsquo;AICcmodavg&rsquo; version 2.00</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p align="center">
+<a href="# "> </a>
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#F">F</a>
+<a href="#I">I</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#P">P</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+</p>
+
+<table width="100%">
+<tr><td width="25%"><a href="AICcmodavg-package.html">AICcmodavg-package</a></td>
+<td>Model Selection and Multimodel Inference Based on (Q)AIC(c)</td></tr>
+</table>
+
+<h2><a name="A">-- A --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="AICc.html">AICc</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.aov</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.clm</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.clmm</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.coxme</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.coxph</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.default</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.glm</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.gls</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.lm</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.lme</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.lmekin</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.maxlikeFit</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.mer</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.merMod</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">AICc.mult</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.multinom</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.nlme</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.nls</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.polr</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.rlm</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">AICc.unmarked</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.unmarkedFit</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.vglm</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICc.html">AICc.zeroinfl</a></td>
+<td>Computing AIC, AICc, QAIC, and QAICc</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-package.html">AICcmodavg</a></td>
+<td>Model Selection and Multimodel Inference Based on (Q)AIC(c)</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">AICcmodavg-deprecated</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICaov.lm</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICclmm</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICcoxme</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICcoxph</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICglm.lm</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICglmerMod</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICgls</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AIClm</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AIClme</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AIClmekin</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AIClmerMod</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICmaxlikeFit.list</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICmer</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICmultinom.nnet</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICnlme</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICnlmerMod</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICnls</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICpolr</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICrlm.lm</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICsclm.clm</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICunmarkedFitColExt</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICunmarkedFitDS</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICunmarkedFitGDS</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICunmarkedFitGMM</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICunmarkedFitGPC</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICunmarkedFitMPois</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICunmarkedFitOccu</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICunmarkedFitOccuFP</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICunmarkedFitOccuRN</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICunmarkedFitPCO</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICunmarkedFitPCount</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICvglm</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.AICzeroinfl</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.clm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.clmm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.coxph</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="aictab.html">aictab.default</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.glm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.gls</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.lm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.lme</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.mer</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.merMod</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.mult</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.nlme</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.nls</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.polr</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.rlm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">aictab.unmarked</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+</table>
+
+<h2><a name="B">-- B --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="beetle.html">beetle</a></td>
+<td>Flour Beetle Data</td></tr>
+<tr><td width="25%"><a href="boot.wt.html">boot.wt</a></td>
+<td>Compute Model Selection Relative Frequencies</td></tr>
+<tr><td width="25%"><a href="boot.wt.html">boot.wt.AICaov.lm</a></td>
+<td>Compute Model Selection Relative Frequencies</td></tr>
+<tr><td width="25%"><a href="boot.wt.html">boot.wt.AICglm.lm</a></td>
+<td>Compute Model Selection Relative Frequencies</td></tr>
+<tr><td width="25%"><a href="boot.wt.html">boot.wt.AIClm</a></td>
+<td>Compute Model Selection Relative Frequencies</td></tr>
+<tr><td width="25%"><a href="boot.wt.html">boot.wt.AICmultinom.nnet</a></td>
+<td>Compute Model Selection Relative Frequencies</td></tr>
+<tr><td width="25%"><a href="boot.wt.html">boot.wt.AICpolr</a></td>
+<td>Compute Model Selection Relative Frequencies</td></tr>
+<tr><td width="25%"><a href="boot.wt.html">boot.wt.AICrlm.lm</a></td>
+<td>Compute Model Selection Relative Frequencies</td></tr>
+<tr><td width="25%"><a href="boot.wt.html">boot.wt.AICsclm.clm</a></td>
+<td>Compute Model Selection Relative Frequencies</td></tr>
+<tr><td width="25%"><a href="boot.wt.html">boot.wt.AICvglm</a></td>
+<td>Compute Model Selection Relative Frequencies</td></tr>
+<tr><td width="25%"><a href="boot.wt.html">boot.wt.AICzeroinfl</a></td>
+<td>Compute Model Selection Relative Frequencies</td></tr>
+<tr><td width="25%"><a href="boot.wt.html">boot.wt.default</a></td>
+<td>Compute Model Selection Relative Frequencies</td></tr>
+<tr><td width="25%"><a href="bullfrog.html">bullfrog</a></td>
+<td>Bullfrog occupancy data and common reed invasion</td></tr>
+</table>
+
+<h2><a name="C">-- C --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="calcium.html">calcium</a></td>
+<td>Blood Calcium Concentration in Birds Data</td></tr>
+<tr><td width="25%"><a href="cement.html">cement</a></td>
+<td>Heat Expended Following Hardening of Portland Cement</td></tr>
+<tr><td width="25%"><a href="confset.html">confset</a></td>
+<td>Computing Confidence Set for the Kullback-Leibler Best Model</td></tr>
+<tr><td width="25%"><a href="c_hat.html">c_hat</a></td>
+<td>Compute Estimate of Dispersion for Poisson and Binomial GLM's</td></tr>
+</table>
+
+<h2><a name="D">-- D --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="DIC.html">DIC</a></td>
+<td>Computing DIC</td></tr>
+<tr><td width="25%"><a href="DIC.html">DIC.bugs</a></td>
+<td>Computing DIC</td></tr>
+<tr><td width="25%"><a href="DIC.html">DIC.default</a></td>
+<td>Computing DIC</td></tr>
+<tr><td width="25%"><a href="DIC.html">DIC.rjags</a></td>
+<td>Computing DIC</td></tr>
+<tr><td width="25%"><a href="dictab.html">dictab</a></td>
+<td>Create Model Selection Tables from Bayesian Analyses</td></tr>
+<tr><td width="25%"><a href="dictab.html">dictab.AICbugs</a></td>
+<td>Create Model Selection Tables from Bayesian Analyses</td></tr>
+<tr><td width="25%"><a href="dictab.html">dictab.AICrjags</a></td>
+<td>Create Model Selection Tables from Bayesian Analyses</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">dictab.bugs</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="dictab.html">dictab.default</a></td>
+<td>Create Model Selection Tables from Bayesian Analyses</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">dictab.rjags</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="dry.frog.html">dry.frog</a></td>
+<td>Frog Dehydration Experiment on Three Substrate Types</td></tr>
+</table>
+
+<h2><a name="E">-- E --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="evidence.html">evidence</a></td>
+<td>Compute Evidence Ratio Between Two Models</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">extract.LL</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">extract.LL.coxph</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">extract.LL.unmarked</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="extractLL.html">extractLL</a></td>
+<td>Extract Log-Likelihood of Model</td></tr>
+<tr><td width="25%"><a href="extractLL.html">extractLL.coxme</a></td>
+<td>Extract Log-Likelihood of Model</td></tr>
+<tr><td width="25%"><a href="extractLL.html">extractLL.coxph</a></td>
+<td>Extract Log-Likelihood of Model</td></tr>
+<tr><td width="25%"><a href="extractLL.html">extractLL.lmekin</a></td>
+<td>Extract Log-Likelihood of Model</td></tr>
+<tr><td width="25%"><a href="extractLL.html">extractLL.maxlikeFit</a></td>
+<td>Extract Log-Likelihood of Model</td></tr>
+<tr><td width="25%"><a href="extractLL.html">extractLL.unmarkedFit</a></td>
+<td>Extract Log-Likelihood of Model</td></tr>
+<tr><td width="25%"><a href="extractLL.html">extractLL.vglm</a></td>
+<td>Extract Log-Likelihood of Model</td></tr>
+<tr><td width="25%"><a href="extractSE.html">extractSE</a></td>
+<td>Extract SE of Fixed Effects of 'coxme', 'glmer', and 'lmekin' Fit</td></tr>
+<tr><td width="25%"><a href="extractSE.html">extractSE.coxme</a></td>
+<td>Extract SE of Fixed Effects of 'coxme', 'glmer', and 'lmekin' Fit</td></tr>
+<tr><td width="25%"><a href="extractSE.html">extractSE.lmekin</a></td>
+<td>Extract SE of Fixed Effects of 'coxme', 'glmer', and 'lmekin' Fit</td></tr>
+<tr><td width="25%"><a href="extractSE.html">extractSE.mer</a></td>
+<td>Extract SE of Fixed Effects of 'coxme', 'glmer', and 'lmekin' Fit</td></tr>
+<tr><td width="25%"><a href="extractSE.html">extractSE.merMod</a></td>
+<td>Extract SE of Fixed Effects of 'coxme', 'glmer', and 'lmekin' Fit</td></tr>
+</table>
+
+<h2><a name="F">-- F --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="fam.link.mer.html">fam.link.mer</a></td>
+<td>Extract Distribution Family and Link Function</td></tr>
+<tr><td width="25%"><a href="modavg.utility.html">formatCands</a></td>
+<td>Various Utility Functions</td></tr>
+</table>
+
+<h2><a name="I">-- I --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="importance.html">importance</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICaov.lm</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICclmm</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICclogit.coxph</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICcoxme</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICcoxph</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICglm.lm</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICglmerMod</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICgls</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AIClm</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AIClme</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AIClmekin</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICmaxlikeFit.list</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICmer</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICmultinom.nnet</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICnlmerMod</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICpolr</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICrlm.lm</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICsclm.clm</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICunmarkedFitColExt</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICunmarkedFitDS</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICunmarkedFitGDS</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICunmarkedFitGMM</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICunmarkedFitMPois</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICunmarkedFitOccu</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICunmarkedFitOccuFP</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICunmarkedFitOccuRN</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICunmarkedFitPCO</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICunmarkedFitPCount</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICvglm</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.AICzeroinfl</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="importance.html">importance.default</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="iron.html">iron</a></td>
+<td>Iron Content in Food</td></tr>
+</table>
+
+<h2><a name="L">-- L --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="lizards.html">lizards</a></td>
+<td>Habitat Preference of Lizards</td></tr>
+</table>
+
+<h2><a name="M">-- M --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="mb.gof.test.html">mb.chisq</a></td>
+<td>Compute MacKenzie and Bailey Goodness-of-fit Test for Single Season Occupancy Models</td></tr>
+<tr><td width="25%"><a href="mb.gof.test.html">mb.gof.test</a></td>
+<td>Compute MacKenzie and Bailey Goodness-of-fit Test for Single Season Occupancy Models</td></tr>
+<tr><td width="25%"><a href="min.trap.html">min.trap</a></td>
+<td>Anuran larvae counts in minnow traps across pond type</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICaov.lm</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICclmm</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICcoxme</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICcoxph</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICglm.lm</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICglmerMod</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICgls</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AIClm</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AIClme</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AIClmekin</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AIClmerMod</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICmaxlikeFit.list</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICmer</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICmultinom.nnet</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICpolr</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICrlm.lm</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICsclm.clm</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICunmarkedFitColExt</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICunmarkedFitDS</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICunmarkedFitFitGMM</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICunmarkedFitFitGPC</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICunmarkedFitGDS</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICunmarkedFitMPois</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICunmarkedFitOccu</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICunmarkedFitOccuFP</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICunmarkedFitOccuRN</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICunmarkedFitPCO</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICunmarkedFitPCount</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICvglm</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.AICzeroinfl</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.clm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.clmm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.coxph</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="modavg.html">modavg.default</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.effect</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.effect.glm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.effect.gls</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.effect.lme</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.effect.mer</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.effect.merMod</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.effect.rlm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.effect.unmarked</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.glm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.gls</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.lme</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.mer</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.merMod</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.mult</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.polr</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.rlm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.clm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.clmm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.coxph</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.glm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.gls</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.lme</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.mer</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.merMod</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.mult</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.polr</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.rlm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.shrink.unmarked</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavg.unmarked</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICaov.lm</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICglm.lm</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICglmerMod</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICgls</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AIClm</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AIClme</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AIClmerMod</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICmer</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICrlm.lm</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICunmarkedFitColExt</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICunmarkedFitDS</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICunmarkedFitGDS</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICunmarkedFitGMM</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICunmarkedFitGPC</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICunmarkedFitMPois</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICunmarkedFitOccu</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICunmarkedFitOccuFP</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICunmarkedFitOccuRN</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICunmarkedFitPCO</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.AICunmarkedFitPCount</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">modavgEffect.default</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavgpred</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICaov.lm</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICglm.lm</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICglmerMod</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICgls</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AIClm</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AIClme</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AIClmerMod</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICmer</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICrlm.lm</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICunmarkedFitColExt</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICunmarkedFitDS</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICunmarkedFitGDS</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICunmarkedFitGMM</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICunmarkedFitGPC</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICunmarkedFitMPois</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICunmarkedFitOccu</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICunmarkedFitOccuFP</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICunmarkedFitOccuRN</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICunmarkedFitPCO</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.AICunmarkedFitPCount</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">modavgPred.default</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavgpred.glm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavgpred.gls</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavgpred.lme</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavgpred.mer</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavgpred.merMod</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavgpred.rlm</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">modavgpred.unmarked</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICaov.lm</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICclmm</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICcoxme</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICcoxph</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICglm.lm</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICglmerMod</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICgls</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AIClm</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AIClme</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AIClmekin</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AIClmerMod</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICmaxlikeFit.list</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICmer</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICmultinom.nnet</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICpolr</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICrlm.lm</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICsclm.clm</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICunmarkedFitColExt</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICunmarkedFitDS</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICunmarkedFitFitGMM</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICunmarkedFitFitGPC</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICunmarkedFitGDS</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICunmarkedFitMPois</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICunmarkedFitOccu</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICunmarkedFitOccuFP</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICunmarkedFitOccuRN</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICunmarkedFitPCO</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICunmarkedFitPCount</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICvglm</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.AICzeroinfl</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">modavgShrink.default</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">mult.comp</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="multComp.html">multComp</a></td>
+<td>Create Model Selection Tables based on Multiple Comparisons</td></tr>
+<tr><td width="25%"><a href="multComp.html">multComp.aov</a></td>
+<td>Create Model Selection Tables based on Multiple Comparisons</td></tr>
+<tr><td width="25%"><a href="multComp.html">multComp.default</a></td>
+<td>Create Model Selection Tables based on Multiple Comparisons</td></tr>
+<tr><td width="25%"><a href="multComp.html">multComp.glm</a></td>
+<td>Create Model Selection Tables based on Multiple Comparisons</td></tr>
+<tr><td width="25%"><a href="multComp.html">multComp.gls</a></td>
+<td>Create Model Selection Tables based on Multiple Comparisons</td></tr>
+<tr><td width="25%"><a href="multComp.html">multComp.lm</a></td>
+<td>Create Model Selection Tables based on Multiple Comparisons</td></tr>
+<tr><td width="25%"><a href="multComp.html">multComp.lme</a></td>
+<td>Create Model Selection Tables based on Multiple Comparisons</td></tr>
+<tr><td width="25%"><a href="multComp.html">multComp.mer</a></td>
+<td>Create Model Selection Tables based on Multiple Comparisons</td></tr>
+<tr><td width="25%"><a href="multComp.html">multComp.merMod</a></td>
+<td>Create Model Selection Tables based on Multiple Comparisons</td></tr>
+<tr><td width="25%"><a href="multComp.html">multComp.rlm</a></td>
+<td>Create Model Selection Tables based on Multiple Comparisons</td></tr>
+</table>
+
+<h2><a name="N">-- N --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="Nmix.gof.test.html">Nmix.chisq</a></td>
+<td>Compute Chi-square Goodness-of-fit Test for N-mixture Models</td></tr>
+<tr><td width="25%"><a href="Nmix.gof.test.html">Nmix.gof.test</a></td>
+<td>Compute Chi-square Goodness-of-fit Test for N-mixture Models</td></tr>
+</table>
+
+<h2><a name="P">-- P --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="pine.html">pine</a></td>
+<td>Strength of Pine Wood Based on the Density Adjusted for Resin Content</td></tr>
+<tr><td width="25%"><a href="predictSE.html">predictSE</a></td>
+<td>Computing Predicted Values and Standard Errors</td></tr>
+<tr><td width="25%"><a href="predictSE.html">predictSE.default</a></td>
+<td>Computing Predicted Values and Standard Errors</td></tr>
+<tr><td width="25%"><a href="predictSE.html">predictSE.gls</a></td>
+<td>Computing Predicted Values and Standard Errors</td></tr>
+<tr><td width="25%"><a href="predictSE.html">predictSE.lme</a></td>
+<td>Computing Predicted Values and Standard Errors</td></tr>
+<tr><td width="25%"><a href="predictSE.html">predictSE.mer</a></td>
+<td>Computing Predicted Values and Standard Errors</td></tr>
+<tr><td width="25%"><a href="predictSE.html">predictSE.merMod</a></td>
+<td>Computing Predicted Values and Standard Errors</td></tr>
+<tr><td width="25%"><a href="predictSE.html">predictSE.unmarkedFitPCO</a></td>
+<td>Computing Predicted Values and Standard Errors</td></tr>
+<tr><td width="25%"><a href="predictSE.html">predictSE.unmarkedFitPCount</a></td>
+<td>Computing Predicted Values and Standard Errors</td></tr>
+<tr><td width="25%"><a href="AICcmodavg-deprecated.html">predictSE.zip</a></td>
+<td>Deprecated Functions in AICcmodavg Package</td></tr>
+<tr><td width="25%"><a href="aictab.html">print.aictab</a></td>
+<td>Create Model Selection Tables</td></tr>
+<tr><td width="25%"><a href="confset.html">print.confset</a></td>
+<td>Computing Confidence Set for the Kullback-Leibler Best Model</td></tr>
+<tr><td width="25%"><a href="dictab.html">print.dictab</a></td>
+<td>Create Model Selection Tables from Bayesian Analyses</td></tr>
+<tr><td width="25%"><a href="evidence.html">print.evidence</a></td>
+<td>Compute Evidence Ratio Between Two Models</td></tr>
+<tr><td width="25%"><a href="importance.html">print.importance</a></td>
+<td>Compute Importance Values of Variable</td></tr>
+<tr><td width="25%"><a href="mb.gof.test.html">print.mb.chisq</a></td>
+<td>Compute MacKenzie and Bailey Goodness-of-fit Test for Single Season Occupancy Models</td></tr>
+<tr><td width="25%"><a href="modavg.html">print.modavg</a></td>
+<td>Compute Model-averaged Parameter Estimate (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="modavgEffect.html">print.modavgEffect</a></td>
+<td>Compute Model-averaged Effect Sizes (Multimodel Inference on Group Differences)</td></tr>
+<tr><td width="25%"><a href="modavgPred.html">print.modavgPred</a></td>
+<td>Compute Model-averaged Predictions</td></tr>
+<tr><td width="25%"><a href="modavgShrink.html">print.modavgShrink</a></td>
+<td>Compute Model-averaged Parameter Estimate with Shrinkage (Multimodel Inference)</td></tr>
+<tr><td width="25%"><a href="multComp.html">print.multComp</a></td>
+<td>Create Model Selection Tables based on Multiple Comparisons</td></tr>
+<tr><td width="25%"><a href="Nmix.gof.test.html">print.Nmix.chisq</a></td>
+<td>Compute Chi-square Goodness-of-fit Test for N-mixture Models</td></tr>
+</table>
+
+<h2><a name="R">-- R --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="modavg.utility.html">reverse.exclude</a></td>
+<td>Various Utility Functions</td></tr>
+<tr><td width="25%"><a href="modavg.utility.html">reverse.parm</a></td>
+<td>Various Utility Functions</td></tr>
+</table>
+
+<h2><a name="S">-- S --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="salamander.html">salamander</a></td>
+<td>Salamander capture-mark-recapture data</td></tr>
+</table>
+
+<h2><a name="T">-- T --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="tortoise.html">tortoise</a></td>
+<td>Gopher Tortoise distance sampling data</td></tr>
+<tr><td width="25%"><a href="turkey.html">turkey</a></td>
+<td>Turkey Weight Gain</td></tr>
+</table>
+</body></html>

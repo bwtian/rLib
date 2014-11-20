@@ -1,0 +1,12 @@
+coef.truncreg	truncreg
+fitted.truncreg	truncreg
+logLik.truncreg	truncreg
+model.frame.truncreg	truncreg
+model.matrix.truncreg	truncreg
+predict.truncreg	truncreg
+print.summary.truncreg	truncreg
+print.truncreg	truncreg
+residuals.truncreg	truncreg
+summary.truncreg	truncreg
+truncreg	truncreg
+vcov.truncreg	truncreg

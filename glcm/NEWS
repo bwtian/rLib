@@ -1,0 +1,54 @@
+glcm 1.0
+========
+* Support calculation of average textures over multiple shifts (glcm in "all 
+  directions". Thanks to Matthias Weigand for testing.
+
+* Automatically process rasters block-by-block when cannot process in memory.  
+  Thanks to Santosh Bhandari for testing.
+
+* Upgrade to roxygen2 > 4.0.2.
+
+* Various minor doc fixes.
+
+glcm 0.3.2
+==========
+* Fix proj4string for example image.
+
+* Upgrade to roxygen2 > 4.0.0.
+
+glcm 0.3.1
+==========
+
+* Remove RcppArmadillo from imports in glcm.R (only list it in linking-to) per 
+  CRAN request.
+
+glcm 0.3
+========
+
+* Reformat tests for `testthat` >= 0.8.
+
+* Fix handling of window sizes other than 3 x 3 (issue #2).
+
+* Rename test image to end in 3x3_1x1 (as it was run with a 3x3 window size and 
+  1 row x 1 column shift).
+
+* Add additional test cases.
+
+* Add additional validation of user input to "glcm" function.
+
+* Update website address.
+
+* Various fixes to docs.
+
+glcm 0.2
+========
+
+*  Require Rcpp >= 0.11.0 (as Makevars and Makevars.win are no longer included 
+   in package).
+
+*  Minor fixes to docs.
+
+glcm 0.1
+========
+
+*  Initial release to CRAN.

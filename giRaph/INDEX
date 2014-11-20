@@ -1,0 +1,32 @@
+adjacencyList           Adjacency list representation of a graph
+adjacencyList-class     Class "adjacencyList"
+adjacencyMatrix         Adjacency matrix representation of a graph
+adjacencyMatrix-class   Class "adjacencyMatrix"
+anyGraph-class          Class "anyGraph"
+areTheSame              Are they the same mathematical entity?
+card                    Get the cardinality of an object
+directedEdge-class      Class "directedEdge"
+display                 Make a display of the graph using the graphics
+                        window
+dynamic.Graph           DynamicGraph display of simple graph
+edge-class              Virtual Class "edge"
+edgeList-class          Class "edgeList"
+generalGraph-class      Class "generalGraph"
+giRaph                  The package 'giRaph': summary information
+incidenceList           Incidence list representation of a graph
+incidenceList-class     Class "incidenceList"
+incidenceMatrix         Incidence matrix representation of a graph
+incidenceMatrix-class   Class "incidenceMatrix"
+isEmpty                 Is the object empty?
+isPresent               Is the first object present in the second one?
+maxId                   Get the maximum numeric identifier of an object
+multiGraph-class        Class "multiGraph"
+recode                  Function to recode an object from a given
+                        source code to a given target code
+showRel                 Function to show an object relative to a given
+                        code
+simpleGraph-class       Class "simpleGraph"
+undirectedEdge-class    Class "undirectedEdge"
+v                       Short-hands for vertex set and edge
+                        construction
+vertexSet-class         Class "vertexSet"

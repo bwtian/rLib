@@ -1,0 +1,25 @@
+Asciidoc                Sweave wrappers
+RtangleAscii            RtangleAscii
+ascii.default           Export R objects to several markup languages
+asciiCbind              ascii table generator
+asciiList               ascii list generator
+asciiMixed              ascii mixed generator
+asciiTable              ascii table generator
+cbind.ascii             Cbind two ascii objects
+convert                 Convert a file with specified backend
+createreport            Report creation
+fig                     Insert figure
+out                     Export R objects
+paragraph               Create a paragraph
+plim                    format p values
+print,asciiCbind-method
+                        Print ascii object
+print.fig               Print an graph object
+print.out               Print an out object
+print.paragraph         Print a paragraph object
+print.section           Print a section object
+print.sexpr             Print a sexpr object
+print.verbatim          Print a verbatim object
+section                 Create a section
+sexpr                   Insert an inline R result
+verbatim                Create a verbatim paragraph

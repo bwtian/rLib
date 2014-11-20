@@ -1,0 +1,53 @@
+CPDAG-class             Class CPDAG
+alarmnet                The ALARM network
+as.igraph               catNetwork to igraph
+breast                  Breast cancer data
+catNetwork-class        Class "catNetwork"
+catNetworkDistance-class
+                        Class "catNetworkDistance"
+catNetworkEvaluate-class
+                        Class "catNetworkEvaluate"
+catnet-package          catnet: Categorical Bayesian Network Inference
+cnCatnetFromEdges       catNetwork from Edges
+cnCatnetFromSif         Categorical Network from Simple Interaction
+                        File (SIF) and Bayesian Networks Interchange
+                        Format (BIF)
+cnCluster               Network Clustering
+cnCompare               Network Comparison
+cnComplexity            Network Complexity
+cnDiscretize            Data Categorization
+cnDot                   Network Description File
+cnEdges                 Network Edges
+cnEntropy               Pairwise Node Entropy
+cnFind                  Find Network by Complexity
+cnFindAIC               Find Network by AIC
+cnFindBIC               Find Network by BIC
+cnLoglik                Sample Log-likelihood
+cnMatEdges              Network Edge Matrix
+cnMatParents            Network Parent Matrix
+cnNew                   New catNetwork
+cnNodeLoglik            Node Log-likelihood
+cnNodeMarginalProb      Probability Calculations
+cnNodeSampleLoglik      Node Log-likelihood
+cnNodes                 Netwok Nodes
+cnNumNodes              Network Size
+cnOrder                 Network Node Order
+cnParHist               Parenthood Histogram
+cnParents               Network Parent Structure
+cnPearsonTest           Goodness of Fit Test
+cnPlot                  Plot Network
+cnPredict               Prediction
+cnProb                  Conditional Probability Structure
+cnRandomCatnet          Random Network
+cnReorderNodes          Reorder Network Nodes
+cnSamples               Samples from Network
+cnSearchHist            Parent Histogram Matrix
+cnSearchOrder           Network Search for Given Node Order
+cnSearchSA              Stochastic Network Search
+cnSetProb               Set Probability from Data
+cnSetSeed               Random Generator Seed
+cnSubNetwork            Sub-Network
+cvKfold                 Classification demonstration
+dag2cpdag               Complete Network Representation
+isDAG                   Check Direct Acyclic Graph (DAG) Condition
+novartis                Novartis multi-tissue data

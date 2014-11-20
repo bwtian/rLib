@@ -1,0 +1,10 @@
+R2Cuba-package          Multidimensional Numerical Integration
+cuhre                   Multidimensional numerical integration with a
+                        deterministic iterative adaptive algorithm
+divonne                 Multidimensional numerical integration by
+                        stratified sampling for variance reduction
+print.cuba              Method print for package R2Cuba
+suave                   Multidimensional numerical integration with
+                        SUbregion-Adaptive Vegas algorithm
+vegas                   Multidimensional numerical integration with a
+                        Monte Carlo algorithm

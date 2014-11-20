@@ -1,0 +1,13 @@
+adjamat                 Adjacency Matrix of a Mathematical Graph
+alldirected             Transform to Directed Graph
+commontail              Common Strings in Tail
+getpath                 Find a Path in a Mathematical Graph
+incidmat                Incidence Matrix for a Mathematical Graph
+justify                 Justify Elements of a Vector
+mathgraph               Create Mathematical Graph
+names.mathgraph         Edge Names in a Mathematical Graph
+plot.mathgraph          Plot a Mathematical Graph
+print.mathgraph         Print a Mathematical Graph
+sortmathgraph           Sort a Mathematical Graph
+stable.apply            Apply with Stable Dimensions
+unique.mathgraph        Unique Edges of a Mathematical Graph

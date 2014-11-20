@@ -1,0 +1,8 @@
+arsenic                 Concentrations of arsenic in water samples
+calibrate               Calibration for the simple linear regression
+                        model.
+crystal                 Crystal weight data
+invest                  Calibration for Linear and Nonlinear Regression
+                        Models.
+investr-package         Inverse estimation/calibration functions
+plotFit                 Plotting Confidence/Prediction Bands

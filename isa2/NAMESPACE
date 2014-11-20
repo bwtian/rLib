@@ -1,0 +1,23 @@
+export(isa.in.silico, ppa.in.silico, generate.seeds, images, isa.biclust)
+
+exportMethods("isa",
+              "isa.normalize",
+              "isa.iterate",
+              "isa.unique",
+              "robustness",
+              "isa.filter.robust",
+              "isa.sweep",
+              "sweep.graph",
+              "plotModules")
+
+exportMethods("ppa",
+              "ppa.normalize",
+              "ppa.iterate",
+              "ppa.unique",
+              "ppa.filter.robust")
+
+export(isa.option)
+
+##########
+
+useDynLib(isa2)

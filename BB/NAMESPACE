@@ -1,0 +1,9 @@
+export(
+  "multiStart",
+  "BBsolve",
+  "BBoptim",
+  "sane",
+  "dfsane",
+  "spg",
+  "projectLinear" 
+  )

@@ -1,0 +1,10 @@
+peacecf                 Counterfactual Replication Data from King and
+                        Zeng 2006b
+peacef                  Factual Replication Data from King and Zeng
+                        2006b
+plot.whatif             Plot Cumulative Frequencies of Distances for
+                        "whatif" Objects
+print.summary.whatif    Print "summary.whatif" Object
+print.whatif            Print "whatif" Object
+summary.whatif          Summary of "whatif" Object
+whatif                  Counterfactual Evaluation

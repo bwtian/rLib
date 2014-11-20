@@ -1,0 +1,7 @@
+help.matchit            HTML Help for Matchit Commands and Models
+lalonde                 Data from National Supported Work Demonstration
+                        and PSID, as analyzed by Dehejia and Wahba
+                        (1999).
+match.data              Output Matched Data Sets
+matchit                 MatchIt: Matching Software for Causal Inference
+user.prompt             Pause in demo files

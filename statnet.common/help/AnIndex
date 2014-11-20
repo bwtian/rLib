@@ -1,0 +1,12 @@
+check.control.class	check.control.class
+compress.data.frame	compress.data.frame
+NVL	NVL
+opttest	opttest
+paste.and	paste.and
+print.control.list	print.control.list
+set.control.class	set.control.class
+sort.data.frame	sort.data.frame
+statnet.cite.foot	statnet.cite
+statnet.cite.head	statnet.cite
+statnet.cite.pkg	statnet.cite
+statnetStartupMessage	statnetStartupMessage

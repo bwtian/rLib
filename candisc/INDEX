@@ -1,0 +1,16 @@
+Grass                   Yields from Nitrogen nutrition of grass species
+HSB                     High School and Beyond Data
+Wilks                   Wilks Lambda Tests for Canonical Correlations
+Wolves                  Wolf skulls
+cancor                  Canonical Correlation Analysis
+candisc                 Canonical discriminant analysis
+candisc-package         Visualizing Generalized Canonical Discriminant
+                        and Canonical Correlation Analysis
+candiscList             Canonical discriminant analyses
+dataIndex               Indices of observations in a model data frame
+heplot.cancor           Canonical Correlation HE plots
+heplot.candisc          Canonical Discriminant HE plots
+heplot.candiscList      Canonical Discriminant HE plots
+plot.cancor             Canonical Correlation Plots
+redundancy              Canonical Redundancy Analysis
+vectors                 Draw Labeled Vectors in 2D or 3D

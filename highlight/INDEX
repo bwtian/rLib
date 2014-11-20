@@ -1,0 +1,28 @@
+HighlightWeaveLatex     Sweave driver performing syntax highlighting
+Hweave                  Weaving and Tangling with syntax highlighting
+boxes_latex             Creates the set of latex boxes
+css.parser              Minimal CSS parser
+dummy_detective         Incompetent detective
+external_highlight      Multi-language source code highlighter
+formatter_html          html formatter
+formatter_latex         Latex formatter
+getStyleFile            get a style file
+header_html             html renderer header and footer
+header_latex            latex header and footer
+highlight               syntax highlighting based on the R parser
+highlight-package       Syntax highlighter for R
+highlight.httpd.handler
+                        httpd handler for highlight
+highlight_output_types
+                        List of available output types supported by
+                        external_highlight
+highlight_themes        List of themes supported by external_highlight
+renderer                highlight renderer
+renderer_html           html renderer using span tags and CSS
+renderer_latex          LaTeX renderer
+renderer_verbatim       A dummy renderer
+simple_detective        Simple detective
+styler                  Style definition generator
+styler_assistant_latex
+                        latex styler assistant
+translator_latex        LaTeX translator

@@ -1,0 +1,5 @@
+00.setRNG.Intro         setRNG
+getRNG                  get the RND and seed from an object
+random.number.test      Test the random number generator
+setRNG                  Set the Random Number Generator
+setRNG-package          setRNG

@@ -1,0 +1,37 @@
+ambition                Ambition and Attainment
+anxietyanger            Anxiety and Anger
+blauduncan              Blau and Duncan's data on the American
+                        occupational structure
+bloodpressure           Blood Pressure
+bodyfat                 Body Fat
+corkborings             Cork Borings
+fisherz                 Fisher's z-transform
+fowlbones               Fowl Bones
+fretsheads              Frets' Heads
+getgraph                Obtain graph from simultaneous p-values
+glucose                 Glucose
+grades                  School Grades
+hiv                     HIV
+holm                    Holm's step-down p-values
+is.blocks               Check variable blocking
+mathmarks               Mathematics marks
+moth                    Noctuid Moth Trappings
+plotBGpvalues           Plot simultaneous p-values for bidirected
+                        graphs
+plotCGpvalues           Plot simultaneous p-values for chain graphs
+plotDAGpvalues          Plot simultaneous p-values for acyclic directed
+                        graphs
+plotUGpvalues           Plot simultaneous p-values for undirected
+                        graphs
+pubprod                 Publishing productivity
+sdcor2cov               Covariance matrix
+sinBG                   SIN for bidirected graphs
+sinCG                   SIN for chain graphs
+sinDAG                  SIN for acyclic directed graphs
+sinUG                   SIN for undirected graphs
+socstatus               Social Status and Participation
+stressful               Stressful Events
+sur                     Simulated Data from Seemingly Unrelated
+                        Regressions
+university1992          Druzdzel and Glymour's University Data 1992
+university1993          Druzdzel and Glymour's University Data 1993

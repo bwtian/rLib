@@ -1,0 +1,12 @@
+format4Bugs             Format a Data List as BUGS Data Input
+genBugsScript           Generating Script File for BUGS
+genDataFile             Generating the Data File for BUGS
+genInitsFile            Generating Initial Value Files for BUGS
+getBugsOutput           Collect the MCMC samples from BUGS
+print.rbugs             Printing a rbugs object
+pumps                   10 Power Plant Pumps
+rbugs                   Run BUGS from R in a BATCH
+rbugs2coda              Rbugs to coda
+rio                     Dengue Fever in the State of Rio de Janeiro
+runBugs                 Execute a BUGS Srcipt from R
+schools                 8 schools

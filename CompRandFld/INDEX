@@ -1,0 +1,37 @@
+CheckCorrModel          Checking Correlation Model
+CheckInput              Checking Input
+CheckLikelihood         Checking Composite-likelihood Type
+CheckModel              Checking Random Field type
+CheckType               Checking Likelihood Objects
+CheckVarType            Checking Variance Estimates Type
+CompLikelihood          Optimizes the Composite log-likelihood
+CorrelationParam        Lists the Parameters of a Correlation Model
+Covariogram             Computes covariance, variogram and extremal
+                        coefficient functions
+Covmatrix               Spatio-temporal (tapered) Covariance Matrix
+Dist2Dist               Switches from an EV to Another EV Distribution
+EVariogram              Empirical Variogram(variants) of Gaussian,
+                        Binary and Max-Stable Fields
+FitComposite            Max-Likelihood-Based Fitting of Gaussian,
+                        Binary and Max-Stable Fields
+FitGev                  Max-likelihood Fitting of the GEV Distribution
+GevLogLik               Log-Likelihood of the GEV Distribution
+HypoTest                Statistical Hypothesis Tests for Nested Models
+InitParam               Initializes the Parameters for Estimation
+                        Procedures
+Kri                     Spatial and spatio temporal simple and ordinary
+                        (tapered) kriging
+Likelihood              Optimizes the Log Likelihood
+MomEst                  Estimation of the GEV parameters by the Method
+                        of Moments
+NuisanceParam           Lists the Nuisance Parameters of a Random Field
+RFsim                   Simulation of Gaussian, Binary and Max-stable
+                        Random Fields
+WLeastSquare            WLS of Gaussian and Max-Stable Random Fields
+WlsInit                 Computes Starting Values based on Weighted
+                        Least Squares
+us.coords               Gauging Stations of the Annual Maximum
+                        Rainfalls in U.S.
+usrain                  Annual Maximum Rainfalls in U.S.
+winds                   Irish Daily Wind Speeds
+winds.coords            Weather Stations of the Irish Daily Wind Speeds

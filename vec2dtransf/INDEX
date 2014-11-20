@@ -1,0 +1,18 @@
+AffineTransformation    Create an AffineTransformation object
+AffineTransformation-class
+                        Class "AffineTransformation"
+Cartesian2DCoordinateTransformation-class
+                        Class "Cartesian2DCoordinateTransformation"
+SimilarityTransformation
+                        Create an SimilarityTransformation object
+SimilarityTransformation-class
+                        Class "SimilarityTransformation"
+applyTransformation     Apply the transformation to an sp object
+calculateParameters     Calculate parameters
+control.points          Sample control points data.frame
+getParameters           Get tranformation parameters
+getRMSE                 Get RMSE
+getResiduals            Get residuals
+plotGridTransformation
+                        Plot grid transformation
+vec2dtransf             2D Cartesian Coordinate Transformation

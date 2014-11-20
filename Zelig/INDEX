@@ -1,0 +1,353 @@
+GetObject               Extract the fitted model object from the Zelig
+                        object
+GetSlot                 Generic method for extracting variables from
+                        both S3 and S4 fitted model object
+GetSlot.zelig           Return a Value from a 'zelig' Fitted Model
+MCMChook                Hook to Clean-up MCMC Objects
+MatchIt.url             Table of links for Zelig
+Max                     Compute the Maximum Value of a Vector
+McmcHookFactor          Hook to Clean-up MCMC Factor Object
+Median                  Compute the Statistical Median of a Vector
+Min                     Compute the Minumum Value of a Vector
+Mode                    Compute the Statistical Mode of a Vector
+PErisk                  Political Economic Risk Data from 62 Countries
+                        in 1987
+SupremeCourt            U.S. Supreme Court Vote Matrix
+TexCite                 Get a TeX-style Citation
+Weimar                  1932 Weimar election data
+Zelig-package           Zelig Everyone's Statistical Software
+Zelig.url               Table of links for Zelig
+ZeligDescribeModel      Produce a 'description' Object from the Name of
+                        a Model
+ZeligListModels         Get a Character-Vector of All Models with a
+                        'zelig2' Function
+ZeligListTitles         List the Titles of the Zelig Statistical Models
+alpha                   Extract ancillary parameters from 'parameters'
+                        objects
+approval                U.S. Presidential Approval Data
+as.bootlist             Convert of Vector of Bootstrapped Parameters to
+                        a List-style Boot Object
+as.bootvector           Convert Boot Object to a Vector
+as.data.frame.setx      Coerce a 'setx' Object into a 'data.frame'
+as.description          Generic Method for Casting 'description'
+                        Objects
+as.description.description
+                        description -> description
+as.description.list     list -> description
+as.matrix.pooled.setx   Convert a "pooled.setx" Object to a Matrix
+as.matrix.setx          Convert a 'setx' Object to a Matrix
+as.parameters           Generic Method for Converting Objects into
+                        'parameters'
+as.parameters.default   ??? -> parameters
+as.parameters.list      list -> parameters
+as.parameters.parameters
+                        parameters -> parameters This is merely an
+                        identity function when casting 'parameters'
+                        objects into 'parameters'.
+as.qi                   Generic Method for Converting Various Objects
+                        into 'qi' Objects 'qi' objects are list-style
+                        objects used by the 'summarize' function to
+                        compute simple summaries about the simulated
+                        data. For readability and and simplicity
+                        purposes, the 'qi' function typically returns a
+                        list of named simulations. This list is
+                        converted internally by Zelig into a 'qi'
+                        object so that several methods can be easily
+                        applied to the Quantities of Interest: plot,
+                        summarize, and print
+as.qi.default           ??? -> qi
+as.qi.list              list -> qi This function has a lot of room to
+                        go wrong. It tries o detect whether the zelig
+                        model is old-style or new-style (as of
+                        4/4/2011). Eventually this feature should be
+                        phased out.
+as.qi.qi                qi -> qi
+as.summarized           Generic Method for Casting Objectst as
+                        'summarized' Objects
+as.summarized.list      list -> summarized.qi Convert a list into a
+                        "summarized.qi" object
+as.summarized.summarized.qi
+                        summarized.qi -> summarized.qi
+attach.env              Attach Variables to a Function
+bivariate               Sample data for bivariate probit regression
+bootfn.default          Default Boot-strapping procedure
+bootstrap               Generic Method for "bootstrap"
+bootstrap.default       Produce Boot-strapped Parameters for a
+                        Statistical Model
+bootstrap.gamma         Bootstrap Parameters for Zelig "gamma" GLM
+bootstrap.negbinom      Bootstrap Parameters for Zelig "negbinom" GLM
+bootstrap.normal        Bootstrap Parameters for Zelig "normal" GLM
+callToString            Convert 'call' Object to a String
+cite                    Citation information for a 'description' object
+cluster.formula         Generate Formulae that Consider Clustering
+cmvglm                  cmvglm
+coalition               Coalition Dissolution in Parliamentary
+                        Democracies
+coalition2              Coalition Dissolution in Parliamentary
+                        Democracies, Modified Version
+coef.parameters         Return Simulations of Parameter Coefficients
+combine                 Produce All Combinations of a Set of Lists
+constructDataFrame      Construct Data Frame Construct and return a
+                        tiny (single-row) data-frame from a larger
+                        data-frame, a list of specified values, and a
+                        formula
+constructDesignMatrix   Construct Design Matrix from Construct and
+                        return a design matrix based on a tiny
+                        data-frame (single-row).
+depends.on.zelig        Whether a Statistical Package Depends on the
+                        Zelig Software Suite
+describe                Method to describe a model to Zelig
+describe.default        Default describe function for an arbitrary
+                        model This method exists solely as a backup
+                        when an author does not contribute a 'describe'
+                        function for their model
+describe.exp            Describe a "exp" model to Zelig
+describe.gamma          Describe the 'gamma' model to Zelig
+describe.logit          Describe a 'logit' model to Zelig
+describe.ls             Describe a 'ls' model to Zelig
+describe.negbinom       Describe the 'negbinom' model to Zelig
+describe.normal         Describe the 'normal' model to Zelig
+describe.poisson        Describe the 'poisson' model to Zelig
+describe.probit         Describe the 'probit' model to Zelig
+describe.tobit          Describe a "tobit" model to Zelig
+describe.zelig          Get Description Object Used to Cite this Zelig
+                        Model
+description             Constructor for the 'description' class
+eidat                   Simulation Data for Ecological Inference
+find.match              Find a Partial or Exact Match from a Vector of
+                        Strings Searches a vector of character-string,
+                        and returns the best match.
+free1                   Freedom of Speech Data
+free2                   Freedom of Speech Data
+friendship              Simulated Example of Schoolchildren Friendship
+                        Network
+get.package             Find the Zelig package that a particular model
+                        belong to
+getPredictorTerms       Get Predictor Terms from Zelig-style Formulae
+getResponseTerms        Get Response Terms from a Zelig-style Formula
+getResponseTerms.Formula
+                        Get Response Terms from a "Formula" Object
+getResponseTerms.formula
+                        Get Response Terms from a Standard Formula
+getResponseTerms.list   Get Response Terms from a List-style Formula
+grunfeld                Simulation Data for model Seemingly Unrelated
+                        Regression (sur) that corresponds to method SUR
+                        of systemfit
+has.zelig2              Whether an Arbitrary R-package has a Zelig2
+                        Function within Its Namespace
+help.zelig              Help system for Zelig models
+hoff                    Social Security Expenditure Data
+homerun                 Sample Data on Home Runs Hit By Mark McGwire
+                        and Sammy Sosa in 1998.
+ignore                  Constructor for the 'ignore' class This class
+                        is included for future use, and is currently
+                        not used in any Zelig model. It is designed for
+                        use with zelig2* functions
+immigration             Individual Preferences Over Immigration Policy
+is.formula              Whether an Object is a Formula
+is.qi                   Test If Value is Interpretable as a QI
+is.valid.qi.list        Check If Object Is a List of Valid Quantities
+                        of Interest
+is.zelig.compliant      Whether a R-Package Contains a 'Yes' in its
+                        DESCRIPTION File's 'Zelig' Field
+is.zelig.package        Wether an Installed R-Pack Depends on Zelig
+klein                   Simulation Data for model Two-Stage Least
+                        Square (twosls) that corresponds to method 2SLS
+                        of systemfit
+kmenta                  Simulation Data for model Three-Stage Least
+                        Square (threesls) that corresponds to method
+                        3SLS of systemfit
+link                    Method for extracting the link function from
+                        'parameters' objects
+linkinv                 Method for extracting the inverse link function
+                        from 'parameters' objects
+list.depth              Count the Depth of a List Object
+list.zelig.dependent.packages
+                        Get a List of Packages Installed on the Current
+                        Machine that Depend on Zelig
+list.zelig.models       List Zelig Models Installed on the Current
+                        Machine
+loadDependencies        Load External Dependencies Safely and
+                        Dynamically
+macro                   Macroeconomic Data
+make.parameters         ??? For use with cmvglm
+makeModelMatrix         Make a Model Matrix from a Zelig-Style Formula
+makeZeligObject         Make an Individual Zelig Object
+mexico                  Voting Data from the 1988 Mexican Presidental
+                        Election
+mi                      Bundle Data-sets for Multiple Imputation
+mid                     Militarized Interstate Disputes
+mix                     Produce All Combinations of a Set of Lists
+model.frame.multiple    Create Model Frame from 'multiple' Object
+model.matrix.multiple   Create Design Matrix of a 'multiple' Object
+model.matrix.parseFormula
+                        Construct Design Matrix from a Parsed,
+                        Zelig-style Formula
+multilevel              Multilevel
+name.object             Name Elements of an Object
+names.qi                The Names of a 'qi' Object
+newpainters             The Discretized Painter's Data of de Piles
+param                   Generic Method for Simulating
+                        Ancillary/Auxillary Parameters of Zelig Models
+param.default           Default Method for "param"
+param.exp               Param Method for the 'exp' Zelig Model
+param.gamma             param method for the 'gamma' Zelig model
+param.logit             Param Method for the 'logit' Zelig Model
+param.ls                Param Method for the 'ls' Zelig Model
+param.negbinom          Param Method for the 'negbinom' Zelig Model
+param.normal            Param Method for the 'normal' Zelig Model
+param.poisson           Param Method for the 'poisson' Zelig Model
+param.probit            Param Method for the 'probit' Zelig Model
+param.relogit           Estimate Parameters for the "relogit" Zelig
+                        Mdoel
+param.relogit2          Estimate Parameters for the "relogit" Zelig
+                        Mdoel
+param.tobit             Param Method for the 'tobit' Zelig Model
+parameters              Constructor for 'parameters' class
+parse.formula           Parse Formulas for Zelig Models
+parseFormula            Parse Zelig-style Formulae
+parseFormula.Formula    Parse "Formula"-style Zelig Formulae
+parseFormula.list       Parse List-Style Zelig Formulae
+plot.MI.sim             Plot graphs of simulated multiply-imputed data
+plot.ci                 Method for plotting pooled simulations by
+                        confidence intervals
+plot.pooled.sim         Method for plotting pooled simulations by
+                        confidence intervals
+plot.sim                Method for plotting simulations
+plot.simulations        Plot Any Simulation from the Zelig Core Package
+print.qi                Print a Quantity of Interest in Human-Readable
+                        Form
+print.qi.summarized     Print Method for Summarized Quantities of
+                        Interest
+print.setx              Print values of 'setx' objects
+print.setx.mi           Print a Bundle of Data-sets
+print.sim               Print values of 'sim' objects
+print.summary.MCMCZelig
+                        Print a Summary MCMCZelig Object
+print.summary.pooled.sim
+                        Print a Summary of a Set of Pooled Simulated
+                        Interests
+print.summary.relogit   Print Summary of a Rare-event Logistic Model
+print.summary.relogit2
+                        Print Summary of a Rare-event Logistic Model
+print.summary.sim       Print Values of a Summarized "sim" Object
+print.summarySim.MI     Print Multiply Imputed Simulations Summary
+print.zelig             Print values of "zelig" objects
+qi                      Generic Method for Computing Quantities of
+                        Interest
+qi.exp                  Compute quantities of interest for 'exp' Zelig
+                        models
+qi.summarize            Constructor for QI Summarized Class This class
+                        takes an arbitrary number of the _same_ type of
+                        quantities of interest labels them, then merges
+                        them into one simple printable block. In
+                        particular, this class determines which print
+                        function to use based on the the type and size
+                        od data to be passed to the print function.
+reduceMI                Reduce MI Formulas Take a formula in any of the
+                        reduced form or in a structural form and return
+                        the most reduced form of that formula
+relogit                 Fit a rare-event logistic model in Zelig
+repl                    Generic Method for Replicating Data
+repl.default            Default Method for Replicating Statistics
+repl.sim                Method for Replicating Simulated Quantities of
+                        Interest
+replace.call            Hook to Update the Zelig Call with the
+                        Appropriate Call Object
+robust.gee.hook         Classify Fitted Object as Naive or Robust
+robust.glm.hook         Hook for "glm" Models in Zelig
+rocplot                 Receiver Operator Characteristic Plots
+sanction                Multilateral Economic Sanctions
+setx                    Setting Explanatory Variable Values
+setx.MI                 Set Explanatory Variables for Multiply Imputed
+                        Data-sets This function simply calls
+                        setx.default once for every fitted model within
+                        the 'zelig.MI' object
+setx.default            Set explanatory variables
+sim                     Generic Method for Computing and Organizing
+                        Simulated Quantities of Interest Simulate
+                        quantities of interest from the estimated model
+                        output from 'zelig()' given specified values of
+                        explanatory variables established in 'setx()'.
+                        For classical _maximum likelihood_ models,
+                        'sim()' uses asymptotic normal approximation to
+                        the log-likelihood. For _Bayesian models_,
+                        Zelig simulates quantities of interest from the
+                        posterior density, whenever possible.  For
+                        _robust Bayesian models_, simulations are drawn
+                        from the identified class of Bayesian
+                        posteriors. Alternatively, you may generate
+                        quantities of interest using bootstrapped
+                        parameters.
+sim.MI                  Simulate Multiply Imputed Data
+sim.default             Method for Simulating Quantities of Interest
+                        wrom 'zelig' Objects
+simulation.matrix       Get Simulations as a Matrix
+simulations.parameters
+                        Return Simulations of Parameter Coefficients
+simulations.plot        Plot Quantities of Interest in a Zelig-fashion
+sna.ex                  Simulated Example of Social Network Data
+special_print_LIST      Method for Printing Summarized QI's in a List
+                        Form
+special_print_MATRIX    Method for Printing Summarized QI's in a Matrix
+                        Form
+splitUp                 Split a List into Two Lists This functions
+                        takes any list, and splits into two lists - one
+                        containing the values of arguments with
+                        specifically specified values and those without
+                        specified values.
+store.object            Store Object in Environment with a Fake Name
+structuralToReduced     Transform the Multilevel's Structural Formulas
+                        Into Reduced Form
+summarize               Generic methonf for summarizing simualted
+                        quantities of interest
+summarize.default       Summarize Simualted Quantities of Interest
+summary.MI              Summarry of Multiply Imputed Statistical Models
+summary.MI.sim          Method for summarizing simulations of multiply
+                        imputed quantities of interest
+summary.Relogit         Summary for "Relogit" Fitted Model
+summary.Relogit2        Summary for "Relogit2" Fitted Model
+summary.glm.robust      Summary of Generalized Linear Model with Robust
+                        Error Estimates
+summary.pooled.sim      Return a Summary of a Set of Pooled Simulated
+                        Interests
+summary.sim             Method for summarizing simulations of
+                        quantities of interest
+summary.zelig           Zelig Object Summaries
+swiss                   Swiss Fertility and Socioeconomic Indicators
+                        (1888) Data
+t.setx                  Matrix Transpose of a "setx" Object
+table.levels            Create a table, but ensure that the correct
+                        columns exist. In particular, this allows for
+                        entires with zero as a value, which is not the
+                        default for standard tables
+terms.multiple          Extract Terms from a 'multiple' Object
+terms.vglm              Model Terms for 'vglm' Models
+terms.zelig             Model Terms for a Zelig Object
+termsFromFormula        Extract Terms from Zelig-style Formulae
+toBuildFormula          Build Formula ???
+tobin                   Tobin's Tobit Data
+tolmerFormat            Convert a Formula into 'lmer' Representation
+                        from Reduced Form Take a formula in its reducd
+                        from and return it as a 'lmer' representation
+                        (from the lme4 package). This is basically
+                        removing the starting 'tag' from each term.
+turnout                 Turnout Data Set from the National Election
+                        Survey
+ucfirst                 Uppercase First Letter of a String
+user.prompt             Prompt User
+voteincome              Sample Turnout and Demographic Data from the
+                        2000 Current Population Survey
+z                       Return value for a zelig2-function
+zelig                   Estimating a Statistical Model
+zelig.call              Create Function Call
+zelig.skeleton          Creates a Skeleton for a New Zelig package
+zelig2                  Interface Between Zelig Models and External
+                        Functions
+zelig2exp               Zelig to Basic GLM Fitting Functions
+zelig2factor.bayes      Zelig Bridge Functions to Bayesian Models
+zelig2gamma.gee         Bridge between Zelig and the GEE Model Fitting
+                        Functions
+zelig2gamma.survey      Interface between 'Zelig' and 'svyglm'
+zeligBuildWeights       Developer Utility Function for Dealing with
+                        Observation Weighting

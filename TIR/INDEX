@@ -1,0 +1,3 @@
+TIR-package             What the package does (short line) ~~ package
+                        title ~~
+getGoogleMap            Get Google Man using ggmap function

@@ -1,0 +1,83 @@
+reporttools_1.1.1
+---------------------------------
+- Added function addLineBreak().
+
+reporttools_1.1.0
+---------------------------------
+- Reorganized inst/doc.
+- Modified description file.
+
+reporttools_1.0.9
+---------------------------------
+- Modified formatting of p-values in tableX-functions. Thanks to Patrick McCormick for the hint.
+- Modified 'transformVarNames' from data$var1 to data[, "var1"]
+- Added 'pairwise.fisher.test'
+- Enabled more passing through of xtable arguments. Thanks to John Horton and Ivan Hanigan for the suggestion. Added to the help file for tableNominal how to have a caption on top of the table, instead of at the bottom, as was the previous default.
+- Added to help  file of tableNominal how to enable repeating table names at the top of each page in the longtable format. Thanks to Ivan Hanigan for the suggestion.
+
+reporttools_1.0.8
+---------------------------------
+- Updated package to new testing framework on CRAN.
+
+reporttools_1.0.7
+---------------------------------
+- Added function displayCoxPH()
+- Added function displayCrossTabs()
+- Added function twoGroupComparisons()
+- Updated KRs contact details
+
+reporttools_1.0.6 (April 24, 2011)
+---------------------------------
+- Replaced 'vectorToString()' by 'paste()' using option 'collapse'
+- Add option 'percentage' to 'displayKbyC()'
+- Added functions 'NAtoZero()', 'attachPresAbs()', 'attachYesNo()'
+
+reporttools_1.0.5 (March 1, 2010)
+---------------------------------
+- added functions colToMat, correctVarNames, vectorToString
+- modified displayCI() so that it omits spaces between brackets
+  and numbers
+- added option 'cumsum' to tableNominal
+- added option 'col.tit.font' to tabulating functions
+- added NAMESPACE file
+- added p-value formatting to tabulating functions
+
+reporttools_1.0.4 (July 29, 2009)
+---------------------------------
+- added longtable option to table functions
+- modified prec command
+- default is now to provide a data.frame to vars
+- added JSS paper as vignette
+- added CITATION file
+- modified displayKbyC such that it can deal with subsets of v1 and v2
+  that do not contain all initial factor levels --> factor(., exclude = NULL)
+- modified disp such that it can handle vectors with missing values
+
+reporttools_1.0.3 (April 22, 2009)
+---------------------------------
+- removed 'summary' command from tableContinuous and tableDate
+- added option to use weights and subset to tableContinuous, tableDate, tableNominal
+- modified function 'disp'
+- Repaired third example in 'tableContinuous' help file
+
+reporttools_1.0.2 (March 4, 2009)
+---------------------------------
+- Changed input argument 'disp.cols' to 'stats' in tableContinuous
+  and tableDate, added possibility to specify own functions as statistics
+- Added option declare.zero to tableContinuous
+- In tableNominal, removed subscript in column titles if no group is provided
+- Corrected NAtoCategory to deal with missing factor levels
+- Corrected displayKbyC to properly deal with missing levels
+- Modified transformVarNames according to suggestion of S. Haile
+
+
+reporttools_1.0.1 (Nov 13, 2008)
+---------------------------------
+- added option simulate.p.value to Fisher
+  test in tableNominal
+- corrected some typos
+- corrected an error in NAtoCategory
+- added the function displayCI
+- generalized display2by2 to displayKbyC
+- added choice of tests in tableNominal,
+  tableContinuous

@@ -1,0 +1,332 @@
+GMTOffsetFromTz         Determine time offset from timezone
+[[,coastline,string,missing,ANY-method
+                        Access or modify part of an Oce object
+abbreviateTimeLabels    Abbreviate a list of times by removing
+                        commonalities (e.g. year)
+addColumn               Add a column to an oce object
+adp                     ADP (acoustic-doppler profiler) dataset
+adp-class               Class to store acoustic Doppler profiler data
+adv                     ADV (acoustic-doppler velocimeter) dataset
+adv-class               Class to store acoustic Doppler velocimeter
+                        data
+airRho                  Air density
+angleRemap              Convert angles from 0:360 to -180:180
+applyMagneticDeclination
+                        Earth magnetic declination
+approx3d                Trilinear interpolation in a 3D array
+as.coastline            Coerce data into coastline dataset
+as.ctd                  Coerce data into ctd dataset
+as.drifter              Coerce data into drifter dataset
+as.echosounder          Coerce data into echosounder dataset
+as.gps                  Coerce data into a GPS dataset
+as.lisst                Coerce data into a lisst object
+as.lobo                 Coerce data into lobo dataset
+as.met                  Coerce data into met dataset
+as.sealevel             Coerce data into sea-level dataset
+as.section              Coerce ctd data into section dataset
+as.tdr                  Create a TDR object
+as.topo                 Coerce data into topo dataset
+as.windrose             Create a windrose object
+bcdToInteger            Decode BCD to integer
+beamName                Name an acoustic-doppler beam.
+beamToXyz               Change ADV or ADP coordinate systems
+beamToXyzAdp            Change ADP coordinate system
+beamToXyzAdv            Convert ADV from beam coordinates to xyz
+                        coordinates
+beamUnspreadAdp         Adjust ADP signal for spherical spreading
+binApply                Apply a function to binned matrix data
+binAverage              Bin-average a vector y, based on x values
+binMean                 Bin-count or bin-average f=f(x) or f=f(x,y),
+                        based on x or (x,y) values
+binmapAdp               Bin-map an ADP object
+byteToBinary            Format bytes as binary
+cm                      Current-meter record
+cm-class                Class to store current meter data
+coastline-class         Class to store coastline data
+coastlineBest           Find the name of the best coastline file
+coastlineWorld          World coastline
+colormap                Calculate color map
+coriolis                Coriolis parameter on rotating earth
+ctd                     A CTD profile in Halifax Harbour
+ctd-class               Class to store hydrographic data
+ctdAddColumn            Add a column to a CTD file
+ctdDecimate             Decimate a CTD profile
+ctdFindProfiles         Find profiles within a towyow CTD record
+ctdRaw                  Seawater CTD profile, without trimming of
+                        extraneous data
+ctdTrim                 Trim start/end portions of a CTD cast
+ctdUpdateHeader         Update a CTD header
+ctimeToSeconds          Interpret a character string as a time interval
+decimate                Smooth and decimate an oce object
+decodeHeaderNortek      Decode a Nortek header
+decodeTime              Decode a time, similar to as.POSIXct()
+despike                 Remove spikes from a time series
+detrend                 Detrend a set of observations
+drawDirectionField      Draw a direction field
+drawIsopycnals          Add isopycnal curves to TS plot
+drawPalette             Draw palette on RHS of plot device
+drifter                 ARGO drifter dataset
+drifter-class           Class for drifter data
+drifterGrid             Grid a drifter
+echosounder             echosounder dataset
+echosounder-class       Class to store echosounder data
+eclipticalToEquatorial
+                        Convert ecliptical to equatorial coordinate
+enuToOtherAdp           Convert east-north-up to other coordinate
+enuToOtherAdv           Convert east-north-up to other coordinate
+equatorialToLocalHorizontal
+                        Convert equatorial to local horizontal
+                        coordinate
+errorbars               Draw error bars on an existing xy diagram
+extract                 Extract data from an oce object
+fillGap                 Fill a gap in an oce object
+findBottom              Find the ocean bottom in an echosounder object
+findInOrdered           Find indices of tiems in an ordered vector
+formatCI                Confidence interval in parenthetic notation
+formatPosition          Geographical position in degrees and minutes
+fullFilename            full name of file, including path
+geodDist                Geodesic distance on earth
+geodGc                  Great-circle segments between points on earth
+geodXy                  Convert lon/lat to x/y on earth
+gps-class               Class to store gps data
+grad                    Gradient of a matrix
+gravity                 Acceleration due to earth gravity
+head                    Ends of 'oce' objects.
+header                  Return the header for an Oce data object
+imagep                  Plot an image with a color palette
+integerToAscii          Decode integer to corresponding ASCII code
+integrateTrapezoid      Use trapezoidal integration
+interpBarnes            Grid data using Barnes algorithm
+is.beam                 Determine coordinate system
+julianCenturyAnomaly    Julian-Day number to Julian century
+julianDay               Convert a POSIXt time to a Julian day
+landsat-class           Class to store landsat data
+landsatAdd              Add a band to a landsat image
+landsatTrim             Trim a landsat image to a lat-lon box
+latFormat               Format a latitude
+latlonFormat            Format a latitude-longitude pair
+lisst                   LISST dataset
+lisst-class             Class to store LISST data
+lobo                    lobo dataset
+lobo-class              Class to store LOBO data
+loggerToc               Decode table-of-contents file from a datalogger
+lonFormat               Format a longitude
+lonlat2map              Convert from longitude and latitude to x-y
+                        coordinates
+lonlat2utm              Convert from longitude and latitude to UTM
+magneticField           Earth magnetic declination, inclination, and
+                        intensity
+makeFilter              Make a digital filter
+makeSection             Bind CTD profiles together into a cross section
+map2lonlat              Convert from x-y to longitude and latitude
+mapArrows               Plot arrows on a existing map
+mapContour              Plot contours on a existing map
+mapDirectionField       Plot a direction field on a existing map
+mapImage                Plot an image on a existing map
+mapLines                Plot lines on a existing map
+mapLocator              Locate points on a existing map
+mapLongitudeLatitudeXY
+                        Convert from longitude and latitude to x and y
+mapMeridians            Plot meridians on an existing map
+mapPlot                 Plot a map
+mapPoints               Plot points on a existing map
+mapPolygon              Plot a polygon on a existing map
+mapScalebar             Draw a scalebar on an existing map
+mapText                 Plot text on a existing map
+mapZones                Plot zones on an existing map
+matchBytes              Locate byte sequences in a raw vector
+matrixSmooth            Smooth a matrix.
+met                     Sample meteorological object
+met-class               Class to store meteorological data
+moonAngle               Lunar angle as function of space and time.
+nao                     North Atlantic Oscillation Index
+numberAsHMS             Convert a numeric time to hour, minute, and
+                        second
+numberAsPOSIXct         Convert a numeric time to a POSIXct time
+oce-class               base class of oce package
+oce.as.POSIXlt          More general form of as.POSIXlt
+oce.as.raw              Version of as.raw() that clips data
+oce.axis.POSIXct        Modified version of axis.POSIXct
+oce.plot.ts             Plot a time-series, obeying the timezone
+oce.write.table         Write the data portion of object to a file
+oceApprox               Interpolate 1D data with Unesco or
+                        Reiniger-Ross algorithm
+oceColorsJet            Create a palette of colours
+oceContour              Contour with ability to flip x and y
+oceConvolve             Convolve two time series
+oceDebug                Print a debugging message
+oceEdit                 Edit an oce object
+oceFilter               Filter a time-series, possibly recursively
+oceMagic                Find the type of an oceanographic data file
+ocePmatch               Partial matching of strings or numbers
+oceSmooth               Smooth an oce object
+oceSpectrum             Wrapper to give normalized spectrum
+parseLatLon             Parse a latitude or longitude string
+plot.adp                Plot ADP data
+plot.adv                Plot ADV data
+plot.cm                 Plot cm (current meter) data
+plot.coastline          Plot a coastline
+plot.ctd                Plot seawater CTD data
+plot.drifter            Plot drifter data
+plot.echosounder        Plot echosounder data
+plot.gps                Plot a gps object
+plot.landsat            Plot landsat data
+plot.lisst              Plot LISST data
+plot.lobo               Plot lobo data
+plot.met                Plot meteorological data
+plot.sealevel           Plot sealevel data
+plot.section            Plot a CTD section
+plot.tdr                Plot tdr (temperature-depth recorder) data
+plot.tidem              Plot a tidal fit
+plot.topo               Plot topography data
+plot.windrose           Plot a wind rose diagram
+plotInset               Plot an inset diagram
+plotPolar               Draw a polar plot.
+plotProfile             Plot a CTD profile of various quantities
+plotScan                Plot seawater data in a low-level fashion
+plotSticks              Draw a stick-plot diagram
+plotTS                  Plot temperature-salinity diagram
+plotTaylor              Plot a model-data comparison diagram.
+predict.tidem           Predict a time series from a tidal model
+prettyPosition          Pretty lat/lon in deg, min, sec
+processingLog           Add an item to object processingLog
+pwelch                  Welch periodogram
+rangeExtended           Calculate range, extended a little
+rangeLimit              Substitute NA for data outside a range
+read.adp                Read an ADP data file
+read.adv                Read an ADV data file
+read.cm                 Read a current-meter data file
+read.coastline          Scan a coastline data file
+read.ctd                Read a CTD data file
+read.drifter            Read a drifter data file
+read.echosounder        Read an echosounder data file
+read.gps                Scan a gps data file
+read.index              Read a NOAA ocean index file
+read.landsat            Read a landsat data file
+read.lisst              Read a LISST data file
+read.lobo               Read a lobo data file
+read.met                Read a meteorological data file
+read.observatory        Read observatory data file
+read.oce                Read an oceanographic data file
+read.sealevel           Read a sea-level data file
+read.section            Read a section containing multiple CTD profiles
+read.tdr                Read temperature-depth recorder file
+read.topo               Read an topography file
+rescale                 Rescale values to lie in a given range
+resizableLabel          Provide axis names in adjustable sizes
+retime                  Adjust the time within Oce object
+runlm                   Calculate running linear models
+sealevel                Sea-level data set, from Halifax Harbour
+sealevel-class          Class to store sealevel data
+sealevelTuktoyaktuk     Sea-level data set acquired in 1975 at
+                        Tuktoyaktuk
+secondsToCtime          Time interval as colon-separated string
+section                 Hydrographic section
+section-class           Class to store hydrographic section data
+sectionGrid             Grid a section
+sectionSmooth           Smooth a section
+sectionSort             Sort a section
+showMetadataItem        Show metadata item
+siderealTime            Convert a POSIXt time to a sidereal time
+soi                     Southern Oscillation Index
+standardDepths          Standard oceanographic depths
+subset.adp              Subset an adp object
+subset.adv              Subset an adv object
+subset.cm               Subset a cm object
+subset.coastline        Subset a coastline object
+subset.ctd              Subset a ctd object
+subset.drifter          Subset a drifter object
+subset.echosounder      Subset an echosounder object
+subset.lisst            Subset a lisst object
+subset.met              Subset a met object
+subset.oce              Subset an oce object
+subset.sealevel         Subset a sealevel object
+subset.section          Subset a section object
+subset.tdr              Subset a tdr object
+subset.topo             Subset a topo object
+subtractBottomVelocity
+                        Subtract bottom velocity from ADP velocity
+summary.adp             Summarize an ADP object
+summary.adv             Summarize an ADV object
+summary.cm              Summarize a cm (current meter) object
+summary.coastline       Summarize a coastline data object
+summary.ctd             Summarize a CTD object
+summary.drifter         Summarize a drifter object
+summary.echosounder     Summarize an echosounder object
+summary.gps             Summarize a gps object
+summary.landsat         Summarize a landsat object
+summary.lisst           Summarize a LISST object
+summary.lobo            Summarize a lobo data object
+summary.met             Summarize a met object
+summary.sealevel        Summarize a sealevel object
+summary.section         Summarize a CTD section
+summary.tdr             Summarize a tdr object
+summary.tidem           Summarize a tide-model object
+summary.topo            Summarize a topography data object
+summary.windrose        Summarize a windrose data object
+sunAngle                Solar angle as function of space and time.
+swAbsoluteSalinity      Seawater absolute salinity, in TEOS-10
+swAlpha                 Seawater thermal expansion coefficient
+swAlphaOverBeta         Ratio of seawater thermal expansion coefficient
+                        to haline contraction coefficient
+swBeta                  Seawater haline contraction coefficient
+swConductivity          Seawater thermal conductivity
+swConservativeTemperature
+                        Seawater conservative temperature, in TEOS-10.
+swDepth                 Water depth
+swDynamicHeight         Dynamic height of seawater profile
+swLapseRate             Seawater lapse rate
+swN2                    Squared buoyancy frequency for seawater
+swPressure              Water pressure
+swRho                   Seawater density
+swRrho                  Density ratio
+swSCTp                  Salinity from electrical conductivity,
+                        temperature and pressure
+swSTrho                 Seawater salinity from temperature and density
+swSigma                 Seawater density anomaly
+swSigmaT                Seawater quasi-potential density anomaly
+swSigmaTheta            Seawater potential density anomaly
+swSoundAbsorption       Seawater sound absorption in dB/m
+swSoundSpeed            Seawater sound speed
+swSpecificHeat          Seawater specific heat
+swSpice                 Seawater spiciness
+swTFreeze               Seawater freezing temperature
+swTSrho                 Seawater temperature from salinity and density
+swTheta                 Seawater potential temperature
+swViscosity             Seawater viscosity
+tdr                     tdr (temperature-data recorder) dataset
+tdr-class               Class to store temperature-depth recorder data
+tdrPatm                 Estimate atmospheric pressure in tdr record
+tdrTrim                 Trim start/end portions of a tdr cast
+teos                    Interface to TEOS-10 library
+teosSetLibrary          Set location of TEOS-10 library
+threenum                Calculate min, mean, and max values
+tidedata                Tidal constituent information
+tidem                   Fit a tidal model to a timeseries
+tidem-class             Class to store tidal-constituent models
+tidemAstron             Do ephemeris calculations for tidem
+tidemVuf                Do ephemeris calculations for tidem
+time.oce                Extract time from an oce object
+toEnuAdp                Convert from ENU coordinates
+toEnuAdv                Convert from ENU coordinates
+topo-class              Class to store topographic data
+topoInterpolate         Interpolate within a topography dataset
+topoWorld               Global topographic dataset at half-degree
+                        resolution
+unabbreviateYear        Determine year from various abbreviations
+undriftTime             Correct for drift in instrument clock
+ungrid                  Extract (x, y, z) from (x, y, grid)
+unwrapAngle             Unwrap an angle that suffers modulo-360
+                        problems
+useHeading              Replace the heading for one instrument with the
+                        heading for another
+utm2lonlat              Convert from UTM to longitude and latitude
+vectorShow              Show some values from a vector
+velocityStatistics      Report statistics of ADP or ADV velocities.
+webtide                 Get a tidal prediction from a WebTide database
+wind                    Wind dataset
+window.oce              Window an oce object by time or distance
+windrose-class          Class to store windrose data
+write.ctd               Write a CTD data object as a .csv file
+xyzToEnuAdp             Convert XYZ to ENU coordinates
+xyzToEnuAdv             Convert XYZ to ENU coordinates

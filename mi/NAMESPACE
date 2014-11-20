@@ -1,0 +1,169 @@
+importFrom("stats",
+      coef,
+      coefficients,
+      fitted,
+      resid,
+      residuals,
+      update
+)
+
+importFrom(lme4, "lmer", "glmer")
+
+importFrom(methods, "setOldClass")
+
+importFrom("Matrix",
+      Matrix,
+      tcrossprod
+)
+
+import(foreign)
+
+importFrom(MASS, "polr",
+                 "mvrnorm")
+
+importFrom(R2WinBUGS, "as.bugs.array")
+
+importFrom(abind, "abind")
+
+importFrom(nnet, "multinom")
+
+importFrom(car, "recode")
+
+importFrom("arm",
+      bayesglm,
+      bayespolr,
+      sim,
+      display,
+      logit,
+      invlogit,
+      se.coef,
+      sigma.hat,
+      traceplot,
+      fixef
+)
+
+exportClasses(
+  mi,
+  mi.copy,
+  mi.method,
+  mi.fixed,
+  mi.binary,
+  mi.polr,
+  mi.categorical,
+  mi.continuous,
+  mi.count,
+  mi.info,
+  mi.pmm,
+  mi.pooled,
+  mi.preprocessed
+)
+
+exportMethods(
+  bugs.mi,
+  call.mi,
+  data.mi,
+  info.mi,
+  is.mi,
+  coef,
+  coefficients,
+  converged,
+  display,
+  fitted,
+  imputed,
+  imp,
+  m,
+  mi,
+  mi.hist,
+  mi.completed,
+  mi.data.frame,
+  plot,
+  resid,
+  residuals,
+  se.coef,
+  sigma.hat,
+  typecast,
+  print,
+  show
+)
+
+export(
+  bayesglm.mi,
+  bayespolr.mi,
+  bugs.mi,
+  call.mi,
+  conv.plot,
+  converged,
+  convergence.plot,
+  data.mi,
+  glm.mi,
+  glmer.mi,
+  imp,
+  imputed,
+  info.mi,
+  is.mi,
+  is.mi.info,
+  lm.mi,
+  lmer.mi,
+  m,
+  mi,
+  marginal.scatterplot,
+  mi,
+  mi.categorical,
+  mi.completed,
+  mi.continuous,
+  mi.copy,
+  mi.count,
+  mi.data.frame,
+  mi.binary,
+  mi.fixed,
+  mi.hist,
+  mi.info,
+  mi.info.fix,
+  mi.info.update.collinear,
+  mi.info.update.determ.pred,
+  mi.info.update.imp.formula,
+  mi.info.update.imp.order,
+  mi.info.update.include,
+  mi.info.update.is.ID,
+  mi.info.update.level,
+  mi.info.update.other,
+  mi.info.update.params,
+#  mi.info.update.transform,
+  mi.info.update.type,
+  mi.interactive,
+  mi.preprocess,
+  mi.postprocess,
+  mi.polr,
+  mi.pooled,
+  mi.scatterplot,
+  mi.types,
+  missing.pattern.plot,
+  mp.plot,
+  polr.mi,
+  noise.control,
+  random.imp,
+  typecast,
+  type.models,
+  write.mi
+)
+
+#
+#S3method(residuals, mi.method)
+#S3method(residuals, mi.binary)
+#S3method(residuals, mi.categorical)
+#S3method(residuals, mi.polr)
+#S3method(residuals, mi.count)
+#S3method(resid, mi.method)
+#S3method(resid, mi.binary)
+#S3method(resid, mi.categorical)
+#S3method(resid, mi.polr)
+#S3method(resid, mi.count)
+S3method(update, mi.info)
+S3method(print, mi)
+S3method(print, mi.pooled)
+S3method(print, mi.info)
+S3method(print, mi.method)
+S3method("[<-", mi.info)
+S3method("$<-", mi.info)
+S3method("[", mi.info)
+S3method("$", mi.info)

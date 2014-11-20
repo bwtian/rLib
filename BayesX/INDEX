@@ -1,0 +1,29 @@
+BayesX-package          R Utilities Accompanying the Software Package
+                        BayesX
+add.neighbor            Add Neighborhood Relations
+bnd2gra                 Convert Boundary Format to Graph Format
+createxymap             Create map objects for some points and a given
+                        distance
+delete.neighbor         Delete Neighborhood Relations
+drawmap                 Drawing Geographical Information
+extractSamples          Extract MCMC samples from a BayesX results
+                        directory
+fuse                    Combine Regions
+get.centroids           Compute Centroids of Polygons
+get.neighbor            Obtain Neighbors of Given Regions
+hpd                     Computing Highest Posterior Density (HPD)
+                        Intervals
+nb2gra                  Convert nb and gra format into each other
+plotautocor             Computing and Plotting Autocorrelation
+                        Functions
+plotnonp                Plotting Nonparametric Function Estimates
+plotsample              Plotting Sampling Paths
+plotsurf                Visualise Surface Estimates
+read.bnd                Read Geographical Information in Boundary
+                        Format
+read.gra                Read Geographical Information in Graph Format
+shp2bnd                 convert a shape-file into a boundary object
+smooth.bnd              Round Boundary Information
+sp2bnd                  Convert sp and bnd format into each other
+write.bnd               Saving Maps in Boundary Format
+write.gra               Saving Maps in Graph Format

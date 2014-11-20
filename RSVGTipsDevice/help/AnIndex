@@ -1,0 +1,9 @@
+devSVGTips	devSVGTips
+encodeSVGSpecialChars	encodeSVGSpecialChars
+getSVGToolTipMode	getSVGToolTipMode
+RSVGTipsDevice	RSVGTipsDevice
+RSVGTipsDevice.design	RSVGTipsDevice.design
+setSVGShapeContents	setSVGShapeContents
+setSVGShapeToolTip	setSVGShapeToolTip
+setSVGShapeURL	setSVGShapeURL
+SVG.viewing	SVG.viewing

@@ -1,0 +1,49 @@
+Adopted                 Adopted Children
+Bees                    Captive and maltreated bees
+FootHead                Head measurements of football players
+Headache                Treatment of Headache Sufferers for Sensitivity
+                        to Noise
+Hernior                 Recovery from Elective Herniorrhaphy
+MockJury                Effects Of Physical Attractiveness Upon Mock
+                        Jury Decisions
+NLSY                    National Longitudinal Survey of Youth Data
+Oslo                    Oslo Transect Subset Data
+Plastic                 Plastic Film Data
+Pottery2                Chemical Analysis of Romano-British Pottery
+Probe                   Response Speed in a Probe Experiment
+RatWeight               Weight Gain in Rats Exposed to Thiouracil and
+                        Thyroxin
+ReactTime               Reaction Time Data
+Rohwer                  Rohwer Data Set
+RootStock               Growth of Apple Trees from Different Root
+                        Stocks
+Sake                    Taste Ratings of Japanese Rice Wine (Sake)
+Skulls                  Egyptian Skulls
+SocGrades               Grades in a Sociology Course
+VocabGrowth             Vocabulary growth data
+WeightLoss              Weight Loss Data
+arrow3d                 Draw a 3D Arrow in an RGL Scene
+coefplot                Coefficient plots for Multivariate Linear
+                        Models
+cross3d                 Draw a 3D cross in an rgl scene
+ellipse3d.axes          Draw axes of a 3D ellipsoid
+etasq                   Measures of Partial Association (Eta-squared)
+                        for Linear Models
+gsorth                  Orthogonalize successive columns of a data
+                        frame or matrix
+heplot                  Two-Dimensional HE Plots
+heplot1d                One-Dimensional HE Plots
+heplot3d                Three-Dimensional HE Plots
+heplots-package         Visualizing Hypothesis Tests in Multivariate
+                        Linear Models
+interpPlot              Plot an Interpolation Between Two Related Data
+                        Sets
+label.ellipse           Draw a Label on an Ellipse-like Object
+mark.H0                 Mark a point null hypothesis in an HE plot
+pairs.mlm               Pairwise HE Plots
+robmlm                  Robust Fitting of Multivariate Linear Models
+schooldata              School Data
+statList                Calculate statistics for levels of factors
+termMeans               Calculate Means for a Term in a Multivariate
+                        Linear Model
+trans.colors            Make Colors Transparent

@@ -1,0 +1,8 @@
+MaungaWhau              Fake data for the Maunga Whau volcano
+carw                    The Carolina Wren data used by Royle et al.
+                        (2012)
+maxlike                 Model occurrence probability using
+                        presence-only data
+maxlike-package         Model species distributions by estimating the
+                        probability of occurrence using presence-only
+                        data.

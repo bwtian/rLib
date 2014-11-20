@@ -1,0 +1,14 @@
+RSVGTipsDevice          A SVG Graphics Driver with dynamic tips
+RSVGTipsDevice.design   Design and future of the SVG Graphics Driver
+                        with dynamic tips
+SVG.viewing             Ways to view SVG files
+devSVGTips              A graphics device for SVG with dynamic tips and
+                        hyperlinks
+encodeSVGSpecialChars   Encode SVG special chars (ampersand, etc)
+getSVGToolTipMode       Return the tool tip mode of the RSVGTips device
+setSVGShapeContents     Set raw shape contents (XML text) for the next
+                        graphics shape drawn with the RSVGTips device.
+setSVGShapeToolTip      Set the tool tip for the next graphics shape
+                        drawn with the RSVGTips device.
+setSVGShapeURL          Set raw shape URL (XML text) for the next
+                        graphics shape drawn with the RSVGTips device.

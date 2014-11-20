@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>R: Functions for optimal matching</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="R.css">
+</head><body>
+<h1> Functions for optimal matching
+<img class="toplogo" src="../../../doc/html/logo.jpg" alt="[R logo]">
+</h1>
+<hr>
+<div align="center">
+<a href="../../../doc/html/packages.html"><img src="../../../doc/html/left.jpg" alt="[Up]" width="30" height="30" border="0"></a>
+<a href="../../../doc/html/index.html"><img src="../../../doc/html/up.jpg" alt="[Top]" width="30" height="30" border="0"></a>
+</div><h2>Documentation for package &lsquo;optmatch&rsquo; version 0.9-3</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../demo">Code demos</a>.  Use <a href="../../utils/help/demo">demo()</a> to run them.</li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table width="100%">
+<tr><td width="25%"><a href="antiExactMatch.html">antiExactMatch</a></td>
+<td>Specify a matching problem where units in a common factor cannot be matched.</td></tr>
+<tr><td width="25%"><a href="makeInfinitySparseMatrix.html">as.InfinitySparseMatrix</a></td>
+<td>(Internal) Creating sparse matching problems</td></tr>
+<tr><td width="25%"><a href="exactMatch.html">BlockedInfinitySparseMatrix-class</a></td>
+<td>Generate an exact matching set of subproblems</td></tr>
+<tr><td width="25%"><a href="caliper-methods.html">caliper</a></td>
+<td>Prepare matching distances suitable for matching within calipers.</td></tr>
+<tr><td width="25%"><a href="caliper-methods.html">caliper-method</a></td>
+<td>Prepare matching distances suitable for matching within calipers.</td></tr>
+<tr><td width="25%"><a href="caliper-methods.html">caliper-methods</a></td>
+<td>Prepare matching distances suitable for matching within calipers.</td></tr>
+<tr><td width="25%"><a href="caliperSize.html">caliperSize</a></td>
+<td>(Internal) Determines how many other units fall within a caliper distance</td></tr>
+<tr><td width="25%"><a href="caliperUpperBound.html">caliperUpperBound</a></td>
+<td>(Internal) Returns a reasonable upper bound on the arcs remaining after placing a caliper.</td></tr>
+<tr><td width="25%"><a href="compare_optmatch.html">compare_optmatch</a></td>
+<td>Compares the equality of optmatch objects, ignoring attributes and group names.</td></tr>
+<tr><td width="25%"><a href="makeInfinitySparseMatrix.html">dimnames-method</a></td>
+<td>(Internal) Creating sparse matching problems</td></tr>
+<tr><td width="25%"><a href="makeInfinitySparseMatrix.html">dimnames&lt;--method</a></td>
+<td>(Internal) Creating sparse matching problems</td></tr>
+<tr><td width="25%"><a href="distUnion.html">distUnion</a></td>
+<td>Combine multiple distance specifications into a single distance specification.</td></tr>
+<tr><td width="25%"><a href="dist_digest.html">dist_digest</a></td>
+<td>(Internal) Remove the call before digesting a distance so things like omitting caliper and calling caliper=NULL give the same digest</td></tr>
+<tr><td width="25%"><a href="effectiveSampleSize.html">effectiveSampleSize</a></td>
+<td>Compute the effective sample size of a match.</td></tr>
+<tr><td width="25%"><a href="exactMatch.html">exactMatch</a></td>
+<td>Generate an exact matching set of subproblems</td></tr>
+<tr><td width="25%"><a href="exactMatch.html">exactMatch-method</a></td>
+<td>Generate an exact matching set of subproblems</td></tr>
+<tr><td width="25%"><a href="exactMatch.html">exactMatch-methods</a></td>
+<td>Generate an exact matching set of subproblems</td></tr>
+<tr><td width="25%"><a href="fill.NAs.html">fill.NAs</a></td>
+<td>Create missingness indicator variables and non-informatively fill in missing values</td></tr>
+<tr><td width="25%"><a href="fmla2treatedblocking.html">fmla2treatedblocking</a></td>
+<td>(Internal) A helper function to turn formulas into treatment and blocking variables</td></tr>
+<tr><td width="25%"><a href="fullmatch.html">full</a></td>
+<td>Optimal full matching</td></tr>
+<tr><td width="25%"><a href="fullmatch.html">fullmatch</a></td>
+<td>Optimal full matching</td></tr>
+<tr><td width="25%"><a href="getMaxProblemSize.html">getMaxProblemSize</a></td>
+<td>(Internal) What is the maximum allowed problem size?</td></tr>
+<tr><td width="25%"><a href="match_on-methods.html">InfinitySparseMatrix-class</a></td>
+<td>Create treated to control distances for matching problems</td></tr>
+<tr><td width="25%"><a href="optmatch-defunct.html">mahal.dist</a></td>
+<td>Functions deprecated or removed from optmatch</td></tr>
+<tr><td width="25%"><a href="makeInfinitySparseMatrix.html">makeInfinitySparseMatrix</a></td>
+<td>(Internal) Creating sparse matching problems</td></tr>
+<tr><td width="25%"><a href="makeOptmatch.html">makeOptmatch</a></td>
+<td>(Internal) Create 'optmatch' objects, the result of matching.</td></tr>
+<tr><td width="25%"><a href="matched.html">matched</a></td>
+<td>Identification of units placed into matched sets</td></tr>
+<tr><td width="25%"><a href="matched.distances.html">matched.distances</a></td>
+<td>Determine distances between matched units</td></tr>
+<tr><td width="25%"><a href="matched.html">matchfailed</a></td>
+<td>Identification of units placed into matched sets</td></tr>
+<tr><td width="25%"><a href="match_on-methods.html">match_on</a></td>
+<td>Create treated to control distances for matching problems</td></tr>
+<tr><td width="25%"><a href="match_on-methods.html">match_on.bigglm</a></td>
+<td>Create treated to control distances for matching problems</td></tr>
+<tr><td width="25%"><a href="match_on-methods.html">match_on.formula</a></td>
+<td>Create treated to control distances for matching problems</td></tr>
+<tr><td width="25%"><a href="match_on-methods.html">match_on.function</a></td>
+<td>Create treated to control distances for matching problems</td></tr>
+<tr><td width="25%"><a href="match_on-methods.html">match_on.glm</a></td>
+<td>Create treated to control distances for matching problems</td></tr>
+<tr><td width="25%"><a href="match_on-methods.html">match_on.InfinitySparseMatrix</a></td>
+<td>Create treated to control distances for matching problems</td></tr>
+<tr><td width="25%"><a href="match_on-methods.html">match_on.matrix</a></td>
+<td>Create treated to control distances for matching problems</td></tr>
+<tr><td width="25%"><a href="match_on-methods.html">match_on.numeric</a></td>
+<td>Create treated to control distances for matching problems</td></tr>
+<tr><td width="25%"><a href="maxCaliper.html">maxCaliper</a></td>
+<td>Find the maximum caliper width that will create a feasible problem.</td></tr>
+<tr><td width="25%"><a href="min.controls.cap.html">maxControlsCap</a></td>
+<td>Set thinning and thickening caps for full matching</td></tr>
+<tr><td width="25%"><a href="mdist.html">mdist</a></td>
+<td>(Deprecated, in favor of 'match_on') Create matching distances</td></tr>
+<tr><td width="25%"><a href="min.controls.cap.html">minControlsCap</a></td>
+<td>Set thinning and thickening caps for full matching</td></tr>
+<tr><td width="25%"><a href="minExactMatch.html">minExactMatch</a></td>
+<td>Find the minimal exact match factors that will be feasible for a given maximum problem size.</td></tr>
+<tr><td width="25%"><a href="nuclearplants.html">nuclearplants</a></td>
+<td>Nuclear Power Station Construction Data</td></tr>
+<tr><td width="25%"><a href="num_eligible_matches-methods.html">num_eligible_matches</a></td>
+<td>Returns the number of eligible matches for the distance.</td></tr>
+<tr><td width="25%"><a href="num_eligible_matches-methods.html">num_eligible_matches.BlockedInfinitySparseMatrix</a></td>
+<td>Returns the number of eligible matches for the distance.</td></tr>
+<tr><td width="25%"><a href="num_eligible_matches-methods.html">num_eligible_matches.InfinitySparseMatrix</a></td>
+<td>Returns the number of eligible matches for the distance.</td></tr>
+<tr><td width="25%"><a href="num_eligible_matches-methods.html">num_eligible_matches.matrix</a></td>
+<td>Returns the number of eligible matches for the distance.</td></tr>
+<tr><td width="25%"><a href="num_eligible_matches-methods.html">num_eligible_matches.optmatch.dlist</a></td>
+<td>Returns the number of eligible matches for the distance.</td></tr>
+<tr><td width="25%"><a href="optmatch.html">optmatch</a></td>
+<td>Optmatch Class</td></tr>
+<tr><td width="25%"><a href="optmatch.html">optmatch-class</a></td>
+<td>Optmatch Class</td></tr>
+<tr><td width="25%"><a href="optmatch-defunct.html">optmatch-defunct</a></td>
+<td>Functions deprecated or removed from optmatch</td></tr>
+<tr><td width="25%"><a href="optmatch_restrictions.html">optmatch_restrictions</a></td>
+<td>optmatch_restrictions</td></tr>
+<tr><td width="25%"><a href="optmatch_same_distance.html">optmatch_same_distance</a></td>
+<td>Checks if the distance 'newdist' is identical to the distance used to generate the optmatch object 'obj'.</td></tr>
+<tr><td width="25%"><a href="pairmatch.html">pair</a></td>
+<td>Optimal 1:1 and 1:k matching</td></tr>
+<tr><td width="25%"><a href="pairmatch.html">pairmatch</a></td>
+<td>Optimal 1:1 and 1:k matching</td></tr>
+<tr><td width="25%"><a href="plantdist.html">plantdist</a></td>
+<td>Dissimilarities of Some U.S. Nuclear Plants</td></tr>
+<tr><td width="25%"><a href="print.optmatch.html">print.optmatch</a></td>
+<td>Printing 'optmatch' objects.</td></tr>
+<tr><td width="25%"><a href="optmatch-defunct.html">pscore.dist</a></td>
+<td>Functions deprecated or removed from optmatch</td></tr>
+<tr><td width="25%"><a href="relaxinfo.html">relaxinfo</a></td>
+<td>Display license information about embedded code</td></tr>
+<tr><td width="25%"><a href="scoreCaliper.html">scoreCaliper</a></td>
+<td>(Internal) Helper function to create an InfinitySparseMatrix from a set of scores, a treatment indicator, and a caliper width.</td></tr>
+<tr><td width="25%"><a href="scores.html">scores</a></td>
+<td>Wrapper for 'predict' to cleanly look for new data to predict on.</td></tr>
+<tr><td width="25%"><a href="setFeasibilityConstants.html">setFeasibilityConstants</a></td>
+<td>(Internal) Sets up the default values for maximum feasible problems</td></tr>
+<tr><td width="25%"><a href="setTryRecovery.html">setTryRecovery</a></td>
+<td>(Internal) Sets up option to try recovery in 'fullmatch'.</td></tr>
+<tr><td width="25%"><a href="stratumStructure.html">stratumStructure</a></td>
+<td>Return structure of matched sets</td></tr>
+<tr><td width="25%"><a href="subdim-methods.html">subdim</a></td>
+<td>Returns the dimension of each valid subproblem</td></tr>
+<tr><td width="25%"><a href="subdim-methods.html">subdim.BlockedInfinitySparseMatrix</a></td>
+<td>Returns the dimension of each valid subproblem</td></tr>
+<tr><td width="25%"><a href="subdim-methods.html">subdim.InfinitySparseMatrix</a></td>
+<td>Returns the dimension of each valid subproblem</td></tr>
+<tr><td width="25%"><a href="subdim-methods.html">subdim.matrix</a></td>
+<td>Returns the dimension of each valid subproblem</td></tr>
+<tr><td width="25%"><a href="subdim-methods.html">subdim.optmatch.dlist</a></td>
+<td>Returns the dimension of each valid subproblem</td></tr>
+<tr><td width="25%"><a href="subproblemSuccess.html">subproblemSuccess</a></td>
+<td>(Internal) Report successful subproblems.</td></tr>
+<tr><td width="25%"><a href="optmatch.html">summary.optmatch</a></td>
+<td>Optmatch Class</td></tr>
+<tr><td width="25%"><a href="matched.html">unmatched</a></td>
+<td>Identification of units placed into matched sets</td></tr>
+<tr><td width="25%"><a href="update.optmatch.html">update.optmatch</a></td>
+<td>Performs an update on an 'optmatch' object.</td></tr>
+<tr><td width="25%"><a href="validDistanceSpecification.html">validDistanceSpecification</a></td>
+<td>(Internal) Validate that objects are valid distance specifications.</td></tr>
+</table>
+</body></html>

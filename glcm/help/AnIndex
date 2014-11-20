@@ -1,0 +1,8 @@
+glcm-package	glcm-package
+calc_texture	calc_texture
+expected_textures_3x3_1x1	expected_textures_3x3_1x1
+expected_textures_5x3_n1xn2	expected_textures_5x3_n1xn2
+expected_textures_5x7_2x3	expected_textures_5x7_2x3
+glcm	glcm
+L5TSR_1986	L5TSR_1986
+test_raster	test_raster

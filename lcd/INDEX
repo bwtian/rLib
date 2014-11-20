@@ -1,0 +1,37 @@
+alarm.net               Graph structure of ALARM network
+all.equal-methods       All.equal method for sep.pair class
+as.freq.tb              Frequency table transformation
+comp.pat                Pattern comparison
+comp.skel               Skeleton comparison
+compress.freq.tb        Frequency table compression
+draw                    Draw graph
+freq.tb-class           Class "freq.tb"
+get.multinom.dist       Random multinomial distribution generation from
+                        a chain graph
+get.normal.dist         Random normal distribution generation from a
+                        chain graph
+is.chaingraph           Chain graph verification
+is.separated            c-separation on the chain graph
+lcd-package             Structural learning of chain graphs via the
+                        decomposition approach
+learn.complex.norm      Graph learning functions
+maxcard.search          Maximum cardinality search
+moralize                Chain graph moralization
+multinom.ci.test        Conditional independence test for multinomial
+                        data
+naive.getug.multinom    A naive function to get an undirected graph for
+                        multinomial data
+naive.getug.norm        A naive function to get an undirected graph for
+                        normal data
+norm.ci.test            Conditional independence test for multivariate
+                        normal data
+pattern                 Chain graph pattern computation
+rmultinom.cg            Random multinomial sample from a chain graph
+rnorm.cg                Random normal sample from a chain graph
+sep.pair-class          Class "sep.pair"
+sep.tree-class          Class "sep.tree"
+show-methods            Show method for sep.pair class
+skeleton                Graph skeleton
+toy.graph               Graph structure of a toy example
+tri.ug                  Triangulation of an undirected graph
+ug.to.jtree             Junction tree construction for undirected graph

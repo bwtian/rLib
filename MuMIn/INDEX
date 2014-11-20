@@ -1,0 +1,27 @@
+AICc                    Second-order Akaike Information Criterion
+Beetle                  Flour beetle mortality data
+Cement                  Cement hardening data
+IC                      Various information criteria
+MuMIn-model-utils       Model utility functions
+MuMIn-models            List of supported models
+MuMIn-package           Multi-model inference
+QAIC                    Quasi AIC or AICc
+QIC                     QIC and quasi-Likelihood for GEE
+Weights                 Akaike weights
+dredge                  Automated model selection
+get.models              Evaluate models from selection table
+importance              Relative variable importance
+merge.model.selection   Combine model selection tables
+model.avg               Model averaging
+model.sel               model selection table
+par.avg                 Parameter averaging
+pdredge                 Automated model selection using parallel
+                        computation
+predict.averaging       Predict method for the averaged model
+r.squaredGLMM           Pseudo-R-squared for Generalized Mixed-Effect
+                        models
+r.squaredLR             Likelihood-ratio based pseudo-R-squared
+simplify.formula        Manipulate model formulas
+subset.model.selection
+                        Subsetting model selection table
+updateable              Make a function return updateable result

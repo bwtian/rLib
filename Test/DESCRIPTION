@@ -1,0 +1,10 @@
+Package: Test
+Type: Package
+Title: What the package does (short line)
+Version: 0.0.1
+Date: 2012-11-12
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: GPL
+Built: R 3.1.0; ; 2014-09-14 10:25:00.843 UTC; unix

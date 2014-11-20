@@ -1,0 +1,3 @@
+Rtemplate-package       What the package does (short line) ~~ package
+                        title ~~
+aFunction               Multiplies two numbers and returns the result

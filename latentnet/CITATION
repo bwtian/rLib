@@ -1,0 +1,16 @@
+library(statnet.common)
+statnet.cite.head("latentnet")
+statnet.cite.pkg("latentnet")
+
+bibentry("Article",
+         title = "Fitting position latent cluster models for social networks with latentnet",
+         author = personList(as.person("Pavel N. Krivitsky"),
+                             as.person("Mark S. Handcock")), 
+         year         = 2008,
+         volume = 24,
+         number = 5,
+         journal = "Journal of Statistical Software"	 
+         )
+
+statnet.cite.foot("latentnet")
+

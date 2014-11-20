@@ -1,0 +1,18 @@
+DownloadLandsat         creates a raster with the brightness
+                        temperature extrcted from Landsat tirs1 band
+ReadLandsat8            Reads a Landsat 8 product
+ToAtSatelliteBrightnessTemperature
+                        creates a raster with the brightness
+                        temperature extrcted from Landsat tirs1 band
+ToLSWI                  creates a raster with the LSWI vegetation index
+ToMNDWI                 creates a raster with the MNDWI vegetation
+                        index
+ToNBR                   creates a raster with the Normalized Burn Ratio
+                        (NBR) index
+ToNBRClass              creates a raster with the classified Normalized
+                        Burn Ratio (NBR) index
+ToNDVI                  creates a raster with the NDVI vegetation index
+ToTOARadiance           creates a raster with the TOA radiance
+ToTOAReflectance        creates a raster with the TOA reflectance
+dNBR                    creates a raster with the difference of
+                        Normalized Burn Ratio (NBR) index

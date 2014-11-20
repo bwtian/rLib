@@ -1,0 +1,34 @@
+    CHANGES IN testit VERSION 0.3
+
+MAJOR CHANGES
+
+  o the test files have to be named of the form test-*.R (or test-*.r), i.e.
+    they have to use the prefix test-
+
+  o the test environment is always cleaned (all objects removed) before the
+    next test is run
+
+    CHANGES IN testit VERSION 0.2.1
+
+MINOR CHANGES
+
+  o fixed a test that failed under R 2.15.x because the argument keep.source
+    did not exist in parse()
+
+    CHANGES IN testit VERSION 0.2
+
+MAJOR CHANGES
+
+  o assert() does not use base::stopifnot() any more; a tailored version of
+    stopifnot() is used now; see ?assert for the differences between this
+    version and base::stopifnot(); in particular, assert(fact, logical(0))
+    will fail but stopifnot(logical(0)) will not
+
+    CHANGES IN testit VERSION 0.1
+
+NEW FEATURES
+
+  o this is the first version of testit; the source code is hosted on
+    Github: https://github.com/yihui/testit
+
+  o added functions assert(), test_pkg(), has_error() and has_warning()

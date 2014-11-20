@@ -1,0 +1,10 @@
+RStoolbox               RStoolbox: A Collection of Remote Sensing Tools
+cloudMask               Very simple cloud detection for imagery with
+                        blue and thermal bands
+estimateSHV             Estimate image haze for dark object subtraction
+                        procedures
+radCor                  Radiometric calibration and correction
+readMeta                Read landsat MTL metadata files
+spectralIndices         Spectral indices
+stackMeta               Import separate Landsat files into single stack
+superClass              Supervised Classification

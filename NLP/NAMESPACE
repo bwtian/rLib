@@ -1,0 +1,136 @@
+importFrom("utils", "head", "tail")
+
+export("content", "content<-", "meta", "meta<-")
+
+export("String", "as.String", "is.String")
+S3method("[", "String")
+S3method("print", "String")
+
+export("Span", "as.Span", "is.Span")
+S3method("as.Span", "Span")
+S3method("as.Span", "Annotation")
+S3method("[", "Span")
+## S3method("[<-", "Span")
+S3method("[[", "Span")
+## S3method("[[<-", "Span")
+S3method("$<-", "Span")
+S3method("Ops", "Span")
+S3method("as.data.frame", "Span")
+S3method("as.list", "Span")
+S3method("c", "Span")
+S3method("duplicated", "Span")
+S3method("format", "Span")
+S3method("length", "Span")
+S3method("names", "Span")
+S3method("print", "Span")
+S3method("unique", "Span")
+
+export("Annotation", "as.Annotation", "is.Annotation")
+S3method("as.Annotation", "Annotation")
+S3method("as.Annotation", "Span")
+S3method("[", "Annotation")
+## S3method("[<-", "Annotation")
+S3method("[[", "Annotation")
+## S3method("[[<-", "Annotation")
+S3method("$<-", "Annotation")
+S3method("as.data.frame", "Annotation")
+S3method("as.list", "Annotation")
+S3method("c", "Annotation")
+S3method("duplicated", "Annotation")
+S3method("format", "Annotation")
+S3method("length", "Annotation")
+S3method("merge", "Annotation")
+S3method("names", "Annotation")
+S3method("print", "Annotation")
+S3method("subset", "Annotation")
+S3method("unique", "Annotation")
+export("annotations_in_spans")
+
+export("annotate")
+
+export("Annotator")
+S3method("print", "Annotator")
+export("Simple_Para_Token_Annotator",
+       "Simple_Sent_Token_Annotator",
+       "Simple_Word_Token_Annotator",
+       "Simple_POS_Tag_Annotator",
+       "Simple_Entity_Annotator",
+       "Simple_Chunk_Annotator",
+       "Simple_Stem_Annotator")
+
+export("next_id", "single_feature")
+
+export("Regexp_Tokenizer",
+       "blankline_tokenizer",
+       "whitespace_tokenizer",
+       "wordpunct_tokenizer")
+
+export("Tree")
+S3method("format", "Tree")
+S3method("print", "Tree")
+export("Tree_parse", "Tree_apply")
+
+export("words", "sents", "paras",
+       "tagged_words", "tagged_sents", "tagged_paras",
+       "chunked_sents",
+       "parsed_sents", "parsed_paras")
+
+export("AnnotatedPlainTextDocument", "annotations")
+S3method("print", "AnnotatedPlainTextDocument")
+S3method("content", "AnnotatedPlainTextDocument")
+S3method("content<-", "AnnotatedPlainTextDocument")
+S3method("meta", "AnnotatedPlainTextDocument")
+S3method("as.character", "AnnotatedPlainTextDocument")
+S3method("words", "AnnotatedPlainTextDocument")
+S3method("sents", "AnnotatedPlainTextDocument")
+S3method("paras", "AnnotatedPlainTextDocument")
+S3method("tagged_words", "AnnotatedPlainTextDocument")
+S3method("tagged_sents", "AnnotatedPlainTextDocument")
+S3method("tagged_paras", "AnnotatedPlainTextDocument")
+S3method("chunked_sents", "AnnotatedPlainTextDocument")
+S3method("parsed_sents", "AnnotatedPlainTextDocument")
+S3method("parsed_paras", "AnnotatedPlainTextDocument")
+
+export("CoNLLTextDocument")
+S3method("print", "CoNLLTextDocument")
+S3method("content", "CoNLLTextDocument")
+S3method("meta", "CoNLLTextDocument")
+S3method("as.character", "CoNLLTextDocument")
+S3method("words", "CoNLLTextDocument")
+S3method("sents", "CoNLLTextDocument")
+S3method("tagged_words", "CoNLLTextDocument")
+S3method("tagged_sents", "CoNLLTextDocument")
+S3method("chunked_sents", "CoNLLTextDocument")
+
+export("TaggedTextDocument")
+S3method("print", "TaggedTextDocument")
+S3method("content", "TaggedTextDocument")
+S3method("meta", "TaggedTextDocument")
+S3method("as.character", "TaggedTextDocument")
+S3method("words", "TaggedTextDocument")
+S3method("sents", "TaggedTextDocument")
+S3method("paras", "TaggedTextDocument")
+S3method("tagged_words", "TaggedTextDocument")
+S3method("tagged_sents", "TaggedTextDocument")
+S3method("tagged_paras", "TaggedTextDocument")
+
+export("WordListDocument")
+S3method("print", "WordListDocument")
+S3method("content", "WordListDocument")
+S3method("meta", "WordListDocument")
+S3method("as.character", "WordListDocument")
+S3method("words", "WordListDocument")
+
+export("Penn_Treebank_POS_tags")
+
+export("parse_IETF_language_tag")
+
+export("parse_ISO_8601_datetime")
+S3method("[", "ISO_8601_datetime")
+S3method("$", "ISO_8601_datetime")
+S3method("as.Date", "ISO_8601_datetime")
+S3method("as.POSIXct", "ISO_8601_datetime")
+S3method("as.POSIXlt", "ISO_8601_datetime")
+S3method("as.data.frame", "ISO_8601_datetime")
+S3method("as.matrix", "ISO_8601_datetime")
+S3method("print", "ISO_8601_datetime")

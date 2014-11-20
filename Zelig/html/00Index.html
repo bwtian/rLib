@@ -1,0 +1,694 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>R: Everyone's Statistical Software</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="R.css">
+</head><body>
+<h1> Everyone's Statistical Software
+<img class="toplogo" src="../../../doc/html/logo.jpg" alt="[R logo]">
+</h1>
+<hr>
+<div align="center">
+<a href="../../../doc/html/packages.html"><img src="../../../doc/html/left.jpg" alt="[Up]" width="30" height="30" border="0"></a>
+<a href="../../../doc/html/index.html"><img src="../../../doc/html/up.jpg" alt="[Top]" width="30" height="30" border="0"></a>
+</div><h2>Documentation for package &lsquo;Zelig&rsquo; version 4.2-1</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+<li><a href="../demo">Code demos</a>.  Use <a href="../../utils/help/demo">demo()</a> to run them.</li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p align="center">
+<a href="# "> </a>
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#F">F</a>
+<a href="#G">G</a>
+<a href="#H">H</a>
+<a href="#I">I</a>
+<a href="#K">K</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#P">P</a>
+<a href="#Q">Q</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#U">U</a>
+<a href="#V">V</a>
+<a href="#W">W</a>
+<a href="#Z">Z</a>
+<a href="#misc">misc</a>
+</p>
+
+<table width="100%">
+<tr><td width="25%"><a href="Zelig-package.html">Zelig-package</a></td>
+<td>Zelig Everyone's Statistical Software</td></tr>
+</table>
+
+<h2><a name="A">-- A --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="alpha.html">alpha</a></td>
+<td>Extract ancillary parameters from 'parameters' objects</td></tr>
+<tr><td width="25%"><a href="approval.html">approval</a></td>
+<td>U.S. Presidential Approval Data</td></tr>
+<tr><td width="25%"><a href="as.bootlist.html">as.bootlist</a></td>
+<td>Convert of Vector of Bootstrapped Parameters to a List-style Boot Object</td></tr>
+<tr><td width="25%"><a href="as.bootvector.html">as.bootvector</a></td>
+<td>Convert Boot Object to a Vector</td></tr>
+<tr><td width="25%"><a href="as.data.frame.setx.html">as.data.frame.setx</a></td>
+<td>Coerce a 'setx' Object into a 'data.frame'</td></tr>
+<tr><td width="25%"><a href="as.description.html">as.description</a></td>
+<td>Generic Method for Casting 'description' Objects</td></tr>
+<tr><td width="25%"><a href="as.description.description.html">as.description.description</a></td>
+<td>description -&gt; description</td></tr>
+<tr><td width="25%"><a href="as.description.list.html">as.description.list</a></td>
+<td>list -&gt; description</td></tr>
+<tr><td width="25%"><a href="as.matrix.pooled.setx.html">as.matrix.pooled.setx</a></td>
+<td>Convert a "pooled.setx" Object to a Matrix</td></tr>
+<tr><td width="25%"><a href="as.matrix.setx.html">as.matrix.setx</a></td>
+<td>Convert a 'setx' Object to a Matrix</td></tr>
+<tr><td width="25%"><a href="as.parameters.html">as.parameters</a></td>
+<td>Generic Method for Converting Objects into 'parameters'</td></tr>
+<tr><td width="25%"><a href="as.parameters.default.html">as.parameters.default</a></td>
+<td>??? -&gt; parameters</td></tr>
+<tr><td width="25%"><a href="as.parameters.list.html">as.parameters.list</a></td>
+<td>list -&gt; parameters</td></tr>
+<tr><td width="25%"><a href="as.parameters.parameters.html">as.parameters.parameters</a></td>
+<td>parameters -&gt; parameters This is merely an identity function when casting 'parameters' objects into 'parameters'.</td></tr>
+<tr><td width="25%"><a href="as.qi.html">as.qi</a></td>
+<td>Generic Method for Converting Various Objects into 'qi' Objects 'qi' objects are list-style objects used by the 'summarize' function to compute simple summaries about the simulated data. For readability and and simplicity purposes, the 'qi' function typically returns a list of named simulations. This list is converted internally by Zelig into a 'qi' object so that several methods can be easily applied to the Quantities of Interest: plot, summarize, and print</td></tr>
+<tr><td width="25%"><a href="as.qi.default.html">as.qi.default</a></td>
+<td>??? -&gt; qi</td></tr>
+<tr><td width="25%"><a href="as.qi.list.html">as.qi.list</a></td>
+<td>list -&gt; qi This function has a lot of room to go wrong. It tries o detect whether the zelig model is old-style or new-style (as of 4/4/2011). Eventually this feature should be phased out.</td></tr>
+<tr><td width="25%"><a href="as.qi.qi.html">as.qi.qi</a></td>
+<td>qi -&gt; qi</td></tr>
+<tr><td width="25%"><a href="as.summarized.html">as.summarized</a></td>
+<td>Generic Method for Casting Objectst as 'summarized' Objects</td></tr>
+<tr><td width="25%"><a href="as.summarized.list.html">as.summarized.list</a></td>
+<td>list -&gt; summarized.qi Convert a list into a "summarized.qi" object</td></tr>
+<tr><td width="25%"><a href="as.summarized.summarized.qi.html">as.summarized.summarized.qi</a></td>
+<td>summarized.qi -&gt; summarized.qi</td></tr>
+<tr><td width="25%"><a href="attach.env.html">attach.env</a></td>
+<td>Attach Variables to a Function</td></tr>
+</table>
+
+<h2><a name="B">-- B --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="bivariate.html">bivariate</a></td>
+<td>Sample data for bivariate probit regression</td></tr>
+<tr><td width="25%"><a href="bootfn.default.html">bootfn.default</a></td>
+<td>Default Boot-strapping procedure</td></tr>
+<tr><td width="25%"><a href="bootstrap.html">bootstrap</a></td>
+<td>Generic Method for "bootstrap"</td></tr>
+<tr><td width="25%"><a href="bootstrap.default.html">bootstrap.default</a></td>
+<td>Produce Boot-strapped Parameters for a Statistical Model</td></tr>
+<tr><td width="25%"><a href="bootstrap.gamma.html">bootstrap.gamma</a></td>
+<td>Bootstrap Parameters for Zelig "gamma" GLM</td></tr>
+<tr><td width="25%"><a href="bootstrap.negbinom.html">bootstrap.negbinom</a></td>
+<td>Bootstrap Parameters for Zelig "negbinom" GLM</td></tr>
+<tr><td width="25%"><a href="bootstrap.normal.html">bootstrap.normal</a></td>
+<td>Bootstrap Parameters for Zelig "normal" GLM</td></tr>
+</table>
+
+<h2><a name="C">-- C --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="callToString.html">callToString</a></td>
+<td>Convert 'call' Object to a String</td></tr>
+<tr><td width="25%"><a href="cite.html">cite</a></td>
+<td>Citation information for a 'description' object</td></tr>
+<tr><td width="25%"><a href="cluster.formula.html">cluster.formula</a></td>
+<td>Generate Formulae that Consider Clustering</td></tr>
+<tr><td width="25%"><a href="cmvglm.html">cmvglm</a></td>
+<td>cmvglm</td></tr>
+<tr><td width="25%"><a href="coalition.html">coalition</a></td>
+<td>Coalition Dissolution in Parliamentary Democracies</td></tr>
+<tr><td width="25%"><a href="coalition2.html">coalition2</a></td>
+<td>Coalition Dissolution in Parliamentary Democracies, Modified Version</td></tr>
+<tr><td width="25%"><a href="coef.parameters.html">coef.parameters</a></td>
+<td>Return Simulations of Parameter Coefficients</td></tr>
+<tr><td width="25%"><a href="combine.html">combine</a></td>
+<td>Produce All Combinations of a Set of Lists</td></tr>
+<tr><td width="25%"><a href="constructDataFrame.html">constructDataFrame</a></td>
+<td>Construct Data Frame Construct and return a tiny (single-row) data-frame from a larger data-frame, a list of specified values, and a formula</td></tr>
+<tr><td width="25%"><a href="constructDesignMatrix.html">constructDesignMatrix</a></td>
+<td>Construct Design Matrix from Construct and return a design matrix based on a tiny data-frame (single-row).</td></tr>
+</table>
+
+<h2><a name="D">-- D --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="depends.on.zelig.html">depends.on.zelig</a></td>
+<td>Whether a Statistical Package Depends on the Zelig Software Suite</td></tr>
+<tr><td width="25%"><a href="describe.html">describe</a></td>
+<td>Method to describe a model to Zelig</td></tr>
+<tr><td width="25%"><a href="describe.default.html">describe.default</a></td>
+<td>Default describe function for an arbitrary model This method exists solely as a backup when an author does not contribute a 'describe' function for their model</td></tr>
+<tr><td width="25%"><a href="describe.exp.html">describe.exp</a></td>
+<td>Describe a "exp" model to Zelig</td></tr>
+<tr><td width="25%"><a href="describe.gamma.html">describe.gamma</a></td>
+<td>Describe the 'gamma' model to Zelig</td></tr>
+<tr><td width="25%"><a href="describe.logit.html">describe.logit</a></td>
+<td>Describe a 'logit' model to Zelig</td></tr>
+<tr><td width="25%"><a href="describe.ls.html">describe.ls</a></td>
+<td>Describe a 'ls' model to Zelig</td></tr>
+<tr><td width="25%"><a href="describe.negbinom.html">describe.negbinom</a></td>
+<td>Describe the 'negbinom' model to Zelig</td></tr>
+<tr><td width="25%"><a href="describe.normal.html">describe.normal</a></td>
+<td>Describe the 'normal' model to Zelig</td></tr>
+<tr><td width="25%"><a href="describe.poisson.html">describe.poisson</a></td>
+<td>Describe the 'poisson' model to Zelig</td></tr>
+<tr><td width="25%"><a href="describe.probit.html">describe.probit</a></td>
+<td>Describe the 'probit' model to Zelig</td></tr>
+<tr><td width="25%"><a href="describe.tobit.html">describe.tobit</a></td>
+<td>Describe a "tobit" model to Zelig</td></tr>
+<tr><td width="25%"><a href="describe.zelig.html">describe.zelig</a></td>
+<td>Get Description Object Used to Cite this Zelig Model</td></tr>
+<tr><td width="25%"><a href="description.html">description</a></td>
+<td>Constructor for the 'description' class</td></tr>
+</table>
+
+<h2><a name="E">-- E --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="eidat.html">eidat</a></td>
+<td>Simulation Data for Ecological Inference</td></tr>
+</table>
+
+<h2><a name="F">-- F --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="find.match.html">find.match</a></td>
+<td>Find a Partial or Exact Match from a Vector of Strings Searches a vector of character-string, and returns the best match.</td></tr>
+<tr><td width="25%"><a href="free1.html">free1</a></td>
+<td>Freedom of Speech Data</td></tr>
+<tr><td width="25%"><a href="free2.html">free2</a></td>
+<td>Freedom of Speech Data</td></tr>
+<tr><td width="25%"><a href="friendship.html">friendship</a></td>
+<td>Simulated Example of Schoolchildren Friendship Network</td></tr>
+</table>
+
+<h2><a name="G">-- G --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="get.package.html">get.package</a></td>
+<td>Find the Zelig package that a particular model belong to</td></tr>
+<tr><td width="25%"><a href="GetObject.html">GetObject</a></td>
+<td>Extract the fitted model object from the Zelig object</td></tr>
+<tr><td width="25%"><a href="getPredictorTerms.html">getPredictorTerms</a></td>
+<td>Get Predictor Terms from Zelig-style Formulae</td></tr>
+<tr><td width="25%"><a href="getResponseTerms.Formula-not-formula.html">getResponse.Formula</a></td>
+<td>Get Response Terms from a "Formula" Object</td></tr>
+<tr><td width="25%"><a href="getResponseTerms.html">getResponseTerms</a></td>
+<td>Get Response Terms from a Zelig-style Formula</td></tr>
+<tr><td width="25%"><a href="getResponseTerms.Formula-not-formula.html">getResponseTerms.Formula</a></td>
+<td>Get Response Terms from a "Formula" Object</td></tr>
+<tr><td width="25%"><a href="getResponseTerms.formula.html">getResponseTerms.formula</a></td>
+<td>Get Response Terms from a Standard Formula</td></tr>
+<tr><td width="25%"><a href="getResponseTerms.list.html">getResponseTerms.list</a></td>
+<td>Get Response Terms from a List-style Formula</td></tr>
+<tr><td width="25%"><a href="GetSlot.html">GetSlot</a></td>
+<td>Generic method for extracting variables from both S3 and S4 fitted model object</td></tr>
+<tr><td width="25%"><a href="GetSlot.zelig.html">GetSlot.zelig</a></td>
+<td>Return a Value from a 'zelig' Fitted Model</td></tr>
+<tr><td width="25%"><a href="grunfeld.html">grunfeld</a></td>
+<td>Simulation Data for model Seemingly Unrelated Regression (sur) that corresponds to method SUR of systemfit</td></tr>
+</table>
+
+<h2><a name="H">-- H --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="has.zelig2.html">has.zelig2</a></td>
+<td>Whether an Arbitrary R-package has a Zelig2 Function within Its Namespace</td></tr>
+<tr><td width="25%"><a href="help.zelig.html">help.zelig</a></td>
+<td>Help system for Zelig models</td></tr>
+<tr><td width="25%"><a href="hoff.html">hoff</a></td>
+<td>Social Security Expenditure Data</td></tr>
+<tr><td width="25%"><a href="homerun.html">homerun</a></td>
+<td>Sample Data on Home Runs Hit By Mark McGwire and Sammy Sosa in 1998.</td></tr>
+</table>
+
+<h2><a name="I">-- I --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="ignore.html">ignore</a></td>
+<td>Constructor for the 'ignore' class This class is included for future use, and is currently not used in any Zelig model. It is designed for use with zelig2* functions</td></tr>
+<tr><td width="25%"><a href="immigration.html">immi1</a></td>
+<td>Individual Preferences Over Immigration Policy</td></tr>
+<tr><td width="25%"><a href="immigration.html">immi2</a></td>
+<td>Individual Preferences Over Immigration Policy</td></tr>
+<tr><td width="25%"><a href="immigration.html">immi3</a></td>
+<td>Individual Preferences Over Immigration Policy</td></tr>
+<tr><td width="25%"><a href="immigration.html">immi4</a></td>
+<td>Individual Preferences Over Immigration Policy</td></tr>
+<tr><td width="25%"><a href="immigration.html">immi5</a></td>
+<td>Individual Preferences Over Immigration Policy</td></tr>
+<tr><td width="25%"><a href="immigration.html">immigration</a></td>
+<td>Individual Preferences Over Immigration Policy</td></tr>
+<tr><td width="25%"><a href="is.formula.html">is.formula</a></td>
+<td>Whether an Object is a Formula</td></tr>
+<tr><td width="25%"><a href="is.qi.html">is.qi</a></td>
+<td>Test If Value is Interpretable as a QI</td></tr>
+<tr><td width="25%"><a href="is.valid.qi.list.html">is.valid.qi.list</a></td>
+<td>Check If Object Is a List of Valid Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="is.zelig.compliant.html">is.zelig.compliant</a></td>
+<td>Whether a R-Package Contains a 'Yes' in its DESCRIPTION File's 'Zelig' Field</td></tr>
+<tr><td width="25%"><a href="is.zelig.package.html">is.zelig.package</a></td>
+<td>Wether an Installed R-Pack Depends on Zelig</td></tr>
+</table>
+
+<h2><a name="K">-- K --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="klein.html">klein</a></td>
+<td>Simulation Data for model Two-Stage Least Square (twosls) that corresponds to method 2SLS of systemfit</td></tr>
+<tr><td width="25%"><a href="kmenta.html">kmenta</a></td>
+<td>Simulation Data for model Three-Stage Least Square (threesls) that corresponds to method 3SLS of systemfit</td></tr>
+</table>
+
+<h2><a name="L">-- L --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="link.html">link</a></td>
+<td>Method for extracting the link function from 'parameters' objects</td></tr>
+<tr><td width="25%"><a href="linkinv.html">linkinv</a></td>
+<td>Method for extracting the inverse link function from 'parameters' objects</td></tr>
+<tr><td width="25%"><a href="list.depth.html">list.depth</a></td>
+<td>Count the Depth of a List Object</td></tr>
+<tr><td width="25%"><a href="list.zelig.dependent.packages.html">list.zelig.dependent.packages</a></td>
+<td>Get a List of Packages Installed on the Current Machine that Depend on Zelig</td></tr>
+<tr><td width="25%"><a href="list.zelig.models.html">list.zelig.models</a></td>
+<td>List Zelig Models Installed on the Current Machine</td></tr>
+<tr><td width="25%"><a href="loadDependencies.html">load.dependencies</a></td>
+<td>Load External Dependencies Safely and Dynamically</td></tr>
+<tr><td width="25%"><a href="loadDependencies.html">loadDependencies</a></td>
+<td>Load External Dependencies Safely and Dynamically</td></tr>
+</table>
+
+<h2><a name="M">-- M --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="macro.html">macro</a></td>
+<td>Macroeconomic Data</td></tr>
+<tr><td width="25%"><a href="make.parameters.html">make.parameters</a></td>
+<td>??? For use with cmvglm</td></tr>
+<tr><td width="25%"><a href="makeModelMatrix.html">makeModelMatrix</a></td>
+<td>Make a Model Matrix from a Zelig-Style Formula</td></tr>
+<tr><td width="25%"><a href="makeZeligObject.html">makeZeligObject</a></td>
+<td>Make an Individual Zelig Object</td></tr>
+<tr><td width="25%"><a href="MatchIt.url.html">MatchIt.url</a></td>
+<td>Table of links for Zelig</td></tr>
+<tr><td width="25%"><a href="Max.html">Max</a></td>
+<td>Compute the Maximum Value of a Vector</td></tr>
+<tr><td width="25%"><a href="MCMChook.html">MCMChook</a></td>
+<td>Hook to Clean-up MCMC Objects</td></tr>
+<tr><td width="25%"><a href="McmcHookFactor.html">McmcHookFactor</a></td>
+<td>Hook to Clean-up MCMC Factor Object</td></tr>
+<tr><td width="25%"><a href="Median.html">Median</a></td>
+<td>Compute the Statistical Median of a Vector</td></tr>
+<tr><td width="25%"><a href="mexico.html">mexico</a></td>
+<td>Voting Data from the 1988 Mexican Presidental Election</td></tr>
+<tr><td width="25%"><a href="mi.html">mi</a></td>
+<td>Bundle Data-sets for Multiple Imputation</td></tr>
+<tr><td width="25%"><a href="mid.html">mid</a></td>
+<td>Militarized Interstate Disputes</td></tr>
+<tr><td width="25%"><a href="Min.html">Min</a></td>
+<td>Compute the Minumum Value of a Vector</td></tr>
+<tr><td width="25%"><a href="mix.html">mix</a></td>
+<td>Produce All Combinations of a Set of Lists</td></tr>
+<tr><td width="25%"><a href="Mode.html">Mode</a></td>
+<td>Compute the Statistical Mode of a Vector</td></tr>
+<tr><td width="25%"><a href="model.frame.multiple.html">model.frame.multiple</a></td>
+<td>Create Model Frame from 'multiple' Object</td></tr>
+<tr><td width="25%"><a href="model.matrix.multiple.html">model.matrix.multiple</a></td>
+<td>Create Design Matrix of a 'multiple' Object</td></tr>
+<tr><td width="25%"><a href="model.matrix.parseFormula.html">model.matrix.parseFormula</a></td>
+<td>Construct Design Matrix from a Parsed, Zelig-style Formula</td></tr>
+<tr><td width="25%"><a href="multilevel.html">multilevel</a></td>
+<td>Multilevel</td></tr>
+</table>
+
+<h2><a name="N">-- N --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="name.object.html">name.object</a></td>
+<td>Name Elements of an Object</td></tr>
+<tr><td width="25%"><a href="names.qi.html">names.qi</a></td>
+<td>The Names of a 'qi' Object</td></tr>
+<tr><td width="25%"><a href="newpainters.html">newpainters</a></td>
+<td>The Discretized Painter's Data of de Piles</td></tr>
+</table>
+
+<h2><a name="P">-- P --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="param.html">param</a></td>
+<td>Generic Method for Simulating Ancillary/Auxillary Parameters of Zelig Models</td></tr>
+<tr><td width="25%"><a href="param.default.html">param.default</a></td>
+<td>Default Method for "param"</td></tr>
+<tr><td width="25%"><a href="param.exp.html">param.exp</a></td>
+<td>Param Method for the 'exp' Zelig Model</td></tr>
+<tr><td width="25%"><a href="param.gamma.html">param.gamma</a></td>
+<td>param method for the 'gamma' Zelig model</td></tr>
+<tr><td width="25%"><a href="param.logit.html">param.logit</a></td>
+<td>Param Method for the 'logit' Zelig Model</td></tr>
+<tr><td width="25%"><a href="param.ls.html">param.ls</a></td>
+<td>Param Method for the 'ls' Zelig Model</td></tr>
+<tr><td width="25%"><a href="param.negbinom.html">param.negbinom</a></td>
+<td>Param Method for the 'negbinom' Zelig Model</td></tr>
+<tr><td width="25%"><a href="param.normal.html">param.normal</a></td>
+<td>Param Method for the 'normal' Zelig Model</td></tr>
+<tr><td width="25%"><a href="param.poisson.html">param.poisson</a></td>
+<td>Param Method for the 'poisson' Zelig Model</td></tr>
+<tr><td width="25%"><a href="param.probit.html">param.probit</a></td>
+<td>Param Method for the 'probit' Zelig Model</td></tr>
+<tr><td width="25%"><a href="param.relogit.html">param.relogit</a></td>
+<td>Estimate Parameters for the "relogit" Zelig Mdoel</td></tr>
+<tr><td width="25%"><a href="param.relogit2.html">param.relogit2</a></td>
+<td>Estimate Parameters for the "relogit" Zelig Mdoel</td></tr>
+<tr><td width="25%"><a href="param.tobit.html">param.tobit</a></td>
+<td>Param Method for the 'tobit' Zelig Model</td></tr>
+<tr><td width="25%"><a href="parameters.html">parameters</a></td>
+<td>Constructor for 'parameters' class</td></tr>
+<tr><td width="25%"><a href="parse.formula.html">parse.formula</a></td>
+<td>Parse Formulas for Zelig Models</td></tr>
+<tr><td width="25%"><a href="parseFormula.html">parseFormula</a></td>
+<td>Parse Zelig-style Formulae</td></tr>
+<tr><td width="25%"><a href="parseFormula.formula.html">parseFormula.Formula</a></td>
+<td>Parse "Formula"-style Zelig Formulae</td></tr>
+<tr><td width="25%"><a href="parseFormula.list.html">parseFormula.list</a></td>
+<td>Parse List-Style Zelig Formulae</td></tr>
+<tr><td width="25%"><a href="PErisk.html">PErisk</a></td>
+<td>Political Economic Risk Data from 62 Countries in 1987</td></tr>
+<tr><td width="25%"><a href="plot.ci.html">plot.ci</a></td>
+<td>Method for plotting pooled simulations by confidence intervals</td></tr>
+<tr><td width="25%"><a href="plot.MI.sim.html">plot.MI.sim</a></td>
+<td>Plot graphs of simulated multiply-imputed data</td></tr>
+<tr><td width="25%"><a href="plot.pooled.sim.html">plot.pooled.sim</a></td>
+<td>Method for plotting pooled simulations by confidence intervals</td></tr>
+<tr><td width="25%"><a href="plot.sim.html">plot.sim</a></td>
+<td>Method for plotting simulations</td></tr>
+<tr><td width="25%"><a href="plot.simulations.html">plot.simulations</a></td>
+<td>Plot Any Simulation from the Zelig Core Package</td></tr>
+<tr><td width="25%"><a href="print.qi.html">print.qi</a></td>
+<td>Print a Quantity of Interest in Human-Readable Form</td></tr>
+<tr><td width="25%"><a href="print.qi.summarized.html">print.qi.summarized</a></td>
+<td>Print Method for Summarized Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="print.setx.html">print.setx</a></td>
+<td>Print values of 'setx' objects</td></tr>
+<tr><td width="25%"><a href="print.setx.mi.html">print.setx.mi</a></td>
+<td>Print a Bundle of Data-sets</td></tr>
+<tr><td width="25%"><a href="print.sim.html">print.sim</a></td>
+<td>Print values of 'sim' objects</td></tr>
+<tr><td width="25%"><a href="print.summary.MCMCZelig.html">print.summary.MCMCZelig</a></td>
+<td>Print a Summary MCMCZelig Object</td></tr>
+<tr><td width="25%"><a href="print.summary.pooled.sim.html">print.summary.pooled.sim</a></td>
+<td>Print a Summary of a Set of Pooled Simulated Interests</td></tr>
+<tr><td width="25%"><a href="print.summary.relogit.html">print.summary.relogit</a></td>
+<td>Print Summary of a Rare-event Logistic Model</td></tr>
+<tr><td width="25%"><a href="print.summary.relogit2.html">print.summary.relogit2</a></td>
+<td>Print Summary of a Rare-event Logistic Model</td></tr>
+<tr><td width="25%"><a href="print.summary.sim.html">print.summary.sim</a></td>
+<td>Print Values of a Summarized "sim" Object</td></tr>
+<tr><td width="25%"><a href="print.summarySim.MI.html">print.summarySim.MI</a></td>
+<td>Print Multiply Imputed Simulations Summary</td></tr>
+<tr><td width="25%"><a href="print.zelig.html">print.zelig</a></td>
+<td>Print values of "zelig" objects</td></tr>
+</table>
+
+<h2><a name="Q">-- Q --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="qi.html">qi</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.exp.html">qi.exp</a></td>
+<td>Compute quantities of interest for 'exp' Zelig models</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.exp.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.gamma.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.logit.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.ls.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.negbinom.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.normal.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.normal.survey.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.poisson.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.poisson.survey.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.probit.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.relogit.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.relogit2.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="qi.summarize.html">qi.summarize</a></td>
+<td>Constructor for QI Summarized Class This class takes an arbitrary number of the _same_ type of quantities of interest labels them, then merges them into one simple printable block. In particular, this class determines which print function to use based on the the type and size od data to be passed to the print function.</td></tr>
+<tr><td width="25%"><a href="qi.html">qi.tobit.Rd</a></td>
+<td>Generic Method for Computing Quantities of Interest</td></tr>
+</table>
+
+<h2><a name="R">-- R --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="reduceMI.html">reduceMI</a></td>
+<td>Reduce MI Formulas Take a formula in any of the reduced form or in a structural form and return the most reduced form of that formula</td></tr>
+<tr><td width="25%"><a href="relogit.html">relogit</a></td>
+<td>Fit a rare-event logistic model in Zelig</td></tr>
+<tr><td width="25%"><a href="repl.html">repl</a></td>
+<td>Generic Method for Replicating Data</td></tr>
+<tr><td width="25%"><a href="repl.default.html">repl.default</a></td>
+<td>Default Method for Replicating Statistics</td></tr>
+<tr><td width="25%"><a href="repl.sim.html">repl.sim</a></td>
+<td>Method for Replicating Simulated Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="replace.call.html">replace.call</a></td>
+<td>Hook to Update the Zelig Call with the Appropriate Call Object</td></tr>
+<tr><td width="25%"><a href="robust.gee.hook.html">robust.gee.hook</a></td>
+<td>Classify Fitted Object as Naive or Robust</td></tr>
+<tr><td width="25%"><a href="robust.glm.hook.html">robust.glm.hook</a></td>
+<td>Hook for "glm" Models in Zelig</td></tr>
+<tr><td width="25%"><a href="rocplot.html">rocplot</a></td>
+<td>Receiver Operator Characteristic Plots</td></tr>
+</table>
+
+<h2><a name="S">-- S --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="sanction.html">sanction</a></td>
+<td>Multilateral Economic Sanctions</td></tr>
+<tr><td width="25%"><a href="setx.html">setx</a></td>
+<td>Setting Explanatory Variable Values</td></tr>
+<tr><td width="25%"><a href="setx.default.html">setx.default</a></td>
+<td>Set explanatory variables</td></tr>
+<tr><td width="25%"><a href="setx.MI.html">setx.MI</a></td>
+<td>Set Explanatory Variables for Multiply Imputed Data-sets This function simply calls setx.default once for every fitted model within the 'zelig.MI' object</td></tr>
+<tr><td width="25%"><a href="sim.html">sim</a></td>
+<td>Generic Method for Computing and Organizing Simulated Quantities of Interest Simulate quantities of interest from the estimated model output from 'zelig()' given specified values of explanatory variables established in 'setx()'.  For classical _maximum likelihood_ models, 'sim()' uses asymptotic normal approximation to the log-likelihood. For _Bayesian models_, Zelig simulates quantities of interest from the posterior density, whenever possible.  For _robust Bayesian models_, simulations are drawn from the identified class of Bayesian posteriors. Alternatively, you may generate quantities of interest using bootstrapped parameters.</td></tr>
+<tr><td width="25%"><a href="sim.default.html">sim.default</a></td>
+<td>Method for Simulating Quantities of Interest wrom 'zelig' Objects</td></tr>
+<tr><td width="25%"><a href="sim.MI.html">sim.MI</a></td>
+<td>Simulate Multiply Imputed Data</td></tr>
+<tr><td width="25%"><a href="simulation.matrix.html">simulation.matrix</a></td>
+<td>Get Simulations as a Matrix</td></tr>
+<tr><td width="25%"><a href="simulations.parameters.html">simulations.parameters</a></td>
+<td>Return Simulations of Parameter Coefficients</td></tr>
+<tr><td width="25%"><a href="simulations.plot.html">simulations.plot</a></td>
+<td>Plot Quantities of Interest in a Zelig-fashion</td></tr>
+<tr><td width="25%"><a href="sna.ex.html">sna.ex</a></td>
+<td>Simulated Example of Social Network Data</td></tr>
+<tr><td width="25%"><a href="special_print_LIST.html">special_print_LIST</a></td>
+<td>Method for Printing Summarized QI's in a List Form</td></tr>
+<tr><td width="25%"><a href="special_print_MATRIX.html">special_print_MATRIX</a></td>
+<td>Method for Printing Summarized QI's in a Matrix Form</td></tr>
+<tr><td width="25%"><a href="splitUp.html">splitUp</a></td>
+<td>Split a List into Two Lists This functions takes any list, and splits into two lists - one containing the values of arguments with specifically specified values and those without specified values.</td></tr>
+<tr><td width="25%"><a href="store.object.html">store.object</a></td>
+<td>Store Object in Environment with a Fake Name</td></tr>
+<tr><td width="25%"><a href="structuralToReduced.html">structuralToReduced</a></td>
+<td>Transform the Multilevel's Structural Formulas Into Reduced Form</td></tr>
+<tr><td width="25%"><a href="summarize.html">summarize</a></td>
+<td>Generic methonf for summarizing simualted quantities of interest</td></tr>
+<tr><td width="25%"><a href="summarize.default.html">summarize.default</a></td>
+<td>Summarize Simualted Quantities of Interest</td></tr>
+<tr><td width="25%"><a href="summary.glm.robust.html">summary.glm.robust</a></td>
+<td>Summary of Generalized Linear Model with Robust Error Estimates</td></tr>
+<tr><td width="25%"><a href="summary.MI.html">summary.MI</a></td>
+<td>Summarry of Multiply Imputed Statistical Models</td></tr>
+<tr><td width="25%"><a href="summary.MI.sim.html">summary.MI.sim</a></td>
+<td>Method for summarizing simulations of multiply imputed quantities of interest</td></tr>
+<tr><td width="25%"><a href="summary.pooled.sim.html">summary.pooled.sim</a></td>
+<td>Return a Summary of a Set of Pooled Simulated Interests</td></tr>
+<tr><td width="25%"><a href="summary.relogit.html">summary.Relogit</a></td>
+<td>Summary for "Relogit" Fitted Model</td></tr>
+<tr><td width="25%"><a href="summary.Relogit2.html">summary.Relogit2</a></td>
+<td>Summary for "Relogit2" Fitted Model</td></tr>
+<tr><td width="25%"><a href="summary.sim.html">summary.sim</a></td>
+<td>Method for summarizing simulations of quantities of interest</td></tr>
+<tr><td width="25%"><a href="summary.zelig.html">summary.zelig</a></td>
+<td>Zelig Object Summaries</td></tr>
+<tr><td width="25%"><a href="SupremeCourt.html">SupremeCourt</a></td>
+<td>U.S. Supreme Court Vote Matrix</td></tr>
+<tr><td width="25%"><a href="swiss.html">swiss</a></td>
+<td>Swiss Fertility and Socioeconomic Indicators (1888) Data</td></tr>
+</table>
+
+<h2><a name="T">-- T --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="t.setx.html">t.setx</a></td>
+<td>Matrix Transpose of a "setx" Object</td></tr>
+<tr><td width="25%"><a href="table.levels.html">table.levels</a></td>
+<td>Create a table, but ensure that the correct columns exist. In particular, this allows for entires with zero as a value, which is not the default for standard tables</td></tr>
+<tr><td width="25%"><a href="terms.multiple.html">terms.multiple</a></td>
+<td>Extract Terms from a 'multiple' Object</td></tr>
+<tr><td width="25%"><a href="terms.vglm.html">terms.vglm</a></td>
+<td>Model Terms for 'vglm' Models</td></tr>
+<tr><td width="25%"><a href="terms.zelig.html">terms.zelig</a></td>
+<td>Model Terms for a Zelig Object</td></tr>
+<tr><td width="25%"><a href="termsFromFormula.html">termsFromFormula</a></td>
+<td>Extract Terms from Zelig-style Formulae</td></tr>
+<tr><td width="25%"><a href="TexCite.html">TexCite</a></td>
+<td>Get a TeX-style Citation</td></tr>
+<tr><td width="25%"><a href="tobin.html">tobin</a></td>
+<td>Tobin's Tobit Data</td></tr>
+<tr><td width="25%"><a href="toBuildFormula.html">toBuildFormula</a></td>
+<td>Build Formula ???</td></tr>
+<tr><td width="25%"><a href="tolmerFormat.html">tolmerFormat</a></td>
+<td>Convert a Formula into 'lmer' Representation from Reduced Form Take a formula in its reducd from and return it as a 'lmer' representation (from the lme4 package). This is basically removing the starting 'tag' from each term.</td></tr>
+<tr><td width="25%"><a href="turnout.html">turnout</a></td>
+<td>Turnout Data Set from the National Election Survey</td></tr>
+</table>
+
+<h2><a name="U">-- U --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="ucfirst.html">ucfirst</a></td>
+<td>Uppercase First Letter of a String</td></tr>
+<tr><td width="25%"><a href="user.prompt.html">user.prompt</a></td>
+<td>Prompt User</td></tr>
+</table>
+
+<h2><a name="V">-- V --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="voteincome.html">voteincome</a></td>
+<td>Sample Turnout and Demographic Data from the 2000 Current Population Survey</td></tr>
+</table>
+
+<h2><a name="W">-- W --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="Weimar.html">Weimar</a></td>
+<td>1932 Weimar election data</td></tr>
+</table>
+
+<h2><a name="Z">-- Z --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="z.html">z</a></td>
+<td>Return value for a zelig2-function</td></tr>
+<tr><td width="25%"><a href="Zelig-package.html">Zelig</a></td>
+<td>Zelig Everyone's Statistical Software</td></tr>
+<tr><td width="25%"><a href="zelig.html">zelig</a></td>
+<td>Estimating a Statistical Model</td></tr>
+<tr><td width="25%"><a href="zelig.call.html">zelig.call</a></td>
+<td>Create Function Call</td></tr>
+<tr><td width="25%"><a href="zelig.skeleton.html">zelig.skeleton</a></td>
+<td>Creates a Skeleton for a New Zelig package</td></tr>
+<tr><td width="25%"><a href="Zelig.url.html">Zelig.url</a></td>
+<td>Table of links for Zelig</td></tr>
+<tr><td width="25%"><a href="zelig2.html">zelig2</a></td>
+<td>Interface Between Zelig Models and External Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2exp</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-bayes.html">zelig2factor.bayes</a></td>
+<td>Zelig Bridge Functions to Bayesian Models</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2gamma</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-gee.html">zelig2gamma.gee</a></td>
+<td>Bridge between Zelig and the GEE Model Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-survey.html">zelig2gamma.survey</a></td>
+<td>Interface between 'Zelig' and 'svyglm'</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2logit</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-bayes.html">zelig2logit.bayes</a></td>
+<td>Zelig Bridge Functions to Bayesian Models</td></tr>
+<tr><td width="25%"><a href="zelig2-gee.html">zelig2logit.gee</a></td>
+<td>Bridge between Zelig and the GEE Model Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-survey.html">zelig2logit.survey</a></td>
+<td>Interface between 'Zelig' and 'svyglm'</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2lognorm</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2ls</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-bayes.html">zelig2mlogit.bayes</a></td>
+<td>Zelig Bridge Functions to Bayesian Models</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2negbinom</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2normal</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-bayes.html">zelig2normal.bayes</a></td>
+<td>Zelig Bridge Functions to Bayesian Models</td></tr>
+<tr><td width="25%"><a href="zelig2-gee.html">zelig2normal.gee</a></td>
+<td>Bridge between Zelig and the GEE Model Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-survey.html">zelig2normal.survey</a></td>
+<td>Interface between 'Zelig' and 'svyglm'</td></tr>
+<tr><td width="25%"><a href="zelig2-bayes.html">zelig2oprobit.bayes</a></td>
+<td>Zelig Bridge Functions to Bayesian Models</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2poisson</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-bayes.html">zelig2poisson.bayes</a></td>
+<td>Zelig Bridge Functions to Bayesian Models</td></tr>
+<tr><td width="25%"><a href="zelig2-gee.html">zelig2poisson.gee</a></td>
+<td>Bridge between Zelig and the GEE Model Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-survey.html">zelig2poisson.survey</a></td>
+<td>Interface between 'Zelig' and 'svyglm'</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2probit</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-bayes.html">zelig2probit.bayes</a></td>
+<td>Zelig Bridge Functions to Bayesian Models</td></tr>
+<tr><td width="25%"><a href="zelig2-gee.html">zelig2probit.gee</a></td>
+<td>Bridge between Zelig and the GEE Model Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-survey.html">zelig2probit.survey</a></td>
+<td>Interface between 'Zelig' and 'svyglm'</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2relogit</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2tobit</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zelig2-core.html">zelig2twosls</a></td>
+<td>Zelig to Basic GLM Fitting Functions</td></tr>
+<tr><td width="25%"><a href="zeligBuildWeights.html">zeligBuildWeights</a></td>
+<td>Developer Utility Function for Dealing with Observation Weighting</td></tr>
+<tr><td width="25%"><a href="ZeligDescribeModel.html">ZeligDescribeModel</a></td>
+<td>Produce a 'description' Object from the Name of a Model</td></tr>
+<tr><td width="25%"><a href="ZeligListModels.html">ZeligListModels</a></td>
+<td>Get a Character-Vector of All Models with a 'zelig2' Function</td></tr>
+<tr><td width="25%"><a href="ZeligListTitles.html">ZeligListTitles</a></td>
+<td>List the Titles of the Zelig Statistical Models</td></tr>
+</table>
+
+<h2><a name="misc">-- misc --</a></h2>
+
+<table width="100%">
+<tr><td width="25%"><a href="special_print_LIST.html">.print.qi.summarized.LIST</a></td>
+<td>Method for Printing Summarized QI's in a List Form</td></tr>
+<tr><td width="25%"><a href="special_print_MATRIX.html">.print.qi.summarized.MATRIX</a></td>
+<td>Method for Printing Summarized QI's in a Matrix Form</td></tr>
+</table>
+</body></html>

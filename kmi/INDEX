@@ -1,0 +1,11 @@
+cox.kmi                 Cox proportional hazards model applied to
+                        imputed data sets
+icu.pneu                Hospital acquired penumonia in ICU
+kmi                     Kaplan-Meier Multiple Imputation for Competing
+                        Risks
+kmi-package             Kaplan-Meier multiple imputation for the
+                        analysis of cumulative incidence functions in
+                        the competing risks setting
+print.cox.kmi           Print method for cox.kmi objects
+print.summary.cox.kmi   Print method for summary.cox.kmi objects
+summary.cox.kmi         Summary method for cox.kmi objects

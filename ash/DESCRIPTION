@@ -1,0 +1,15 @@
+Package: ash
+Version: 1.0-14
+Title: David Scott's ASH routines
+Author: S original by David W. Scott R port by Albrecht Gebhardt
+        <albrecht.gebhardt@uni-klu.ac.at> adopted to recent S-PLUS by
+        Stephen Kaluzny <spk@insightful.com>
+Maintainer: Albrecht Gebhardt <albrecht.gebhardt@uni-klu.ac.at>
+Description: David Scott's ASH routines
+License: GPL (>= 2)
+Dialect: R, S-PLUS
+Date: 2012-01-06
+Packaged: 2013-02-11 10:39:54 UTC; agebhard
+Repository: CRAN
+Date/Publication: 2013-02-11 13:09:49
+Built: R 3.1.0; x86_64-unknown-linux-gnu; 2014-06-25 08:49:58 UTC; unix

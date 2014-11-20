@@ -1,0 +1,6 @@
+pathrow_num             Get WRS-2 path/row numbers for a given spatial
+                        object
+pathrow_poly            Get a polygon giving area of coverage of a
+                        given WRS-1 or WRS-2 path and row
+test_poly               Polygon outlining TEAM site in Caxiuan<c3><a3>,
+                        Brazil

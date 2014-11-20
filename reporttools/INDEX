@@ -1,0 +1,43 @@
+NAtoCategory            Change NAs in a factor into a category
+NAtoZero                Change NAs in a vector into a given value.
+addLineBreak            Break lines in a text column of a dataframe.
+attachPresAbs           Attach levels absent and present to a 0-1
+                        vector.
+attachYesNo             Attach levels no and yes to a 0-1 vector.
+checkDateSuccession     Check whether dates in two vectors are
+                        elementwise consecutive
+colToMat                Break a n * p data frame in a data frame with
+                        ceiling(n / cols) rows and cols * p columns
+correctVarNames         Modify all entries in a data frame such that
+                        xtable has no problems displaying them
+disp                    Display vectors of numbers, especially targeted
+                        to vectors of p-values
+displayCI               Generate strings of a confidence interval from
+                        a matrix
+displayCoxPH            Function to display a coxph() object
+displayCrossTabs        Function to display a set of K x C frequency
+                        tables, including p-value
+displayKbyC             Function to display a K x C frequency table
+                        including col- and row-names and totals
+eliminateNA             Eliminate all observations with at least one NA
+                        in a data frame
+formatPercent           Format a numeric proportion.
+formatPval              Format P Values
+getFonts                Used by the tabulating functions to format
+                        column titles
+math                    Enclose a string in math dollars
+nominalTest             Compute Chi square or Fisher's exact test
+pairwise.fisher.test    Pairwise Fisher's exact test
+reporttools-package     Functions to display descriptive statistics,
+                        and for data manipulation
+tableContinuous         Generate a LaTeX table of descriptive
+                        statistics for continuous variables
+tableDate               Display descriptive statistics for date
+                        variables
+tableNominal            Display descriptive statistics for nominal
+                        variables
+transformVarNames       Generate R-code assigning each variable in a
+                        data frame to its name
+twoGroupComparisons     Compute a table with analysis of two groups
+                        comparisons
+varNamesToChar          Split a character string into variable names

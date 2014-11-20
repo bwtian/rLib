@@ -1,0 +1,25 @@
+Package: RStoolbox
+Type: Package
+Title: RStoolbox: A Collection of Remote Sensing Tools
+Version: 0.01
+Date: 2014-5-6
+Authors@R: c( person("Benjamin", "Leutner", role = c("cre", "aut"), email =
+    "benjamin.leutner@uni-wuerzburg.de"), person("Ned", "Horning", role =
+    c("aut"), email = "horning@amnh.org"), person("Martin", "Wegmann", role =
+    c("aut"), email = "martin.wegmann@uni-wuerzburg.de"))
+Description: RStoolbox provides remote sensing methods for image processing and
+    classification such as spectral indices, supervised classification or
+    fractional cover.
+Depends: R (>= 3.1.0)
+Imports: stringr, raster, randomForest
+License: GPL (>=3)
+LazyData: true
+GithubRepo: RStoolbox
+GithubUsername: bleutner
+GithubRef: master
+GithubSHA1: 94895e8b3eb063b9ed94904f4fd4c0e3eabe00a6
+Author: Benjamin Leutner [cre, aut],
+  Ned Horning [aut],
+  Martin Wegmann [aut]
+Maintainer: Benjamin Leutner <benjamin.leutner@uni-wuerzburg.de>
+Built: R 3.1.1; ; 2014-09-22 09:08:07 UTC; unix

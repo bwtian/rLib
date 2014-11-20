@@ -1,0 +1,39 @@
+CHAIN                   Subset of variables from the CHAIN project, a
+                        longitudinal cohort study of people living with
+                        HIV in New York City.
+convergence.plot        Convergence Plot of mi Object
+mi                      Multiple Iterative Regression Imputation
+mi.binary               Elementary function: Bayesian logistic
+                        regression to impute a binary variable.
+mi.categorical          Elementary function: multinomial log-linear
+                        models to impute a categorical variable.
+mi.completed            Multiply Imputed Dataframes
+mi.continuous           Elementary function: linear regression to
+                        impute a continuous variable.
+mi.count                Elementary function: Bayesian overdispersed
+                        poisson regression to impute a count variable.
+mi.fixed                Elementary function: imputation of constant
+                        variable.
+mi.hist                 Multiple Imputation Histogram
+mi.info                 Function to create information matrix for
+                        missing data imputation
+mi.info.update          function to update mi.info object to use for
+                        multiple imputation
+mi.method               Virtual class for all mi classes.
+mi.pmm                  Elementary function: Predictive Mean Matching
+                        for imputation.
+mi.polr                 Elementary function: multinomial log-linear
+                        models to impute a ordered categorical
+                        variable.
+mi.pooled               Modeling Functions for Multiply Imputed Dataset
+mi.preprocess           Preproessing and Postprocessing mi data object
+mi.scatterplot          Multiple Imputation Scatterplot
+missing.pattern.plot    Missing Pattern Plot
+noise.control           Auxiliary for Adding Priors to Missing Data
+                        Imputation
+plot.mi                 Diagnostic Plots for multiple imputation object
+random.imp              Random Imputation of Missing Data
+type.models             Functions to identify types of the models of
+                        the mi object
+typecast                Variables type
+write.mi                Writes mi impuations to file

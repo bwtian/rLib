@@ -1,0 +1,65 @@
+## BayesX package exports ********************
+
+export(add.neighbor,                    # neighbors handling
+       delete.neighbor,
+       get.neighbor,
+       fuse,
+       drawmap,                         # plotting
+       get.centroids,
+       smooth.bnd,
+       plotautocor,
+       plotnonp,
+       plotsample,
+       plotsample.coda,
+       plotsurf,
+	   hpd,								# intervals
+	   hpd.coda,
+       nb2gra,                          # conversions
+       gra2nb,
+       sp2bnd,
+       shp2bnd,
+       bnd2sp,
+       bnd2gra,
+       createxymap,
+       read.bnd,                        # file handling
+       write.bnd,
+       read.gra,
+       write.gra,
+       extractSamples,                  # results handling
+       akimaPermit,                     # allow usage of akima despite its licence
+       akimaPermitStatus)               # that restricts use to non-commercial purposes
+
+
+## spatial packages imports ********************
+
+importFrom(sp,                          # package sp
+           Polygon,                     # functions
+           Polygons,
+           coordinates,
+           SpatialPolygons,
+           bbox,
+           polygons)
+
+importFrom(maptools,                          # package maptools
+           unionSpatialPolygons,
+           readShapePoly,
+           gpclibPermit)              # functions
+
+importFrom(shapefiles,                  # package shapefiles
+            read.shapefile,              # functions
+            read.dbf)
+
+## imports for drawing ********************
+
+importFrom(colorspace,
+           diverge_hcl)
+
+## imports for MCMC handling ********************
+
+importFrom(coda,
+           mcmc,
+           as.mcmc,
+           autocorr.plot)
+
+importFrom(splines,
+           spline.des)

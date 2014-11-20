@@ -1,0 +1,56 @@
+blockTreeToList         Extract the list of blocks from a block tree
+dg.Block-class          Class dg.Block
+dg.BlockEdge-class      Class dg.BlockEdge
+dg.control              Options of dynamicGraphMain and
+                        simpleGraphtoGraph
+dg.DiscreteVertex-class
+                        Classes dg.DiscreteVertex, dg.ContinuousVertex,
+                        and dg.OrdinalVertex
+dg.Edge-class           Class dg.Edge
+dg.ExtraEdge-class      Class dg.ExtraEdge
+dg.FactorEdge-class     Class dg.FactorEdge
+dg.FactorVertex-class   Class dg.FactorVertex
+dg.Generator-class      Classes dg.Generator, dg.DiscreteGenerator,
+                        dg.Linear\-Generator, and dg.QuadraticGenerator
+dg.graph-class          Class dg.graph
+dg.graphedges-class     Class dg.graphedges
+dg.list-class           Classes dg.list, dg.NodeList, and dg.EdgeList
+dg.Model-class          Class dg.Model
+dg.Node-class           Class dg.Node
+dg.simple.graph-class   Class dg.simple.graph
+dg.Test-class           Class dg.Test
+dg.TextVertex-class     Class dg.TextVertex
+dg.Vertex-class         Class dg.Vertex
+dg.VertexEdge-class     Class dg.VertexEdge
+drawModel               DEPRECATED: Draw the dynamicGraph window and
+                        slaves
+DynamicGraph            DEPRECATED: Simple interface to dynamicGraph
+DynamicGraph-class      Class DynamicGraph
+dynamicGraph-package    dynamicGraph
+dynamicGraphMain        Dynamic Graph
+DynamicGraphModel-class
+                        Class DynamicGraphModel
+DynamicGraphView-class
+                        Class DynamicGraphView
+modalDialog             Modal dialog window for returning a text string
+nameToVertexIndex       The indices of vertices
+replaceBlockList        Replace the block list of model frame
+replaceControls         Replace the controls of model frame
+replaceVertexList       Replace the vertex list of model frame
+returnBlockEdgeList     Class dg.BlockEdgeList: The block edge list
+returnEdgeList          Class dg.VertexEdgeList: The edge list
+returnExtraEdgeList     Class dg.ExtraEdgeList: The extra edge list
+returnFactorEdgeList    Class dg.FactorEdgeList: The factor edge list
+returnFactorVerticesAndEdges
+                        Class dg.FactorVertexList: The factor vertex
+                        list
+returnVertexList        Class dg.VertexList: The vertex list
+selectDialog            Dialog window for selection between items
+setBlocks               Class dg.BlockList: The block list
+setTreeBlocks           The block tree
+simpleGraphToGraph      simple graph to graph
+validEdgeClasses        Valid edge classes
+validFactorClasses      Valid factor vertex classes
+validVertexClasses      Valid vertex classes
+validViewClasses        Valid view classes
+wDG                     DEPRECATED: Interface to dynamicGraph

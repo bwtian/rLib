@@ -1,0 +1,43 @@
+.dcFit                  Internal function for iterative model fitting
+                        with data cloning
+DcloneEnv               Manipulating dclone environments
+bugs.fit                Fit BUGS models with cloned data
+bugs.parfit             Parallel computing with WinBUGS/OpenBUGS
+clusterSize             Optimizing the number of workers
+clusterSplitSB          Size balancing
+codaSamples             Generate posterior samples in mcmc.list format
+dc.fit                  Iterative model fitting with data cloning
+dc.parfit               Parallel model fitting with data cloning
+dclone                  Cloning R objects
+dclone-package          Data Cloning
+dcoptions               Setting Options
+dcsd                    Methods for the 'mcmc.list' class
+dctable                 Retrieve descriptive statistics from fitted
+                        objects to evaluate convergence
+errlines                Plot error bars
+evalParallelArgument    Evaluates parallel argument
+jags.fit                Fit JAGS models with cloned data
+jags.parfit             Parallel computing with JAGS
+jagsModel               Create a JAGS model object
+lambdamax.diag          Data Cloning Diagnostics
+make.symmetric          Make a square matrix symmetric by averaging.
+mclapplySB              Size balancing version of mclapply
+mcmcapply               Calculations on 'mcmc.list' objects
+nclones                 Number of Clones
+ovenbird                Abundances of ovenbird in Alberta
+pairs.mcmc.list         Scatterplot Matrices for 'mcmc.list' Objects
+parCodaSamples          Generate posterior samples in 'mcmc.list'
+                        format on parallel workers
+parDosa                 Parallel wrapper function to call from within a
+                        function
+parJagsModel            Create a JAGS model object on parallel workers
+parLoadModule           Dynamically load JAGS modules on parallel
+                        workers
+parSetFactory           Advanced control over JAGS on parallel workers
+parUpdate               Update jags models on parallel workers
+parallel.inits          Parallel RNGs for initial values
+regmod                  Exemplary MCMC list object
+snowWrapper             Parallel wrapper function to call from within a
+                        function
+update.mcmc.list        Automatic updating of an MCMC object
+write.jags.model        Write and remove model file

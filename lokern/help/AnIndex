@@ -1,0 +1,10 @@
+fitted.KernS	KernS-methods
+glkerns	glkerns
+lokerns	lokerns
+plot.KernS	KernS-methods
+predict.KernS	KernS-methods
+print.KernS	KernS-methods
+residuals.KernS	KernS-methods
+varest	varNPreg
+varNPreg	varNPreg
+xSim	xSim

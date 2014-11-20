@@ -1,0 +1,16 @@
+R2OpenBUGS-package      Running OpenBUGS from R
+as.bugs.array           Convert to bugs object
+attach.all              Attach / detach elements of (bugs) objects to
+                        search path
+bugs                    Run OpenBUGS from R
+bugs.data               Writing input for OpenBUGS
+bugs.inits              Writing input for OpenBUGS
+bugs.log                Read data from OpenBUGS logfile
+plot.bugs               Plotting a bugs object
+print.bugs              Printing a bugs object
+read.bugs               Read output files in CODA format
+schools                 8 schools analysis
+validateInstallOpenBUGS
+                        Compare OpenBUGS/R2OpenBUGS execution to
+                        results supplied with OpenBUGS
+write.model             Creating a OpenBUGS model file

@@ -1,0 +1,82 @@
+Getting.Started         Getting Started with "ergm": Fit, simulate and
+                        diagnose exponential-family models for networks
+anova.ergm              ANOVA for Linear Model Fits
+as.network.numeric      Create a Simple Random network of a Given Size
+coef.ergm               Extract Model Coefficients
+control.ergm            Auxiliary for Controlling ERGM Fitting
+control.ergm.bridge     Auxiliary for Controlling ergm.bridge
+control.gof             Auxiliary for Controlling ERGM Goodness-of-Fit
+                        Evaluation
+control.logLik.ergm     Auxiliary for Controlling logLik.ergm
+control.san             Auxiliary for Controlling SAN
+control.simulate        Auxiliary for Controlling ERGM Simulation
+ecoli                   Two versions of an E. Coli network dataset
+enformulate.curved      Convert a curved ERGM into a form suitable as
+                        initial values for the same ergm.
+ergm                    Exponential Family Random Graph Models
+ergm-constraints        Sample Space Constraints for Exponential Family
+                        Random Graph Models
+ergm-package            Fit, Simulate and Diagnose Exponential-Family
+                        Models for Networks
+ergm-parallel           Parallel Processing in the 'ergm' Package
+ergm-references         Reference Measures for Exponential-Family
+                        Random Graph Models
+ergm-terms              Terms used in Exponential Family Random Graph
+                        Models
+ergm.allstats           Calculate all possible vectors of statistics on
+                        a network for an ERGM
+ergm.bridge.dindstart.llk
+                        Bridge sampling to estiamte log-likelihood of
+                        an ERGM, using a dyad-independent ERGM as a
+                        staring point.
+ergm.bridge.llr         A simple implementation of bridge sampling to
+                        evaluate log-likelihood-ratio between two ERGM
+                        configurations
+ergm.exact              Calculate the exact loglikelihood for an ERGM
+ergmMPLE                ERGM Predictors and response for logistic
+                        regression calculation of MPLE
+eut-upgrade             Updating 'ergm.userterms' prior to 3.1
+faux.magnolia.high      Goodreau's Faux Magnolia High School as a
+                        network object
+faux.mesa.high          Goodreau's Faux Mesa High School as a network
+                        object
+fix.curved              Convert a curved ERGM into a corresponding
+                        "fixed" ERGM.
+flobusiness             Florentine Family Business Ties Data as a
+                        "network" object
+flomarriage             Florentine Family Marriage Ties Data as a
+                        "network" object
+florentine              Florentine Family Marriage and Business Ties
+                        Data as a "network" object
+g4                      Goodreau's four node network as a "network"
+                        object
+gof                     Conduct Goodness-of-Fit Diagnostics on a
+                        Exponential Family Random Graph Model
+is.dyad.independent     Testing for dyad-independence
+is.inCH                 Determine whether a vector is in the closure of
+                        the convex hull of some sample of vectors
+kapferer                Kapferer's tailor shop data
+lasttoggle              Storing last toggle information in a network
+logLik.ergm             A 'logLik' method for 'ergm'.
+mcmc.diagnostics        Conduct MCMC diagnostics on an ergm fit
+molecule                Synthetic network with 20 nodes and 28 edges
+network.update          Replaces the sociomatrix in a network object
+plot.ergm               Plotting Method for class ergm
+plot.gofobject          Plot Goodness-of-Fit Diagnostics on a
+                        Exponential Family Random Graph Model
+plot.network.ergm       Two-Dimensional Visualization of Networks
+print.ergm              Exponential Random Graph Models
+samplk                  Longitudinal networks of positive affection
+                        within a monastery as a "network" object
+sampson                 Cumulative network of positive affection within
+                        a monastery as a "network" object
+san                     Use Simulated Annealing to attempt to match a
+                        network to a vector of mean statistics
+simulate.ergm           Draw from the distribution of an Exponential
+                        Family Random Graph Model
+summary.ergm            Summarizing ERGM Model Fits
+summary.gofobject       Summaries the Goodness-of-Fit Diagnostics on a
+                        Exponential Family Random Graph Model
+summary.network.list    Summarizing network.list objects
+summary.statistics      Calculation of network or graph statistics
+wtd.median              Weighted Median

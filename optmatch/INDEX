@@ -1,0 +1,72 @@
+antiExactMatch          Specify a matching problem where units in a
+                        common factor cannot be matched.
+caliper                 Prepare matching distances suitable for
+                        matching within calipers.
+caliperSize             (Internal) Determines how many other units fall
+                        within a caliper distance
+caliperUpperBound       (Internal) Returns a reasonable upper bound on
+                        the arcs remaining after placing a caliper.
+compare_optmatch        Compares the equality of optmatch objects,
+                        ignoring attributes and group names.
+distUnion               Combine multiple distance specifications into a
+                        single distance specification.
+dist_digest             (Internal) Remove the call before digesting a
+                        distance so things like omitting caliper and
+                        calling caliper=NULL give the same digest
+effectiveSampleSize     Compute the effective sample size of a match.
+exactMatch-methods      Generate an exact matching set of subproblems
+fill.NAs                Create missingness indicator variables and
+                        non-informatively fill in missing values
+fmla2treatedblocking    (Internal) A helper function to turn formulas
+                        into treatment and blocking variables
+fullmatch               Optimal full matching
+getMaxProblemSize       (Internal) What is the maximum allowed problem
+                        size?
+makeInfinitySparseMatrix
+                        (Internal) Creating sparse matching problems
+makeOptmatch            (Internal) Create 'optmatch' objects, the
+                        result of matching.
+match_on                Create treated to control distances for
+                        matching problems
+matched                 Identification of units placed into matched
+                        sets
+matched.distances       Determine distances between matched units
+maxCaliper              Find the maximum caliper width that will create
+                        a feasible problem.
+mdist                   (Deprecated, in favor of 'match_on') Create
+                        matching distances
+minControlsCap          Set thinning and thickening caps for full
+                        matching
+minExactMatch           Find the minimal exact match factors that will
+                        be feasible for a given maximum problem size.
+nuclearplants           Nuclear Power Station Construction Data
+num_eligible_matches    Returns the number of eligible matches for the
+                        distance.
+optmatch                Optmatch Class
+optmatch-defunct        Functions deprecated or removed from optmatch
+optmatch_restrictions   optmatch_restrictions
+optmatch_same_distance
+                        Checks if the distance 'newdist' is identical
+                        to the distance used to generate the optmatch
+                        object 'obj'.
+pairmatch               Optimal 1:1 and 1:k matching
+plantdist               Dissimilarities of Some U.S. Nuclear Plants
+print.optmatch          Printing 'optmatch' objects.
+relaxinfo               Display license information about embedded code
+scoreCaliper            (Internal) Helper function to create an
+                        InfinitySparseMatrix from a set of scores, a
+                        treatment indicator, and a caliper width.
+scores                  Wrapper for 'predict' to cleanly look for new
+                        data to predict on.
+setFeasibilityConstants
+                        (Internal) Sets up the default values for
+                        maximum feasible problems
+setTryRecovery          (Internal) Sets up option to try recovery in
+                        'fullmatch'.
+stratumStructure        Return structure of matched sets
+subdim                  Returns the dimension of each valid subproblem
+subproblemSuccess       (Internal) Report successful subproblems.
+update.optmatch         Performs an update on an 'optmatch' object.
+validDistanceSpecification
+                        (Internal) Validate that objects are valid
+                        distance specifications.

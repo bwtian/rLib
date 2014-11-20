@@ -1,0 +1,18 @@
+L5TSR_1986              Landsat 5 Surface Reflectance Image from
+                        February 6, 1986 (path 15, row 53)
+calc_texture            Calculates a glcm texture for use in the glcm.R
+                        script
+expected_textures_3x3_1x1
+                        GLCM textures calculated in EXELIS ENVI (for
+                        testing purposes)
+expected_textures_5x3_n1xn2
+                        GLCM textures calculated in EXELIS ENVI (for
+                        testing purposes)
+expected_textures_5x7_2x3
+                        GLCM textures calculated in EXELIS ENVI (for
+                        testing purposes)
+glcm                    Image texture measures from grey-level
+                        co-occurrence matrices (GLCM)
+glcm-package            Calculate textures from grey-level
+                        co-occurrence matrices (GLCMs) in R
+test_raster             Randomly generated 100x100 test image

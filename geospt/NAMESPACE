@@ -1,0 +1,1 @@
+export(bestnet, bp.with.outlier.label, criterio.cv, Dis, est.variograms, graph.rbf, pocket.plot, rbf, rbf.cv, RBF.phi, rbf.tcv, samplePts, seqPtsOptNet, simPtsOptNet)
