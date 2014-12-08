@@ -1,0 +1,3 @@
+rmd2pdf                 Render an R Markdown file into a PDF
+rnw2pdf                 Render an Rnw file into a PDF
+ucbthesis               UC Berkeley Graduate Division Thesis Templates
