@@ -21,6 +21,7 @@ pandoc_available	pandoc_available
 pandoc_convert	pandoc_convert
 pandoc_highlight_args	pandoc_args
 pandoc_include_args	pandoc_args
+pandoc_latex_engine_args	pandoc_args
 pandoc_options	pandoc_options
 pandoc_path_arg	pandoc_path_arg
 pandoc_self_contained_html	pandoc_self_contained_html

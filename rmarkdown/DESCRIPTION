@@ -1,7 +1,7 @@
 Package: rmarkdown
 Type: Package
 Title: Dynamic Documents for R
-Version: 0.3.3
+Version: 0.3.10
 Date: 2014-09-08
 Author: JJ Allaire, Jonathan McPherson, Yihui Xie, Hadley Wickham, Joe Cheng,
     Jeff Allen
@@ -16,8 +16,11 @@ SystemRequirements: pandoc (>= 1.12.3) -
         http://johnmacfarlane.net/pandoc
 URL: http://rmarkdown.rstudio.com
 License: GPL-3
-Packaged: 2014-09-17 11:35:12 UTC; jjallaire
-NeedsCompilation: no
-Repository: CRAN
-Date/Publication: 2014-09-17 18:12:29
-Built: R 3.1.1; ; 2014-09-22 06:16:51.180 UTC; unix
+Roxygen: list(wrap = FALSE)
+GithubRepo: rmarkdown
+GithubUsername: rstudio
+GithubRef: v0.98.1000
+GithubSHA1: b96214b9ac86b437067a0aa21442203f52face83
+Origin: RStudioIDE
+Packaged: 2014-11-06 12:29:08 UTC; ubuntu
+Built: R 3.1.1; ; 2014-12-16 13:47:16 UTC; unix
