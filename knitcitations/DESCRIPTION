@@ -3,7 +3,7 @@ Type: Package
 Title: Citations for knitr markdown files
 Authors@R: person("Carl", "Boettiger", role=c("aut", "cre"),
     email="cboettig@gmail.com")
-Version: 1.0-1
+Version: 1.0.5
 Description: knitcitations provides the ability to create dynamic citations
     in which the bibliographic information is pulled from the web rather
     than having to be entered into a local database such as bibtex ahead of
@@ -12,15 +12,15 @@ Description: knitcitations provides the ability to create dynamic citations
     text and tooltips over inline citations.  Cite using a DOI, URL, or
     bibtex file key.  See the package URL for details.
 URL: https://github.com/cboettig/knitcitations
-License: CC0
+License: MIT + file LICENSE
 VignetteBuilder: knitr
 Depends: R (>= 3.0)
-Imports: RefManageR (>= 0.8.2), digest, httr (>= 0.3)
+Imports: RefManageR (>= 0.8.2), digest, httr (>= 0.3), methods
 Suggests: testthat, knitr (>= 1.6)
-Packaged: 2014-07-11 22:52:51 UTC; cboettig
+Packaged: 2014-11-26 01:35:32 UTC; cboettig
 Author: Carl Boettiger [aut, cre]
 Maintainer: Carl Boettiger <cboettig@gmail.com>
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2014-07-12 07:23:18
-Built: R 3.1.1; ; 2014-10-05 01:10:13.060 UTC; unix
+Date/Publication: 2014-11-26 11:57:39
+Built: R 3.1.1; ; 2015-01-07 15:52:18.268 UTC; unix

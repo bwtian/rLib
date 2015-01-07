@@ -20,9 +20,37 @@ And constructed with the following guidelines:
 * New additions without breaking backward compatibility bumps the minor 
   (and resets the patch)
 * Bug fixes and misc changes bumps the patch
+* Following the RStudio convention, a .99 is appended after the patch
+  number to indicate the development version on Github.  Any version
+  Coming from Github will now use the .99 extension, which will never
+  appear in a version number for the package on CRAN. 
+
 
 For more information on SemVer, please visit http://semver.org/.
 
+v1.0.5
+------
+
+- Add template file for the MIT license, as requested from CRAN. We include the entire MIT License
+
+
+v1.0.4
+------
+
+- Add error handling when Greycite API cannot be reached
+
+v1.0.3
+--------
+
+- Update vignette to reflect changes to `rmarkdown` and pandoc (see [#67](https://github.com/cboettig/knitcitations/issues/67))
+- Fixed missing citation in vignette building (knitcitations default format for bibtex keys now has an underscore, `LastName_Year`)
+
+v1.0.2
+---------
+
+- Fix passing of arguments to `cite_options` that was causing many options to be ignored. (See [#63](https://github.com/cboettig/knitcitations/issues/63))
+- Added \donttest on examples needing internet connection (resource may not be available)
+- Licence migrated to MIT
 
 v1.0-1
 ------
