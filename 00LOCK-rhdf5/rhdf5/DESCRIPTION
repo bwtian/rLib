@@ -13,4 +13,4 @@ Suggests: bit64,BiocStyle
 SystemRequirements: GNU make
 biocViews: Infrastructure, DataImport
 Packaged: 2014-04-12 06:52:27 UTC; biocbuild
-Built: R 3.1.1; x86_64-pc-linux-gnu; 2015-01-07 15:28:50.864 UTC; unix
+Built: R 3.1.1; x86_64-unknown-linux-gnu; 2014-09-29 04:49:01.466 UTC; unix
