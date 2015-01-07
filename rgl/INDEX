@@ -1,4 +1,5 @@
 .check3d                Check for an open rgl window.
+GramSchmidt             The Gram-Schmidt algorithm
 abclines3d              Lines intersecting the bounding box
 addNormals              Add normal vectors to objects so they render
                         more smoothly.
@@ -6,6 +7,7 @@ aspect3d                Set the aspect ratios of the current plot
 axes3d                  Draw boxes, axes and other text outside the
                         data
 bg3d                    Set up Background
+bgplot3d                Use base graphics for RGL background
 cylinder3d              Create cylindrical or "tube" plots.
 ellipse3d               Make an ellipsoid
 extrude3d               Generate extrusion mesh
@@ -18,6 +20,7 @@ observer3d              Set the observer location.
 par3d                   Set or Query RGL Parameters
 par3dinterp             Interpolator for par3d parameters
 persp3d                 Surface plots
+persp3d.function        Plot a function of two variables
 planes3d                add planes
 play3d                  Play animation of rgl scene
 plot3d                  3D Scatterplot
@@ -64,6 +67,7 @@ text3d                  add text
 triangulate             Triangulate a two-dimensional polygon.
 turn3d                  Create a solid of rotation from a
                         two-dimensional curve.
-writeOBJ                Write Wavefront OBJ format files
+writeOBJ                Write Wavefront OBJ format files; read simple
+                        ones
 writePLY                Write Stanford PLY format files
 writeWebGL              Write scene to HTML.

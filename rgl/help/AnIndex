@@ -12,6 +12,7 @@ axes3d	axes3d
 axis3d	axes3d
 bbox3d	bbox
 bg3d	bg
+bgplot3d	bgplot3d
 box3d	axes3d
 clear3d	scene
 clearSubsceneList	mfrow3d
@@ -41,11 +42,13 @@ ellipse3d.nls	ellipse3d
 extrude3d	extrude3d
 gc3d	subscene3d
 getr3dDefaults	par3d
+GramSchmidt	GramSchmidt
 grid3d	grid3d
 icosahedron3d	mesh3d
 identify3d	identify3d
 identityMatrix	matrices
 layout3d	mfrow3d
+legend3d	bgplot3d
 light3d	light
 lines3d	3dobjects
 material3d	material
@@ -68,10 +71,12 @@ par3dinterp	par3dinterp
 particles3d	sprites
 persp3d	persp3d
 persp3d.default	persp3d
+persp3d.function	persp3d.function
 planes3d	planes
 play3d	play3d
 plot3d	plot3d
 plot3d.default	plot3d
+plot3d.function	persp3d.function
 plot3d.mesh3d	plot3d
 plot3d.rglobject	scene3d
 plot3d.rglscene	scene3d
@@ -84,6 +89,7 @@ qmesh3d	mesh3d
 quads3d	3dobjects
 r3d	r3d
 r3dDefaults	par3d
+readOBJ	writeOBJ
 readSTL	readSTL
 rgl	rgl-package
 rgl.abclines	abclines

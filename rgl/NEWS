@@ -590,3 +590,51 @@ v0.94
   - The NULL device was not removed from the device list when
     it was closed.  (Reported by Henrik Bengtsson.)
   - Some of the animations have been sped up at the request of CRAN
+
+0.94.1143
+  - Added function methods for persp3d() and plot3d(), to allow
+    surfaces to be plotted just by specifying the function.
+  - Fixed a bug introduced in 0.94 that made user callbacks crash R.
+    (Reported by Dave Hadka.)
+  - Fixed a bug exposed in 0.94 (but really introduced in 0.93.952)
+    that caused writeWebGL() to fail when a NULL device was active.
+  - Fixed a bug introduced in 0.94 with writing 3D sprite objects.
+  - Fixed a bug computing the bounding box of an embedded subscene.
+    
+0.95.1157
+  - Allowed background of window to show bitmap;  added bgplot3d()
+    and legend3d() functions.
+  - Reverted misguided changes to par3d("modelMatrix") from 0.94.
+    This affects rgl.projection() as well.
+  - Fixed bug (introduced in 0.94) causing loss of rectangle showing 
+    selection area.  (Reported by John Fox and others.)
+  - The NULL device now does not make any spurious OpenGL calls.
+  
+0.95.1158
+  - rgl.snapshot() now works with the NULL device (but produces a 
+    black snapshot).  This allows testing with RGL_USE_NULL.
+
+0.95.1196
+  - writeWebGL() now includes an argument "commonParts", to allow
+    omission of common code in multi-figure displays.
+  - If template is NULL in writeWebGL(), no template file is used. 
+  - The NULL device did not handle changes to par3d("windowRect")
+    properly.
+  - The persp.function() method is now smarter about setting default
+    axis labels.
+  - The package now contains a vignette giving an overview of
+    the functions. 
+  - Subscenes with "ignoreExtent" set to TRUE were not plotted.
+  - The bounding box calculations now take clipping planes into account.
+  - writeWebGL() did not display the bboxdeco properly when working
+    in a subscene.
+  - Added clipping regions to plot3d() and persp3d().
+  - Export the GramSchmidt function (request of Remko Duursma)
+  - Added readOBJ(), with a very limited ability to read OBJ 
+    shapefiles.
+  - triangulate() now supports polygons expressed with 3
+    coordinates (though they are still assumed to be planar).
+  - par3d() now includes "listeners", a list of subscenes that
+    respond to mouse actions in the current subscene.
+  - The Windows configuration file has been modified to work in 
+    R-devel (to become R 3.2.0).
