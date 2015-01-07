@@ -138,6 +138,8 @@ seqToHumanReadable      Gets a short human readable string
 seqToIntervals          Gets all contigous intervals of a vector of
                         indices
 setOption               Sets a option in R
+shell.exec2             Open a file or URL using Windows File
+                        Associations
 sourceDirectory         Sources files recursively to either local or
                         global environment
 sourceTo                Parses and evaluates code from a file or a
@@ -160,6 +162,10 @@ withOptions             Evaluate an R expression with options set
                         temporarily
 withRepos               Evaluate an R expression with repositories set
                         temporarily
+withSeed                Evaluate an R expression with a temporarily set
+                        random set
+withSink                Evaluate an R expression while temporarily
+                        diverting output
 withTimeout             Evaluate an R expression and interrupts it if
                         it takes too long
 wrap.array              Reshape an array or a matrix by permuting

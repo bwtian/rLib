@@ -1,3 +1,4 @@
+$.control.list          Named element accessor for ergm control lists
 NVL                     Return the first argument passed (out of any
                         number) that is not 'NULL'.
 check.control.class     Check if the class of the control list is one

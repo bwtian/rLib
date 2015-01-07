@@ -750,6 +750,7 @@ Settings.saveAnywhere	saveAnywhere.Settings
 setValue	Non-documented_objects
 setValue,ProgressBar-method	setValue.ProgressBar
 setValue.ProgressBar	setValue.ProgressBar
+shell.exec2	shell.exec2
 singles	isSingle
 SmartComments	SmartComments
 SmartComments.compile	compile.SmartComments
@@ -907,6 +908,8 @@ withLocale	withLocale
 withOptions	withOptions
 withoutGString	Non-documented_objects
 withRepos	withRepos
+withSeed	withSeed
+withSink	withSink
 withTimeout	withTimeout
 wrap	Non-documented_objects
 wrap.array	wrap.array

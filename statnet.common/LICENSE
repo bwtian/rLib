@@ -1,5 +1,5 @@
 --------------------------------------------------
-License for the 'statnet' package 'statnet.common'
+License for the 'statnet' component package 'statnet.common'
 --------------------------------------------------
 
 This software is distributed under the GPL-3 license.  It is free,
@@ -31,7 +31,7 @@ Mark S. Handcock, University of California-Los Angeles
 David R. Hunter, Penn State University
 Carter T. Butts, University of California-Irvine
 Steven M. Goodreau, University of Washington
-Pavel N. Krivitsky, Carnegie Mellon University
+Pavel N. Krivitsky, University of Wollongong
 Martina Morris, University of Washington
 
 The 'statnet' development team

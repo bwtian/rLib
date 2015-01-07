@@ -1,3 +1,4 @@
+$.control.list	control.list.accessor
 check.control.class	check.control.class
 compress.data.frame	compress.data.frame
 NVL	NVL
