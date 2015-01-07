@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>R Notebook: A knitr app on OpenCPU</title>
-  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <!-- Styles for R syntax highlighter -->
-  <link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/github.min.css">
-  <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/github.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
   <style type="text/css">
     textarea {
       font-size: 12px;
@@ -16,16 +16,16 @@
     }
   </style>
 <!-- R syntax highlighter -->
-<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
-<script src="http://yandex.st/highlightjs/7.3/languages/r.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/languages/r.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 </head>
 <body>
 <div class="container">
-<form action="http://public.opencpu.org/R/pub/base/identity/ascii" method="POST" id="knitForm">
+<form action="https://public.opencpu.org/ocpu/library/base/R/identity/json" method="POST" id="knitForm">
 <textarea name="x" class="form-control" rows=10></textarea>
-<div><a class="btn btn-primary" id="knit"><i class="glyphicon-circle-arrow-right"></i> Convert</a></div>
+<div><button type="button" class="btn btn-primary" id="knit"><span class="glyphicon glyphicon-play"></span> Convert</button></div>
 <!-- the knitting result will be rendered inside this div -->
 <div id="result"></div>
 </form>
@@ -48,11 +48,11 @@ $('#knitForm').submit(function(event) {
       term = $form.find('textarea[name="x"]').val().replace(/\\/g, '\\\\').replace(/"/g, '\\"'),
       url = $form.attr('action'),
       rcode = 'library(knitr)\n' +
-              'knit2html(text = knit(text = "' + term + '"), fragment.only = TRUE)';
+              'knit2html(text = "' + term + '", fragment.only = TRUE)';
   /* Send the data using post and put the results in a div */
   $.post(url, { x: rcode },
     function( data ) {
-        $("#result").html(eval(data));
+        $("#result").html(data[0]);
         $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
     })
     .complete(function() {$('#knit').attr('class', 'btn btn-primary');})

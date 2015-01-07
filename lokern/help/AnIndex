@@ -1,5 +1,6 @@
 fitted.KernS	KernS-methods
 glkerns	glkerns
+lines.KernS	KernS-methods
 lokerns	lokerns
 plot.KernS	KernS-methods
 predict.KernS	KernS-methods
