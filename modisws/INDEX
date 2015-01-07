@@ -1,0 +1,12 @@
+createbrickWS           Create a brick (raster object) from the
+                        downloaded MODIS data
+getBandsWS              Get the bands of a specific MODIS product
+                        available via the MODIS webservice tool
+getDatesWS              Get the available Dates of images at the a
+                        location for a specific MODIS product available
+                        via the MODIS webservice tool
+getModisWS              A R wrapper function to download MODIS data and
+                        convert it to a spatio-temporal raster brick
+                        filled with MODIS data
+getProductsWS           Check the avalability of the MODIS products via
+                        the MODIS webservice tool
