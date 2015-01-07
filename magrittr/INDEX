@@ -1,5 +1,13 @@
-%>%                     Pipe an object forward into a function
-                        call/expression.
-debug_pipe              Place a debug browser in a chain of commands.
+%$%                     magrittr exposition pipe-operator
+%<>%                    magrittr compound assignment pipe-operator
+%>%                     magrittr forward-pipe operator
+%T>%                    magrittr tee operator
+[[.fseq                 Extract function(s) from a functional sequence.
+debug_fseq              Debugging function for functional sequences.
+debug_pipe              Debugging function for magrittr pipelines.
 extract                 Aliases
-magrittr                magrittr - a forward-pipe operator for R
+freduce                 Apply a list of functions sequentially
+functions               Extract the function list from a functional
+                        sequence.
+magrittr                magrittr - Ceci n'est pas un pipe
+print.fseq              Print method for functional sequence.
