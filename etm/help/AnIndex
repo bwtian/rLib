@@ -5,11 +5,15 @@ etm	etm
 etmCIF	etmCIF
 etmprep	etmprep
 fourD	fourD
+ggtransfo	ggtransfo
+ggtransfo.etm	ggtransfo
 lines.etm	lines.etm
+los.data	los.data
 phiPseudo	phiPseudo
 plot.clos.etm	plot.clos.etm
 plot.etm	plot.etm
 plot.etmCIF	plot.etmCIF
+prepare.los.data	prepare.los.data
 print.clos.etm	print.clos.etm
 print.etm	print.etm
 print.etmCIF	print.etmCIF
