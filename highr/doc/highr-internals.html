@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html> 
+<html>
   <head>
     <title>Internals of the <code>highr</code> package</title>
     <meta charset="utf-8">
@@ -83,7 +83,7 @@ code{
 td.docs code{
     background: #f8f8ff;
     border: 1px solid #dedede;
-    font-size: 12px;
+    font-size: 80%;
     padding: 0 0.2em;
 }
 
@@ -135,10 +135,11 @@ div.handler{
     <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
     <script src="http://yandex.st/highlightjs/7.3/languages/r.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+    <script src="http://yihui.name/media/js/center-images.js"></script>
   </head>
   <body>
     <div id="container">
-      <table cellspacing="1"><!--table start-->
+      <table><!--table start-->
 <tr id="row1"><td class="docs"><div class="pilwrap"><a class="pilcrow" href="#row1">&para;</a></div><!--
 %\VignetteEngine{knitr::docco_classic}
 %\VignetteIndexEntry{Internals of the highr package}
@@ -189,13 +190,13 @@ defined the markup commands in <code>cmd_latex</code> and <code>cmd_html</code>:
 </code></pre>
 <pre><code class="r">tail(highr:::cmd_html)
 </code></pre>
-<pre><code>##                            cmd1    cmd2
-## AND       &lt;span class=&quot;hl opt&quot;&gt; &lt;/span&gt;
-## AND2      &lt;span class=&quot;hl opt&quot;&gt; &lt;/span&gt;
-## OR        &lt;span class=&quot;hl opt&quot;&gt; &lt;/span&gt;
-## OR2       &lt;span class=&quot;hl opt&quot;&gt; &lt;/span&gt;
-## STANDARD  &lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;
-## STR_CONST &lt;span class=&quot;hl str&quot;&gt; &lt;/span&gt;
+<pre><code>##                             cmd1    cmd2
+## OR         &lt;span class=&quot;hl opt&quot;&gt; &lt;/span&gt;
+## OR2        &lt;span class=&quot;hl opt&quot;&gt; &lt;/span&gt;
+## NS_GET     &lt;span class=&quot;hl opt&quot;&gt; &lt;/span&gt;
+## NS_GET_INT &lt;span class=&quot;hl opt&quot;&gt; &lt;/span&gt;
+## STANDARD   &lt;span class=&quot;hl std&quot;&gt; &lt;/span&gt;
+## STR_CONST  &lt;span class=&quot;hl str&quot;&gt; &lt;/span&gt;
 </code></pre></td></tr><tr id="row5"><td class="docs"><div class="pilwrap"><a class="pilcrow" href="#row5">&para;</a></div>
 
 <p>These command data frames are connected to the tokens in the R code via
@@ -218,8 +219,8 @@ their row names:</p></td><td class="code"><pre><code class="r">d$token
 ## [31] &quot;SPECIAL&quot;              &quot;GT&quot;                   &quot;GE&quot;                  
 ## [34] &quot;LT&quot;                   &quot;LE&quot;                   &quot;EQ&quot;                  
 ## [37] &quot;NE&quot;                   &quot;AND&quot;                  &quot;AND2&quot;                
-## [40] &quot;OR&quot;                   &quot;OR2&quot;                  &quot;STANDARD&quot;            
-## [43] &quot;STR_CONST&quot;
+## [40] &quot;OR&quot;                   &quot;OR2&quot;                  &quot;NS_GET&quot;              
+## [43] &quot;NS_GET_INT&quot;           &quot;STANDARD&quot;             &quot;STR_CONST&quot;
 </code></pre></td></tr><tr id="row6"><td class="docs"><div class="pilwrap"><a class="pilcrow" href="#row6">&para;</a></div>
 
 <p>Now we know how to wrap up the R tokens. The next big question is how to
