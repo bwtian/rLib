@@ -1,3 +1,19 @@
+Version 3.0-3
+
+ o Made key.args argument to plot.eff() and plot.effpoly() more flexible (suggestion of Ian Kyle).
+
+ o Moved pbkrtest package to Suggests and adjusted code for mixed models accordingly, to accomodate Debian (request of Dirk Eddelbuettel).
+
+ o Fixed \dont-test{} examples.
+
+Version 3.0-2
+
+ o plot.eff() honors rescale.axis=FALSE when plotting partial residuals (bug reported by Alexander Wietzke).
+
+ o Effect.mer() can use KR coefficient covariances to construct CIs for effects in LMMs.
+
+ o Modernized package dependencies/namespace.
+
 Version 3.0-1
 
  o Added an argument vcov. to Effect and effect (and allEffects) to select a function for computing the variance covariance matrix of the coefficient estimates.  The default is the usual `vcov` fucntion.

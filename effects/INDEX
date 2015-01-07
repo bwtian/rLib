@@ -9,6 +9,5 @@ Wells                   Well Switching in Bangladesh
 effect                  Functions For Constructing Effect Plots
 effects-deprecated      Deprecated Function in effects Package
 effects-package         Effect Displays for Linear, Generalized Linear,
-                        Multinomial-Logit, Proportional-Odds Logit
-                        Models and Mixed-Effects Models
+                        and Other Models
 summary.eff             Summarizing, Printing, and Plotting Effects
