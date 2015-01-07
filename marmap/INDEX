@@ -1,4 +1,3 @@
-add.nas                 Adds NAs to a vector
 aleutians               Bathymetric data for the Aleutians (Alaska)
 antimeridian.box        Adds a box to maps including antimeridian
 as.SpatialGridDataFrame
@@ -14,7 +13,13 @@ col2alpha               Adds alpha transparency to a (vector of)
                         color(s)
 collate.bathy           Collates two bathy matrices with data from
                         either sides of the antimeridian
+combine.buffers         Create a new, composite buffer from a list of
+                        existing buffers.
+create.buffer           Create a buffer of specified radius around one
+                        or several points
 diag.bathy              Finds matrix diagonal for non-square matrices
+dist2isobath            Computes the shortest great circle distance
+                        between any point and a given isobath
 florida                 Bathymetric data around Florida, USA
 get.area                Get projected surface area
 get.box                 Get bathymetric information of a belt transect
@@ -27,17 +32,21 @@ hawaii                  Bathymetric data for Hawaii, USA
 is.bathy                Test whether an object is of class bathy
 lc.dist                 Computes least cost distances between two or
                         more locations
+linesGC                 Add Great Circle lines on a map
 marmap                  Import, plot and analyze bathymetric and
                         topographic data
 metallo                 Coral sampling information from the North West
                         Atlantic
 nw.atlantic             Bathymetric data for the North West Atlantic
 nw.atlantic.coast       Coastline data for the North West Atlantic
+outline.buffer          Get a buffer in a proper format to allow the
+                        plotting of its outline
 palette.bathy           Build a bathymetry- and/or
                         topography-constrained color palette
 path.profile            Geographic coordinates, kilometric distance and
                         depth along a path
 plot.bathy              Ploting bathymetric data
+plotArea                Plotting projected surface areas
 plotProfile             Ploting bathymetric data along a transect or
                         path
 read.bathy              Read bathymetric data in XYZ format
