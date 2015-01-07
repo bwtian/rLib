@@ -1,0 +1,20 @@
+Package: modisws
+Version: 0.1-1
+Date: 16-September-2013
+Title: Interface to the web processing service for MODIS data
+Depends: R (>= 2.10), utils, raster, XML
+Suggests: rgdal
+Author: Jan Verbesselt, Joan Maspons, Matteo Mattiuzzi 
+Maintainer: Jan Verbesselt <Jan.Verbesselt@wur.nl>
+Description: This package provides access to the web processing service for the Moderate Resolution Imaging Spectroradiometer (MODIS). It requires SOAP and XMLSchema packages from http://www.omegahat.org
+URL: http://r-forge.r-project.org/projects/modisws/,
+        http://daac.ornl.gov/MODIS/MODIS-menu/modis_webservice.html
+License: GPL (>=3)
+LazyLoad: yes
+Repository: R-Forge
+Repository/R-Forge/Project: modis
+Repository/R-Forge/Revision: 468
+Repository/R-Forge/DateTimeStamp: 2013-11-04 18:33:02
+Date/Publication: 2013-11-04 18:33:02
+Packaged: 2013-11-04 19:17:08 UTC; rforge
+Built: R 3.1.1; ; 2015-01-07 08:59:32.374 UTC; unix
