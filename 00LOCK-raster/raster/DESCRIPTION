@@ -1,10 +1,10 @@
 Package: raster
 Type: Package
 Title: raster: Geographic data analysis and modeling
-Version: 2.3-12
-Date: 2014-10-17
+Version: 2.3-0
+Date: 2014-9-5
 Depends: methods, sp (>= 1.0-13), R (>= 2.15.0)
-Suggests: rgdal (>= 0.8-12), rgeos (>= 0.3-8), ncdf, ncdf4, igraph,
+Suggests: rgdal (>= 0.8-12), rgeos (>= 0.3-1), ncdf, ncdf4, igraph,
         snow, tcltk, rasterVis
 Authors@R: c(
 	person("Robert J.", "Hijmans", role = c("cre", "aut"),  email = "r.hijmans@gmail.com"),
@@ -32,9 +32,9 @@ Author: Robert J. Hijmans [cre, aut],
 Maintainer: Robert J. Hijmans <r.hijmans@gmail.com>
 Repository: CRAN
 Repository/R-Forge/Project: raster
-Repository/R-Forge/Revision: 3058
-Repository/R-Forge/DateTimeStamp: 2014-10-17 15:53:41
-Date/Publication: 2014-10-18 07:24:38
-Packaged: 2014-10-17 16:36:37 UTC; rforge
+Repository/R-Forge/Revision: 3030
+Repository/R-Forge/DateTimeStamp: 2014-09-05 16:47:51
+Date/Publication: 2014-09-06 08:07:38
+Packaged: 2014-09-05 18:16:14 UTC; rforge
 NeedsCompilation: yes
-Built: R 3.1.1; x86_64-pc-linux-gnu; 2015-01-07 15:47:27.342 UTC; unix
+Built: R 3.1.1; x86_64-unknown-linux-gnu; 2014-09-14 12:24:12.484 UTC; unix
