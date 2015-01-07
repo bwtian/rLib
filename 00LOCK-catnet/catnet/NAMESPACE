@@ -23,7 +23,8 @@ exportMethods(
 	cnKLComplexity, 
 	cnCompare, 
 	cnParHist, 
-	cnCluster, cnClusterSep)
+	cnCluster, cnClusterSep, 
+	as.igraph)
 
 export(
 	cnNew, cnRandomCatnet, 
