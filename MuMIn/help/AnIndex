@@ -15,6 +15,7 @@ dc	dredge
 DIC	ICs
 dredge	dredge
 expand.formula	manip-formula
+exprApply	exprApply
 gamm-wrapper	updateable
 get.models	get.models
 getAllTerms	model-utils
@@ -37,10 +38,12 @@ MuMIn	MuMIn-package
 MuMIn-gamm	updateable
 MuMIn-model-utils	model-utils
 MuMIn-models	supported-classes
+nested	nested
 null.fit	r.squaredLR
 par.avg	par.avg
 pdredge	pdredge
 pget.models	get.models
+plot.model.selection	plot
 predict.averaging	predict.averaging
 print.averaging	model.avg
 print.model.selection	dredge
@@ -53,6 +56,11 @@ r.squaredGLMM	r.squaredGLMM
 r.squaredLR	r.squaredLR
 rbind.model.selection	merge.model.selection
 simplify.formula	manip-formula
+stdize	stdize
+stdize.data.frame	stdize
+stdize.default	stdize
+stdize.formula	stdize
+stdize.logical	stdize
 subset.model.selection	subset.model.selection
 tTable	model-utils
 uGamm	updateable
