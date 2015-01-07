@@ -1,23 +1,25 @@
 Package: bibtex
-Version: 0.3-6
+Version: 0.4.0
 Title: bibtex parser
-Authors@R: c(person("Romain", "Francois", role = "aut",
+Authors@R: c(person("Romain", "Francois", role = c("aut", "cre"),
                     email = "romain@r-enthusiasts.com"),
-             person("Kurt", "Hornik", role = c("ctb", "cre"),
-                    email = "Kurt.Hornik@R-project.org"))
+             person("Kurt", "Hornik", role = "ctb",
+                    email = "Kurt.Hornik@R-project.org"), 
+             person("Michael", "Koohafkan", role = "ctb",
+                    email = "michael.koohafkan@gmail.com")
+           )
 Description: Utility to parse a bibtex file
-Depends: R (>= 2.13.0)
+Depends: R (>= 3.0.2)
 License: GPL (>= 2)
 LazyLoad: yes
-BugReports:
-        http://r-forge.r-project.org/tracker/?atid=1587&group_id=384&func=browse
-URL: http://r-forge.r-project.org/projects/highlight/,
-        http://romainfrancois.blog.free.fr/index.php?category/R-package/bibtex
-Packaged: 2013-07-29 15:29:34 UTC; hornik
-Author: Romain Francois [aut],
-  Kurt Hornik [ctb, cre]
-Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+BugReports: https://github.com/romainfrancois/bibtex/issues
+URL: https://github.com/romainfrancois/bibtex
+Packaged: 2014-12-31 11:24:59 UTC; romain
+Author: Romain Francois [aut, cre],
+  Kurt Hornik [ctb],
+  Michael Koohafkan [ctb]
+Maintainer: Romain Francois <romain@r-enthusiasts.com>
 NeedsCompilation: yes
 Repository: CRAN
-Date/Publication: 2013-07-29 17:53:36
-Built: R 3.1.1; x86_64-unknown-linux-gnu; 2014-09-01 01:54:07.916 UTC; unix
+Date/Publication: 2014-12-31 14:24:15
+Built: R 3.1.1; x86_64-pc-linux-gnu; 2015-01-07 15:36:15.575 UTC; unix
