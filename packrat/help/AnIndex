@@ -1,4 +1,6 @@
 packrat-package	packrat
+.snapshotImpl	snapshotImpl
+appDependencies	appDependencies
 bundle	bundle
 clean	clean
 disable	disable
