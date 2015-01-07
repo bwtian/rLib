@@ -1,20 +1,23 @@
+A1A2A3                  The A1A2A3 Blood Group System
 AA.Aa.aa                The AA-Aa-aa Blood Group System
 AB.Ab.aB.ab             The AB-Ab-aB-ab Blood Group System
-AB.Ab.aB.ab2            The AB-Ab-aB-ab2 Blood Group System
 ABO                     The ABO Blood Group System
 AICvlm                  Akaike's Information Criterion
-Amh                     Ali-Mikhail-Haq Bivariate Distribution
 BICvlm                  Bayesian Information Criterion
 Benford                 Benford's Distribution
 Benini                  The Benini Distribution
 Betabinom               The Beta-Binomial Distribution
 Betageom                The Beta-Geometric Distribution
 Betanorm                The Beta-Normal Distribution
+Biamhcop                Ali-Mikhail-Haq Bivariate Distribution
+Bifgmcop                Farlie-Gumbel-Morgenstern's Bivariate
+                        Distribution
 Binom2.or               Bivariate Binary Regression with an Odds Ratio
 Binom2.rho              Bivariate Probit Model
 Binorm                  Bivariate normal distribution cumulative
                         distribution function
 Binormcop               Gaussian Copula (Bivariate) Distribution
+Biplackett              Plackett's Bivariate Copula
 Bisa                    The Birnbaum-Saunders Distribution
 Bistudentt              Bivariate Student-t distribution cumulative
                         distribution function
@@ -32,25 +35,22 @@ CommonVGAMffArguments   Common VGAM family function Arguments
 Dagum                   The Dagum Distribution
 Expectiles-Exponential
                         Expectiles of the Exponential Distribution
-Expectiles-Koenker      Expectiles/Quantiles of the Koenker
-                        Distribution
 Expectiles-Normal       Expectiles of the Normal Distribution
 Expectiles-Uniform      Expectiles of the Uniform Distribution
+Expectiles-sc.t2        Expectiles/Quantiles of the Scaled Student t
+                        Distribution with 2 Df
 Felix                   The Felix Distribution
-Fgm                     Farlie-Gumbel-Morgenstern's Bivariate
-                        Distribution
 Fisk                    The Fisk Distribution
 Foldnorm                The Folded-Normal Distribution
 Frank                   Frank's Bivariate Distribution
 Frechet                 The Frechet Distribution
-G1G2G3                  The G1G2G3 Blood Group System
 Gompertz                The Gompertz Distribution
 Gumbel-II               The Gumbel-II Distribution
 Huggins89.t1            Table 1 of Huggins (1989)
 Hzeta                   Haight's Zeta Distribution
 Inv.gaussian            The Inverse Gaussian Distribution
-Invlomax                The Inverse Lomax Distribution
-Invparalogistic         The Inverse Paralogistic Distribution
+Inv.lomax               The Inverse Lomax Distribution
+Inv.paralogistic        The Inverse Paralogistic Distribution
 Kumar                   The Kumaraswamy Distribution
 Lindley                 The Lindley Distribution
 Links                   Link functions for VGLM/VGAM/etc. families
@@ -60,15 +60,14 @@ Log                     Logarithmic Distribution
 Lomax                   The Lomax Distribution
 MNSs                    The MNSs Blood Group System
 Makeham                 The Makeham Distribution
-Max                     Maxima
+Max                     Maximums
 Maxwell                 The Maxwell Distribution
 Nakagami                Nakagami Distribution
-Opt                     Maxima
+Opt                     Optimums
 Paralogistic            The Paralogistic Distribution
 Pareto                  The Pareto Distribution
 ParetoIV                The Pareto(IV/III/II) Distributions
 Perks                   The Perks Distribution
-Plackett                Plackett's Bivariate Distribution
 PoissonPoints           Poisson Points Distribution
 Polono                  The Poisson Lognormal Distribution
 Posbinom                Positive-Binomial Distribution
@@ -81,7 +80,7 @@ Rayleigh                The Rayleigh Distribution
 Rcim                    Mark the Baseline of Row and Column on a Matrix
                         data
 Rice                    The Rice Distribution
-SUR                     Seemingly Unrelated Regressions
+SURff                   Seemingly Unrelated Regressions
 Select                  Select variables for a formula response or the
                         RHS of a formula
 Sinmad                  The Singh-Maddala Distribution
@@ -111,7 +110,6 @@ acat                    Ordinal Regression with Adjacent Categories
                         Probabilities
 alaplace1               Asymmetric Laplace Distribution Family
                         Functions
-amh                     Ali-Mikhail-Haq Distribution Family Function
 amlbinomial             Binomial Logistic Regression by Asymmetric
                         Maximum Likelihood Estimation
 amlexponential          Exponential Regression by Asymmetric Maximum
@@ -125,29 +123,35 @@ aux.posbernoulli.t      Auxiliary Function for the Positive Bernoulli
 backPain                Data on Back Pain Prognosis, from Anderson
                         (1984)
 beggs                   Bacon and Eggs Data
-benini                  Benini Distribution Family Function
-beta.ab                 The Two-parameter Beta Distribution Family
-                        Function
+benini1                 Benini Distribution Family Function
 betaII                  Beta Distribution of the Second Kind
+betaR                   The Two-parameter Beta Distribution Family
+                        Function
 betabinomial            Beta-binomial Distribution Family Function
-betabinomial.ab         Beta-binomial Distribution Family Function
+betabinomialff          Beta-binomial Distribution Family Function
 betaff                  The Two-parameter Beta Distribution Family
                         Function
 betageometric           Beta-geometric Distribution Family Function
 betaprime               The Beta-Prime Distribution
+biamhcop                Ali-Mikhail-Haq Distribution Family Function
 biclaytoncop            Clayton Copula (Bivariate) Family Function
+bifgmcop                Farlie-Gumbel-Morgenstern's Bivariate
+                        Distribution Family Function
+bifgmexp                Bivariate Farlie-Gumbel-Morgenstern Exponential
+                        Distribution Family Function
 bifrankcop              Frank's Bivariate Distribution Family Function
 bigamma.mckay           Bivariate Gamma: McKay's Distribution
-bigumbelI               Gumbel's Type I Bivariate Distribution Family
+bigumbelIexp            Gumbel's Type I Bivariate Distribution Family
                         Function
-bilogis4                Bivariate Logistic Distribution
-bilogistic4             Bivariate Logistic Distribution Family Function
+bilogis                 Bivariate Logistic Distribution
+bilogistic              Bivariate Logistic Distribution Family Function
 binom2.or               Bivariate Binary Regression with an Odds Ratio
                         (Family Function)
 binom2.rho              Bivariate Probit Model (Family Function)
 binomialff              Binomial Family Function
 binormal                Bivariate normal distribution family function
 binormalcop             Gaussian Copula (Bivariate) Family Function
+biplackettcop           Plackett's Bivariate Copula Family Function
 biplot,rrvglm-method    Biplot of Constrained Regression Models
 bisa                    Birnbaum-Saunders Distribution Family Function
 bistudentt              Bivariate Student-t Family Function
@@ -168,11 +172,11 @@ cauchit                 Cauchit Link Function
 cauchy                  Cauchy Distribution Family Function
 cdf.lmscreg             Cumulative Distribution Function for LMS
                         Quantile Regression
-cennormal               Censored Normal Distribution
-cenpoisson              Censored Poisson Family Function
+cens.gumbel             Censored Gumbel Distribution
+cens.normal             Censored Normal Distribution
+cens.poisson            Censored Poisson Family Function
 cfibrosis               Cystic Fibrosis Data
 cgo                     Redirects the user to cqo
-cgumbel                 Censored Gumbel Distribution
 chest.nz                Chest Pain in NZ Adults Data
 chinese.nz              Chinese Population in New Zealand 1867-2001
                         Data
@@ -208,16 +212,16 @@ dirmultinomial          Fitting a Dirichlet-Multinomial Distribution
 dlaplace                The Laplace Distribution
 dlogF                   log F Distribution
 dloglap                 The Log-Laplace Distribution
-double.cennormal        Univariate Normal Distribution with Double
+double.cens.normal      Univariate Normal Distribution with Double
                         Censoring
 double.expbinomial      Double Exponential Binomial Distribution Family
                         Function
 dsimplex                Simplex Distribution
 enzyme                  Enzyme Data
-erf                     Error Function
+erf                     Error Function, and variants
 erlang                  Erlang Distribution
-expexp                  Exponentiated Exponential Distribution
-expexp1                 Exponentiated Exponential Distribution
+expexpff                Exponentiated Exponential Distribution
+expexpff1               Exponentiated Exponential Distribution
 expgeom                 The Exponential Geometric Distribution
 expgeometric            Exponential Geometric Distribution Family
                         Function
@@ -232,28 +236,28 @@ exppoisson              Exponential Poisson Distribution Family
                         Function
 felix                   Felix Distribution Family Function
 fff                     F Distribution Family Function
-fgm                     Farlie-Gumbel-Morgenstern's Bivariate
-                        Distribution Family Function
 fill                    Creates a Matrix of Appropriate Dimension
 finney44                Toxicity trial for insects
 fisherz                 Fisher's Z Link Function
 fisk                    Fisk Distribution family function
 fittedvlm               Fitted Values of a VLM object
+flourbeetle             Mortality of Flour Beetles from Carbon
+                        Disulphide
 foldnormal              Folded Normal Distribution Family Function
-frechet2                Frechet Distribution Family Function
+frechet                 Frechet Distribution Family Function
 freund61                Freund's (1961) Bivariate Extension of the
                         Exponential Distribution
 fsqrt                   Folded Square Root Link Function
 gamma1                  1-parameter Gamma Distribution
 gamma2                  2-parameter Gamma Distribution
-gamma2.ab               2-parameter Gamma Distribution
-gammahyp                Gamma Hyperbola Bivariate Distribution
+gammaR                  2-parameter Gamma Distribution
+gammahyperbola          Gamma Hyperbola Bivariate Distribution
 garma                   GARMA (Generalized Autoregressive
                         Moving-Average) Models
 gaussianff              Gaussian (normal) Family Function
 genbetaII               Generalized Beta Distribution of the Second
                         Kind
-gengamma                Generalized Gamma distribution family function
+gengamma.stacy          Generalized Gamma distribution family function
 gengammaUC              The Generalized Gamma Distribution
 genpoisson              Generalized Poisson distribution
 genray                  The Generalized Rayleigh Distribution
@@ -289,16 +293,15 @@ hypersecant             Hyperbolic Secant Distribution Family Function
 hzeta                   Haight's Zeta Family Function
 iam                     Index from Array to Matrix
 identitylink            Identity Link Function
+inv.binomial            Inverse Binomial Distribution Family Function
 inv.gaussianff          Inverse Gaussian Distribution Family Function
-invbinomial             Inverse Binomial Distribution Family Function
-invlomax                Inverse Lomax Distribution Family Function
-invparalogistic         Inverse Paralogistic Distribution Family
+inv.lomax               Inverse Lomax Distribution Family Function
+inv.paralogistic        Inverse Paralogistic Distribution Family
                         Function
 is.parallel             Parallelism Constraint Matrices
 is.smart                Test For a Smart Object
 is.zero                 Zero Constraint Matrices
 kendall.tau             Kendall's Tau Statistic
-koenker                 Koenker's Distribution Family Function
 kumar                   Kumaraswamy Distribution Family Function
 lakeO                   Annual catches on Lake Otamangakau from October
                         1974 to October 1989
@@ -309,8 +312,8 @@ leipnik                 Leipnik Distribution Family Function
 lerch                   Lerch Phi Function
 leukemia                Acute Myelogenous Leukemia Survival Data
 levy                    Levy Distribution Family Function
+lgamma1                 Log-gamma Distribution Family Function
 lgammaUC                The Log-Gamma Distribution
-lgammaff                Log-gamma Distribution Family Function
 lindley                 1-parameter Gamma Distribution
 lino                    Generalized Beta Distribution Family Function
 lirat                   Low-iron Rat Teratology Data
@@ -348,22 +351,18 @@ makeham                 Makeham Distribution Family Function
 margeff                 Marginal effects for the multinomial logit and
                         cumulative models
 marital.nz              New Zealand Marital Data.
-matched.binomial        The Matched Binomial Distribution Family
-                        Function
 maxwell                 Maxwell Distribution Family Function
 mccullagh89             McCullagh (1989) Distribution Family Function
+melbmaxtemp             melbmaxtemp daily maximum temperatures
 meplot                  Mean Excess Plot
 micmen                  Michaelis-Menten Model
 mix2exp                 Mixture of Two Exponential Distributions
 mix2normal              Mixture of Two Univariate Normal Distributions
 mix2poisson             Mixture of Two Poisson Distributions
-mlogit                  Multi-logit Link Function
-mmt                     mmt daily maximum temperatures
 model.framevlm          Construct the Model Frame of a VLM Object
 model.matrixvlm         Construct the Design Matrix of a VLM Object
 moffset                 Matrix Offset
-morgenstern             Morgenstern's Bivariate Distribution Family
-                        Function
+multilogit              Multi-logit Link Function
 multinomial             Multinomial Logit Model
 nakagami                Nakagami Distribution Family Function
 nbcanlink               Negative binomial canonical link function
@@ -386,8 +385,6 @@ perspqrrvglm            Perspective plot for QRR-VGLMs
 pgamma.deriv            Derivatives of the Incomplete Gamma Integral
 pgamma.deriv.unscaled   Derivatives of the Incomplete Gamma Integral
                         (Unscaled Version)
-plackett                Plackett's Bivariate Distribution Family
-                        Function
 plotdeplot.lmscreg      Density Plot for LMS Quantile Regression
 plotqrrvglm             Model Diagnostic Plots for QRR-VGLMs
 plotqtplot.lmscreg      Quantile Plot for LMS Quantile Regression
@@ -433,11 +430,11 @@ qvar                    Quasi-variances Extraction Function
 rayleigh                Rayleigh Distribution Family Function
 rcqo                    Constrained Quadratic Ordination
 rdiric                  The Dirichlet distribution
-recexp1                 Upper Record Values from a 1-parameter
+rec.exp1                Upper Record Values from a 1-parameter
                         Exponential Distribution
-reciprocal              Reciprocal link function
-recnormal               Upper Record Values from a Univariate Normal
+rec.normal              Upper Record Values from a Univariate Normal
                         Distribution
+reciprocal              Reciprocal link function
 rhobit                  Rhobit Link Function
 riceff                  Rice Distribution Family Function
 rigff                   Reciprocal Inverse Gaussian distribution
@@ -451,6 +448,8 @@ rrvglm.control          Control function for rrvglm
 rrvglm.optim.control    Control function for rrvglm() calling optim()
 ruge                    Rutherford-Geiger Polonium Data
 s                       Defining smooths in VGAM formulae
+sc.studentt2            Scaled Student t Distribution with 2 df Family
+                        Function
 seq2binomial            The Two-stage Sequential Binomial Distribution
                         Family Function
 setup.smart             Smart Prediction Setup
@@ -490,7 +489,7 @@ vonmises                von Mises Distribution Family Function
 vsmooth.spline          Vector cubic smoothing spline
 waitakere               Waitakere Ranges Data
 waldff                  Wald Distribution Family Function
-weibull                 Weibull Distribution Family Function
+weibullR                Weibull Distribution Family Function
 weightsvglm             Prior and Working Weights of a VGLM fit
 wine                    Bitterness in Wine Data
 wrapup.smart            Cleans Up After Smart Prediction
