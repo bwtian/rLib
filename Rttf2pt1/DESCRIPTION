@@ -1,6 +1,6 @@
 Package: Rttf2pt1
 Title: Package for ttf2pt1 program
-Version: 1.3.2
+Version: 1.3.3
 Author: Winston Chang,
     Andrew Weeks,
     Frank M. Siegert,
@@ -24,10 +24,12 @@ Description: This package contains the program ttf2pt1, for use with the
 Depends: R (>= 2.15)
 License: file LICENSE
 URL: https://github.com/wch/Rttf2pt1
-Packaged: 2014-08-15 04:53:34 UTC; ripley
+Packaged: 2015-01-13 11:25:51 UTC; ripley
 NeedsCompilation: yes
 License_is_FOSS: yes
 Repository: CRAN
-Date/Publication: 2014-08-15 06:54:04
+Date/Publication: 2015-01-13 12:28:07
 X-CRAN-Original-Maintainer: Winston Chang <winston@stdout.org>
-Built: R 3.1.0; x86_64-unknown-linux-gnu; 2014-09-03 11:08:05.665 UTC; unix
+X-CRAN-Comment: Orphaned on 2014-08-15 as requested by the original
+        maintainer.
+Built: R 3.1.2; x86_64-pc-linux-gnu; 2015-01-30 04:55:58.904 UTC; unix

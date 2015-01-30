@@ -255,6 +255,7 @@ mapLegendGrob	spplot
 merge	merge
 merge,Spatial,data.frame-method	merge
 meuse	meuse
+meuse.area	meuse.riv
 meuse.grid	meuse.grid
 meuse.grid_ll	meuse.grid_ll
 meuse.riv	meuse.riv
