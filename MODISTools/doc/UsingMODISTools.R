@@ -1,5 +1,5 @@
 ### R code from vignette source 'UsingMODISTools.Rnw'
-### Encoding: ASCII
+### Encoding: UTF-8
 
 ###################################################
 ### code chunk number 1: UsingMODISTools.Rnw:25-36

@@ -1,8 +1,8 @@
 Package: MODISTools
 Type: Package
 Title: MODIS Subsetting Tools
-Version: 0.94.5
-Date: 2014-12-22
+Version: 0.94.6
+Date: 2015-01-21
 Author: Sean Tuck, Helen Phillips
 Imports: RCurl, XML
 Maintainer: Sean Tuck <sean.tuck@plants.ox.ac.uk>
@@ -12,9 +12,8 @@ License: GPL-3
 LazyLoad: yes
 LazyData: yes
 URL: https://github.com/seantuck12/MODISTools/
-GithubRepo: MODISTools
-GithubUsername: seantuck12
-GithubRef: master
-GithubSHA1: 4f0616d34c9ac4585a82dfa3859dbdda3828fc6a
-Packaged: 2015-01-07 08:59:50 UTC; tian
-Built: R 3.1.1; ; 2015-01-07 08:59:51 UTC; unix
+Packaged: 2015-01-21 11:45:19 UTC; seantuck
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2015-01-21 17:14:45
+Built: R 3.1.2; ; 2015-01-30 04:59:52.860 UTC; unix
