@@ -64,11 +64,7 @@ children<-	mb
 choose.direction	choose.direction
 chow.liu	mmpc
 ci.test	ci.test
-ci.test.character	ci.test
-ci.test.data.frame	ci.test
-ci.test.default	ci.test
-ci.test.factor	ci.test
-ci.test.numeric	ci.test
+clgaussian.test	clgaussian-test
 coef.bn.fit	bn.fit.methods
 coef.bn.fit.dnode	bn.fit.methods
 coef.bn.fit.gnode	bn.fit.methods

@@ -20,6 +20,8 @@ bnlearn-package         Bayesian network structure learning, parameter
                         learning and inference.
 choose.direction        Try to infer the direction of an undirected arc
 ci.test                 Independence and Conditional Independence Tests
+clgaussian.test         Synthetic (mixed) data set to test learning
+                        algorithms
 compare                 Compare two different Bayesian networks
 constraint-based algorithms
                         Constraint-based structure learning algorithms
