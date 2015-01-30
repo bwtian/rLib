@@ -1,4 +1,4 @@
-rLibWin
+rLibLin
 ====
 
-R library for Windows.
+R library for Linux.
