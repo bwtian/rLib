@@ -200,6 +200,8 @@ extract,Raster,SpatialLines-method	extract
 extract,Raster,SpatialPoints-method	extract
 extract,Raster,SpatialPolygons-method	extract
 extract,Raster,vector-method	extract
+extract,SpatialPolygons,data.frame-method	extract
+extract,SpatialPolygons,matrix-method	extract
 extract,SpatialPolygons,SpatialPoints-method	extract
 factorValues	factor
 filename	filename
@@ -268,10 +270,10 @@ interpolate,Raster-method	interpolate
 intersect	intersect
 intersect,Extent,ANY-method	intersect
 intersect,Raster,ANY-method	intersect
-intersect,SpatialPoints,ANY-method	intersect
-intersect,SpatialPoints,Raster-method	intersect
+intersect,SpatialLines,SpatialPolygons-method	intersect
 intersect,SpatialPoints,SpatialPolygons-method	intersect
 intersect,SpatialPolygons,SpatialPolygons-method	intersect
+intersect,SpatialVector,ANY-method	intersect
 is.factor	factor
 is.factor,Raster-method	factor
 is.factor,RasterStack-method	factor
@@ -508,6 +510,7 @@ show,RasterLayer-method	Raster-classes
 show,RasterStack-method	Raster-classes
 showTmpFiles	rasterTmpFile
 slopeAspect	slopeAspect
+SpatialVector-class	Raster-classes
 spplot	spplot
 spplot,Raster-method	spplot
 spplot,SpatialPoints-method	spplot
