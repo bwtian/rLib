@@ -81,6 +81,7 @@ plotKML-method          Methods for plotting results of spatial
                         analysis in Google Earth
 plotKML-package         Visualization of spatial and spatio-temporal
                         objects in Google Earth
+plotKML.GDALobj         Write tiled objects to KML
 plotKML.env             plotKML specific environmental variables /
                         paths
 readGPX                 Import GPX (GPS track) files

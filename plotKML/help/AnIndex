@@ -129,6 +129,7 @@ plotKML,STTDF-method	plotKML
 plotKML-method	plotKML
 plotKML.env	plotKML.env
 plotKML.fileIO	kml
+plotKML.GDALobj	plotKML.GDALobj
 plotKML.opts	plotKML.env
 RasterBrick	layer.RasterBrick
 RasterBrickSimulations-class	RasterBrickSimulations
