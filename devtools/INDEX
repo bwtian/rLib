@@ -6,7 +6,6 @@ build_vignettes         Build package vignettes.
 build_win               Build windows binary package.
 check                   Build and check a package, cleaning up
                         automatically on success.
-check_cran              Check a package from CRAN.
 check_doc               Check documentation, as 'R CMD check' does.
 clean_dll               Remove compiled objects from /src/ directory
 clean_source            Sources an R file in a clean environment.
@@ -42,6 +41,7 @@ install_local           Install a package from a local file
 install_svn             Install a package from a SVN repository
 install_url             Install a package from a url
 install_version         Install specified version of a CRAN package.
+lint                    Lint all source files in a package.
 load_all                Load complete package.
 load_code               Load R code.
 load_data               Load data.
@@ -51,6 +51,8 @@ path                    Get/set the PATH variable.
 release                 Release package to CRAN.
 reload                  Unload and reload package.
 revdep                  Reverse dependency tools.
+revdep_check_save_logs
+                        Run R CMD check on all downstream dependencies.
 run_examples            Run all examples in a package.
 session_info            Print session information
 show_news               Show package news

@@ -88,6 +88,7 @@ geary.mc	geary.mc
 geary.test	geary.test
 get.ClusterOption	set.mcOption
 get.coresOption	set.mcOption
+get.listw_is_CsparseMatrix_Option	set.spChkOption
 get.mcOption	set.mcOption
 get.spChkOption	set.spChkOption
 get.VerboseOption	set.spChkOption
@@ -257,6 +258,7 @@ Rotation	rotation
 sacsarlm	sacsarlm
 set.ClusterOption	set.mcOption
 set.coresOption	set.mcOption
+set.listw_is_CsparseMatrix_Option	set.spChkOption
 set.mcOption	set.mcOption
 set.spChkOption	set.spChkOption
 set.VerboseOption	set.spChkOption
