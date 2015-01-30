@@ -13,8 +13,7 @@ Citep	Cite
 Citet	Cite
 fields	levels.BibEntry
 FindBibEntry	FindBibEntry
-format.BibEntry	format.BibEntry
-format_author	format_author
+format.BibEntry	format.Bibentry
 GetBibEntryWithDOI	GetBibEntryWithDOI
 GetDOIs	GetDOIs
 GetPubMedByID	GetPubMedByID
@@ -23,8 +22,6 @@ head.BibEntry	head.BibEntry
 is.BibEntry	as.BibEntry
 levels.BibEntry	levels.BibEntry
 LookupPubMedID	LookupPubMedID
-MatchDate	MatchDate
-MatchName	MatchName
 merge.BibEntry	merge.BibEntry
 names.BibEntry	names.BibEntry
 names<-.BibEntry	names.BibEntry
@@ -48,7 +45,6 @@ TextCite	Cite
 toBiblatex	toBiblatex
 toBibtex	toBiblatex
 toBibtex.BibEntry	toBiblatex
-toRd.BibEntry	toRd.BibEntry
 unlist.BibEntry	unlist.BibEntry
 UpdateFieldName	UpdateFieldName
 WriteBib	WriteBib
