@@ -10,7 +10,7 @@ QIC                     QIC and quasi-Likelihood for GEE
 Weights                 Akaike weights
 dredge                  Automated model selection
 exprApply               Apply a function to calls inside an expression
-get.models              Evaluate models from selection table
+get.models              Retrieve models from selection table
 importance              Relative variable importance
 merge.model.selection   Combine model selection tables
 model.avg               Model averaging
@@ -20,7 +20,7 @@ par.avg                 Parameter averaging
 pdredge                 Automated model selection using parallel
                         computation
 plot.model.selection    Visualize model selection table
-predict.averaging       Predict method for the averaged model
+predict.averaging       Predict method for averaged models
 r.squaredGLMM           Pseudo-R-squared for Generalized Mixed-Effect
                         models
 r.squaredLR             Likelihood-ratio based pseudo-R-squared

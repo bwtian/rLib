@@ -1,12 +1,20 @@
-constructcovf           Construct usual fractional covariance functions
-constructgrid           Construct usual grids on some specific
-                        manifolds
 fieldsim                Simulate manifold indexed Gaussian field by the
-                        fieldsim method
+                        Fieldsim method
+initialize, process-method
+                        process method
 manifold-class          Manifold class
+midpoint                Fractional Brownian field simulation by the
+                        midpoint displacement method
+plot                    Generic plotting of specific manifold indexed
+                        fractional Gaussian processes
+plot-methods            plot methods
+process-class           process class
 quadvar                 Estimate the Hurst parameter of a plane indexed
                         fractional Brownian field by the quadratic
                         variations method
+setAtlas                Construct usual grids on some specific
+                        manifolds
 setManifold             Set a S4 manifold object
-visualize               Visualize some of specific manifold indexed
-                        fractional Gaussian process
+setProcess              Construct usual processes on manifolds
+setValues               Set the values of an object of class 'process'
+show-methods            show methods

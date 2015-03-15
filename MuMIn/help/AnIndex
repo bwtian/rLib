@@ -18,8 +18,10 @@ expand.formula	manip-formula
 exprApply	exprApply
 gamm-wrapper	updateable
 get.models	get.models
+get.response	model-utils
 getAllTerms	model-utils
 getAllTerms.terms	model-utils
+get_call	updateable
 has	subset.model.selection
 IC	ICs
 ICOMP	ICs
@@ -61,6 +63,7 @@ stdize.data.frame	stdize
 stdize.default	stdize
 stdize.formula	stdize
 stdize.logical	stdize
+stdizeFit	stdize
 subset.model.selection	subset.model.selection
 tTable	model-utils
 uGamm	updateable

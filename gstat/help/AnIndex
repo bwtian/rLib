@@ -4,6 +4,9 @@ Chlorid92	tull
 coalash	coalash
 cross.name	gstat-internal
 demstd	sic97
+estiStAni	estiStAni
+extractPar	extractPar
+extractParNames	extractPar
 fit.lmc	fit.lmc
 fit.StVariogram	fit.StVariogram
 fit.variogram	fit.variogram
@@ -92,7 +95,6 @@ variogram	variogram
 variogram.default	variogram
 variogram.formula	variogram
 variogram.gstat	variogram
-variogram.line	variogram
 variogramLine	variogramLine
 variogramST	variogramST
 variogramSurface	variogramSurface

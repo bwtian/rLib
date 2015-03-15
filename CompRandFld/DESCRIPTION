@@ -1,19 +1,19 @@
 Package: CompRandFld
-Version: 1.0.3-3
-Date: 2015-01-14
-Title: Composite-likelihood based Analysis of Random Fields
-Author: Simone Padoan <simone.padoan@unibocconi.it>, Moreno Bevilacqua <moreno.bevilacqua@uv.cl>
+Version: 1.0.3-4
+Date: 2015-01-31
+Title: Composite-Likelihood Based Analysis of Random Fields
+Author: Simone Padoan[aut, cre] <simone.padoan@unibocconi.it>, Moreno Bevilacqua[aut] <moreno.bevilacqua@uv.cl>
 Maintainer: Simone Padoan <simone.padoan@unibocconi.it>
-Depends: R (>= 2.12.0)
-Description: The aim of this package is to collect a set of procedures for the analysis of Random Fields by Composite Likelihood methods. Spatial analysis often involves dealing with large dataset. Therefore even simple studies may be too computationally demanding. Composite likelihood based methods are emerging as useful tools for mitigating such computational problems and show satisfactory results when compared with other techniques such as, for example the tapering method. Moreover, composite likelihood (and related quantities) have some good properties similar to those of the standard likelihood.
+Depends: R (>= 2.13)
+Description: A set of procedures for the analysis of Random Fields using likelihood and non-standard likelihood methods is provided. Spatial analysis often involves dealing with large dataset. Therefore even simple studies may be too computationally demanding. Composite likelihood inference is emerging as a useful tool for mitigating such computational problems. This methodology shows satisfactory results when compared with other techniques such as the tapering method. Moreover, composite likelihood (and related quantities) have some useful properties similar to those of the standard likelihood.
 Suggests: RandomFields, spam, scatterplot3d, fields, mapproj
 License: GPL (>= 2)
 URL: http://faculty.unibocconi.it/simonepadoan
 Repository: CRAN
 Repository/R-Forge/Project: comprandfld
-Repository/R-Forge/Revision: 242
-Repository/R-Forge/DateTimeStamp: 2015-01-14 21:17:30
-Date/Publication: 2015-01-15 06:47:52
-Packaged: 2015-01-14 21:26:09 UTC; rforge
+Repository/R-Forge/Revision: 258
+Repository/R-Forge/DateTimeStamp: 2015-02-01 15:14:09
+Date/Publication: 2015-02-01 19:46:28
+Packaged: 2015-02-01 15:25:17 UTC; rforge
 NeedsCompilation: yes
-Built: R 3.1.2; x86_64-pc-linux-gnu; 2015-01-30 04:53:40.603 UTC; unix
+Built: R 3.1.3; x86_64-pc-linux-gnu; 2015-03-15 07:46:48.500 UTC; unix

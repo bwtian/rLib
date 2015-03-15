@@ -1,4 +1,7 @@
 coalash                 Coal ash samples from a mine in Pennsylvania
+estiStAni               Estimation of the spatio-temporal anisotropy
+extractPar              Extracting parameters and their names from a
+                        spatio-temporal variogram model
 fit.StVariogram         Fit a spatio-temporal sample variogram to a
                         sample variogram
 fit.lmc                 Fit a Linear Model of Coregionalization to a
